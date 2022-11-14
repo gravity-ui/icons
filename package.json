@@ -1,0 +1,72 @@
+{
+  "name": "@gravity-ui/package-example",
+  "version": "0.0.1",
+  "description": "",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gravity-ui/package-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gravity-ui/package-example/issues"
+  },
+  "homepage": "https://github.com/gravity-ui/package-example#readme",
+  "scripts": {
+    "prepare": "husky install",
+    "lint:js": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "lint:styles": "stylelint 'src/**/*.scss'",
+    "lint": "run-p lint:*",
+    "typecheck": "tsc --noEmit",
+    "test": "jest",
+    "build": "tsc",
+    "start": "TS_NODE_PROJECT=.storybook/tsconfig.json start-storybook"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.0",
+    "@commitlint/config-conventional": "^17.0.0",
+    "@gravity-ui/eslint-config": "^1.0.0",
+    "@gravity-ui/prettier-config": "^1.0.0",
+    "@gravity-ui/stylelint-config": "^1.0.0",
+    "@gravity-ui/tsconfig": "^1.0.0",
+    "@storybook/addon-essentials": "^6.0.0",
+    "@storybook/preset-scss": "^1.0.0",
+    "@storybook/react": "^6.0.0",
+    "@types/jest": "^28.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^28.0.0",
+    "husky": "^8.0.0",
+    "nano-staged": "^0.6.0",
+    "npm-run-all": "^4.0.0",
+    "prettier": "^2.0.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "sass": "^1.0.0",
+    "sass-loader": "^10.0.0",
+    "style-loader": "^2.0.0",
+    "stylelint": "^14.0.0",
+    "ts-jest": "^28.0.0",
+    "typescript": "^4.0.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "nano-staged": {
+    "*.{scss}": [
+      "stylelint --fix --quiet"
+    ],
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix --quiet"
+    ],
+    "*.md": [
+      "prettier --write"
+    ]
+  }
+}
