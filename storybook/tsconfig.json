@@ -1,0 +1,11 @@
+{
+    "extends": "..",
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2017",
+        "resolveJsonModule": true
+    },
+    "include": [
+        "src"
+    ]
+}

@@ -6,4 +6,12 @@
 node_modules
 
 # Artifacts
-dist
+/storybook-static
+/esm
+/*.d.ts
+/*.js
+!/.*.js
+!/*.config.js
+
+# Misc
+.env
