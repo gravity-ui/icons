@@ -3,5 +3,6 @@
     "root": true,
     "env": {
         "node": true
-    }
+    },
+    "ignorePatterns": ["!/.storybook"]
 }
