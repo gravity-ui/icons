@@ -35,7 +35,8 @@
     "build:cjs": "tsc --declaration --outDir .",
     "build:esm": "tsc --module esnext --outDir esm",
     "build": "run-p build:*",
-    "clean": "node scripts/clean.js"
+    "clean": "node scripts/clean.js",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {},
   "devDependencies": {
