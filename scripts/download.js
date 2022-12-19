@@ -43,6 +43,10 @@ function createSvgBuilder(metadata) {
                 const svg = iconsById[icon.id].svg;
                 let name = iconSet.name;
 
+                if (!style) {
+                    throw new Error(`Icon has no style: ${iconSet.name}`);
+                }
+
                 if (style !== 'regular') {
                     name += `-${style}`;
                 }
