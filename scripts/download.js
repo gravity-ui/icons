@@ -39,7 +39,7 @@ function createSvgBuilder(metadata) {
             }
 
             for (const icon of iconSet.children) {
-                const {style, keywords} = parsePropertiesString(icon.name);
+                const {style, keywords = ''} = parsePropertiesString(icon.name);
                 const svg = iconsById[icon.id].svg;
                 let name = iconSet.name;
 
