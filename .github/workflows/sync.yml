@@ -20,6 +20,10 @@ jobs:
       run: npm ci
     - name: Download SVG Files
       run: npm run src:download
+      env:
+        FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
+        FIGMA_FILE: ${{ secrets.FIGMA_FILE }}
+        FIGMA_PAGE: ${{ secrets.FIGMA_PAGE }}
     - name: Create TS/JS Files
       run: npm run src:icons
     - name: Create Pull Request
