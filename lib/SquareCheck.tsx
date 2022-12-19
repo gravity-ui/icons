@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {SVGProps} from 'react';
-const SquareCheckmark = (props: SVGProps<SVGSVGElement>) => (
+const SquareCheck = (props: SVGProps<SVGSVGElement>) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         width={16}
@@ -17,4 +17,4 @@ const SquareCheckmark = (props: SVGProps<SVGSVGElement>) => (
         />
     </svg>
 );
-export default SquareCheckmark;
+export default SquareCheck;

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {SVGProps} from 'react';
-const Ladybug = (props: SVGProps<SVGSVGElement>) => (
+const Bug = (props: SVGProps<SVGSVGElement>) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         width={16}
@@ -24,4 +24,4 @@ const Ladybug = (props: SVGProps<SVGSVGElement>) => (
         </defs>
     </svg>
 );
-export default Ladybug;
+export default Bug;

@@ -71,13 +71,13 @@
       ]
     },
     {
-      "name": "ladybug",
+      "name": "bug",
       "style": "regular",
-      "svgName": "ladybug",
-      "componentName": "Ladybug",
+      "svgName": "bug",
+      "componentName": "Bug",
       "keywords": [
-        "ladybug",
-        "bug"
+        "bug",
+        "ladybug"
       ]
     },
     {
@@ -960,10 +960,10 @@
       ]
     },
     {
-      "name": "square-checkmark",
+      "name": "square-check",
       "style": "regular",
-      "svgName": "square-checkmark",
-      "componentName": "SquareCheckmark",
+      "svgName": "square-check",
+      "componentName": "SquareCheck",
       "keywords": [
         "check"
       ]
@@ -1336,6 +1336,30 @@
       "componentName": "Circles4",
       "keywords": [
         "circles"
+      ]
+    },
+    {
+      "name": "arrow-clockwise",
+      "svgName": "arrow-clockwise-undefined",
+      "componentName": "ArrowClockwiseUndefined",
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "name": "arrow-2-clockwise",
+      "svgName": "arrow-2-clockwise-undefined",
+      "componentName": "Arrow2ClockwiseUndefined",
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "name": "arrow-3-clockwise",
+      "svgName": "arrow-3-clockwise-undefined",
+      "componentName": "Arrow3ClockwiseUndefined",
+      "keywords": [
+        ""
       ]
     }
   ]
