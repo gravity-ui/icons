@@ -30,7 +30,8 @@ function svgoTransformer(svgString) {
 }
 
 function createSvgBuilder(metadata) {
-    return async function svgBuilder([{children: iconSets, components: icons}]) {
+    return async function svgBuilder([{children, components: icons}]) {
+        const iconSets = children.filter(({type}) => type === 'COMPONENT_SET');
         const iconsById = icons.reduce((acc, item) => ({...acc, [item.id]: item}), {});
 
         for (const iconSet of iconSets) {
