@@ -10,4 +10,4 @@ jobs:
     steps:
     - uses: gravity-ui/preview-build-action@v1
       env:
-        TS_NODE_PROJECT: storybook/tsconfig.json
+        TS_NODE_PROJECT: .storybook/tsconfig.json
