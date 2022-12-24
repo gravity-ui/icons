@@ -32,7 +32,6 @@ jobs:
         token: ${{ secrets.GRAVITY_UI_BOT_GITHUB_TOKEN }}
         commit-message: 'feat: sync icons'
         branch: sync-icons
-        branch-suffix: timestamp
         delete-branch: true
         title: 'feat: sync icons'
         body: ''
