@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {SVGProps} from 'react';
-const FaceNeutral = (props: SVGProps<SVGSVGElement>) => (
+const ArrowUp = (props: SVGProps<SVGSVGElement>) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         width={16}
@@ -12,9 +12,9 @@ const FaceNeutral = (props: SVGProps<SVGSVGElement>) => (
         <path
             fill="currentColor"
             fillRule="evenodd"
-            d="M13.5 8a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0ZM15 8A7 7 0 1 1 1 8a7 7 0 0 1 14 0Zm-5 3a.75.75 0 0 0 0-1.5H6A.75.75 0 1 0 6 11h4Zm0-3a.75.75 0 0 1-.75-.75v-1a.75.75 0 1 1 1.5 0v1A.75.75 0 0 1 10 8Zm-4.75-.75a.75.75 0 0 0 1.5 0v-1a.75.75 0 1 0-1.5 0v1Z"
+            d="M8 14.75a.75.75 0 0 1-.75-.75V3.81L4.53 6.53a.75.75 0 0 1-1.06-1.06l4-4a.75.75 0 0 1 1.06 0l4 4a.75.75 0 0 1-1.06 1.06L8.75 3.81V14a.75.75 0 0 1-.75.75Z"
             clipRule="evenodd"
         />
     </svg>
 );
-export default FaceNeutral;
+export default ArrowUp;
