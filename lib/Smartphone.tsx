@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {SVGProps} from 'react';
-const FaceNeutral = (props: SVGProps<SVGSVGElement>) => (
+const Smartphone = (props: SVGProps<SVGSVGElement>) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         width={16}
@@ -12,9 +12,9 @@ const FaceNeutral = (props: SVGProps<SVGSVGElement>) => (
         <path
             fill="currentColor"
             fillRule="evenodd"
-            d="M13.5 8a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0ZM15 8A7 7 0 1 1 1 8a7 7 0 0 1 14 0Zm-5 3a.75.75 0 0 0 0-1.5H6A.75.75 0 1 0 6 11h4Zm0-3a.75.75 0 0 1-.75-.75v-1a.75.75 0 1 1 1.5 0v1A.75.75 0 0 1 10 8Zm-4.75-.75a.75.75 0 0 0 1.5 0v-1a.75.75 0 1 0-1.5 0v1Z"
+            d="M12 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-5A1.5 1.5 0 0 1 4 12.5v-9A1.5 1.5 0 0 1 5.5 2h5A1.5 1.5 0 0 1 12 3.5Zm-1.5-3a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-5a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h5ZM6.25 11a.75.75 0 0 0 0 1.5h3.5a.75.75 0 0 0 0-1.5h-3.5Z"
             clipRule="evenodd"
         />
     </svg>
 );
-export default FaceNeutral;
+export default Smartphone;
