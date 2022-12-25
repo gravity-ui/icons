@@ -1,7 +1,8 @@
 {
   "name": "@gravity-ui/icons",
   "version": "0.0.1",
-  "description": "",
+  "description": "Pack of Gravity UI icons",
+  "keywords": ["icons", "svg", "react"],
   "license": "MIT",
   "files": [
     "svgs",
@@ -20,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/gravity-ui/icons/issues"
   },
-  "homepage": "https://github.com/gravity-ui/icons#readme",
+  "homepage": "https://gravity-ui.com",
   "scripts": {
     "prepare": "husky install",
     "lint:js": "eslint --ext .js,.jsx,.ts,.tsx . .storybook",
@@ -38,7 +39,6 @@
     "clean": "node scripts/clean.js",
     "prepublishOnly": "npm run build"
   },
-  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
@@ -72,7 +72,7 @@
     "svgo": "^3.0.2",
     "typescript": "^4.9.3"
   },
-  "peerDependencies": {
+  "optionalDependencies": {
     "react": "^16.0.0 | ^17.0.0 | ^18.0.0"
   },
   "nano-staged": {
