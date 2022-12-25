@@ -2,7 +2,11 @@
   "name": "@gravity-ui/icons",
   "version": "0.0.1",
   "description": "Pack of Gravity UI icons",
-  "keywords": ["icons", "svg", "react"],
+  "keywords": [
+    "icons",
+    "svg",
+    "react"
+  ],
   "license": "MIT",
   "files": [
     "svgs",
