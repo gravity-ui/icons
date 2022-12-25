@@ -76,9 +76,6 @@
     "svgo": "^3.0.2",
     "typescript": "^4.9.3"
   },
-  "optionalDependencies": {
-    "react": "^16.0.0 | ^17.0.0 | ^18.0.0"
-  },
   "nano-staged": {
     "*.{scss}": [
       "stylelint --fix --quiet"
