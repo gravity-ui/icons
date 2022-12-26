@@ -71,17 +71,6 @@
       ]
     },
     {
-      "name": "book",
-      "style": "regular",
-      "svgName": "book",
-      "componentName": "Book",
-      "keywords": [
-        "book",
-        "document",
-        "manual"
-      ]
-    },
-    {
       "name": "bookmark",
       "style": "regular",
       "svgName": "bookmark",
