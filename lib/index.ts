@@ -5,7 +5,6 @@ export {default as ArrowRight} from './ArrowRight';
 export {default as ArrowUp} from './ArrowUp';
 export {default as Bell} from './Bell';
 export {default as Bold} from './Bold';
-export {default as Book} from './Book';
 export {default as Bookmark} from './Bookmark';
 export {default as BookmarkFill} from './BookmarkFill';
 export {default as Bucket} from './Bucket';
