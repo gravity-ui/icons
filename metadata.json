@@ -5,8 +5,10 @@
       "style": "regular",
       "svgName": "archive",
       "componentName": "Archive",
-      "keywords": [
-        "archive"
+      "aliases": [
+        "tray",
+        "box",
+        "drawer"
       ]
     },
     {
@@ -14,48 +16,35 @@
       "style": "regular",
       "svgName": "arrow-down",
       "componentName": "ArrowDown",
-      "keywords": [
-        "arrow",
-        "down"
-      ]
+      "aliases": []
     },
     {
       "name": "arrow-left",
       "style": "regular",
       "svgName": "arrow-left",
       "componentName": "ArrowLeft",
-      "keywords": [
-        "arrow",
-        "left"
-      ]
+      "aliases": []
     },
     {
       "name": "arrow-right",
       "style": "regular",
       "svgName": "arrow-right",
       "componentName": "ArrowRight",
-      "keywords": [
-        "arrow",
-        "right"
-      ]
+      "aliases": []
     },
     {
       "name": "arrow-up",
       "style": "regular",
       "svgName": "arrow-up",
       "componentName": "ArrowUp",
-      "keywords": [
-        "arrow",
-        "up"
-      ]
+      "aliases": []
     },
     {
       "name": "bell",
       "style": "regular",
       "svgName": "bell",
       "componentName": "Bell",
-      "keywords": [
-        "bell",
+      "aliases": [
         "notify",
         "notification"
       ]
@@ -65,9 +54,9 @@
       "style": "regular",
       "svgName": "bold",
       "componentName": "Bold",
-      "keywords": [
-        "bold",
-        "text"
+      "aliases": [
+        "text",
+        "style"
       ]
     },
     {
@@ -75,8 +64,7 @@
       "style": "regular",
       "svgName": "bookmark",
       "componentName": "Bookmark",
-      "keywords": [
-        "bookmark",
+      "aliases": [
         "favourites"
       ]
     },
@@ -85,8 +73,7 @@
       "style": "fill",
       "svgName": "bookmark-fill",
       "componentName": "BookmarkFill",
-      "keywords": [
-        "bookmark",
+      "aliases": [
         "favourites"
       ]
     },
@@ -95,27 +82,21 @@
       "style": "regular",
       "svgName": "bucket",
       "componentName": "Bucket",
-      "keywords": [
-        "bucket"
-      ]
+      "aliases": []
     },
     {
       "name": "bug",
       "style": "regular",
       "svgName": "bug",
       "componentName": "Bug",
-      "keywords": [
-        "bug",
-        "ladybug"
-      ]
+      "aliases": []
     },
     {
       "name": "calendar",
       "style": "regular",
       "svgName": "calendar",
       "componentName": "Calendar",
-      "keywords": [
-        "calendar",
+      "aliases": [
         "date"
       ]
     },
@@ -124,8 +105,7 @@
       "style": "regular",
       "svgName": "camera",
       "componentName": "Camera",
-      "keywords": [
-        "camera",
+      "aliases": [
         "photo"
       ]
     },
@@ -134,17 +114,15 @@
       "style": "regular",
       "svgName": "case",
       "componentName": "Case",
-      "keywords": [
-        "case"
-      ]
+      "aliases": []
     },
     {
       "name": "check",
       "style": "regular",
       "svgName": "check",
       "componentName": "Check",
-      "keywords": [
-        "check"
+      "aliases": [
+        "done"
       ]
     },
     {
@@ -152,9 +130,8 @@
       "style": "regular",
       "svgName": "chevron-down",
       "componentName": "ChevronDown",
-      "keywords": [
-        "chevron",
-        "down"
+      "aliases": [
+        "arrow"
       ]
     },
     {
@@ -162,9 +139,8 @@
       "style": "regular",
       "svgName": "chevron-left",
       "componentName": "ChevronLeft",
-      "keywords": [
-        "chevron",
-        "left"
+      "aliases": [
+        "arrow"
       ]
     },
     {
@@ -172,9 +148,8 @@
       "style": "regular",
       "svgName": "chevron-right",
       "componentName": "ChevronRight",
-      "keywords": [
-        "chevron",
-        "right"
+      "aliases": [
+        "arrow"
       ]
     },
     {
@@ -182,9 +157,8 @@
       "style": "regular",
       "svgName": "chevron-up",
       "componentName": "ChevronUp",
-      "keywords": [
-        "chevron",
-        "up"
+      "aliases": [
+        "arrow"
       ]
     },
     {
@@ -192,8 +166,7 @@
       "style": "regular",
       "svgName": "clock",
       "componentName": "Clock",
-      "keywords": [
-        "clock",
+      "aliases": [
         "time"
       ]
     },
@@ -202,17 +175,14 @@
       "style": "regular",
       "svgName": "cloud",
       "componentName": "Cloud",
-      "keywords": [
-        "cloud"
-      ]
+      "aliases": []
     },
     {
       "name": "comment",
       "style": "regular",
       "svgName": "comment",
       "componentName": "Comment",
-      "keywords": [
-        "comment",
+      "aliases": [
         "message",
         "bubble"
       ]
@@ -222,8 +192,7 @@
       "style": "regular",
       "svgName": "compass",
       "componentName": "Compass",
-      "keywords": [
-        "compass",
+      "aliases": [
         "direction",
         "navigation"
       ]
@@ -233,11 +202,8 @@
       "style": "regular",
       "svgName": "cpu",
       "componentName": "Cpu",
-      "keywords": [
-        "cpu",
-        "central",
-        "processing",
-        "unit"
+      "aliases": [
+        "processor"
       ]
     },
     {
@@ -245,27 +211,22 @@
       "style": "regular",
       "svgName": "credit-card",
       "componentName": "CreditCard",
-      "keywords": [
-        "credit",
-        "card"
-      ]
+      "aliases": []
     },
     {
       "name": "database",
       "style": "regular",
       "svgName": "database",
       "componentName": "Database",
-      "keywords": [
-        "database"
-      ]
+      "aliases": []
     },
     {
       "name": "display",
       "style": "regular",
       "svgName": "display",
       "componentName": "Display",
-      "keywords": [
-        "display",
+      "aliases": [
+        "monitor",
         "screen"
       ]
     },
@@ -274,8 +235,7 @@
       "style": "regular",
       "svgName": "envelope",
       "componentName": "Envelope",
-      "keywords": [
-        "envelope",
+      "aliases": [
         "mail"
       ]
     },
@@ -284,18 +244,15 @@
       "style": "regular",
       "svgName": "eye",
       "componentName": "Eye",
-      "keywords": [
-        "eye"
-      ]
+      "aliases": []
     },
     {
       "name": "face-fun",
       "style": "regular",
       "svgName": "face-fun",
       "componentName": "FaceFun",
-      "keywords": [
-        "face",
-        "fun"
+      "aliases": [
+        "happy"
       ]
     },
     {
@@ -303,62 +260,37 @@
       "style": "regular",
       "svgName": "face-neutral",
       "componentName": "FaceNeutral",
-      "keywords": [
-        "face",
-        "neutral"
-      ]
+      "aliases": []
     },
     {
       "name": "face-sad",
       "style": "regular",
       "svgName": "face-sad",
       "componentName": "FaceSad",
-      "keywords": [
-        "face",
-        "sad"
-      ]
+      "aliases": []
     },
     {
       "name": "face-smile",
       "style": "regular",
       "svgName": "face-smile",
       "componentName": "FaceSmile",
-      "keywords": [
-        "face",
-        "smile"
-      ]
+      "aliases": []
     },
     {
       "name": "face-surprise",
       "style": "regular",
       "svgName": "face-surprise",
       "componentName": "FaceSurprise",
-      "keywords": [
-        "face",
-        "surprise"
-      ]
+      "aliases": []
     },
     {
       "name": "file",
       "style": "regular",
       "svgName": "file",
       "componentName": "File",
-      "keywords": [
-        "file",
+      "aliases": [
         "document",
         "paper"
-      ]
-    },
-    {
-      "name": "fingerprint",
-      "style": "regular",
-      "svgName": "fingerprint",
-      "componentName": "Fingerprint",
-      "keywords": [
-        "finger",
-        "print",
-        "scan",
-        "touch"
       ]
     },
     {
@@ -366,28 +298,23 @@
       "style": "regular",
       "svgName": "folder",
       "componentName": "Folder",
-      "keywords": [
-        "folder"
-      ]
+      "aliases": []
     },
     {
       "name": "folder",
       "style": "fill",
       "svgName": "folder-fill",
       "componentName": "FolderFill",
-      "keywords": [
-        "folder"
-      ]
+      "aliases": []
     },
     {
       "name": "gear",
       "style": "regular",
       "svgName": "gear",
       "componentName": "Gear",
-      "keywords": [
-        "gear",
+      "aliases": [
         "setting",
-        "customization",
+        "custom",
         "tuning"
       ]
     },
@@ -396,8 +323,7 @@
       "style": "regular",
       "svgName": "globe",
       "componentName": "Globe",
-      "keywords": [
-        "globe",
+      "aliases": [
         "language",
         "planet"
       ]
@@ -407,11 +333,9 @@
       "style": "regular",
       "svgName": "hand-point-up",
       "componentName": "HandPointUp",
-      "keywords": [
-        "hand",
-        "point",
-        "finger",
+      "aliases": [
         "touch",
+        "finger",
         "arm"
       ]
     },
@@ -420,18 +344,14 @@
       "style": "regular",
       "svgName": "hard-drive",
       "componentName": "HardDrive",
-      "keywords": [
-        "hard",
-        "drive"
-      ]
+      "aliases": []
     },
     {
       "name": "heart",
       "style": "regular",
       "svgName": "heart",
       "componentName": "Heart",
-      "keywords": [
-        "heart",
+      "aliases": [
         "like"
       ]
     },
@@ -440,8 +360,7 @@
       "style": "fill",
       "svgName": "heart-fill",
       "componentName": "HeartFill",
-      "keywords": [
-        "heart",
+      "aliases": [
         "like"
       ]
     },
@@ -450,8 +369,7 @@
       "style": "regular",
       "svgName": "home",
       "componentName": "Home",
-      "keywords": [
-        "home",
+      "aliases": [
         "house"
       ]
     },
@@ -460,9 +378,9 @@
       "style": "regular",
       "svgName": "italic",
       "componentName": "Italic",
-      "keywords": [
-        "italic",
-        "text"
+      "aliases": [
+        "text",
+        "style"
       ]
     },
     {
@@ -470,8 +388,7 @@
       "style": "regular",
       "svgName": "key",
       "componentName": "Key",
-      "keywords": [
-        "key",
+      "aliases": [
         "security"
       ]
     },
@@ -480,8 +397,7 @@
       "style": "regular",
       "svgName": "link",
       "componentName": "Link",
-      "keywords": [
-        "link",
+      "aliases": [
         "chain"
       ]
     },
@@ -490,8 +406,7 @@
       "style": "regular",
       "svgName": "lock",
       "componentName": "Lock",
-      "keywords": [
-        "lock",
+      "aliases": [
         "security"
       ]
     },
@@ -500,9 +415,7 @@
       "style": "regular",
       "svgName": "lock-open",
       "componentName": "LockOpen",
-      "keywords": [
-        "lock",
-        "open",
+      "aliases": [
         "security"
       ]
     },
@@ -511,8 +424,7 @@
       "style": "regular",
       "svgName": "magnifier",
       "componentName": "Magnifier",
-      "keywords": [
-        "magnifier",
+      "aliases": [
         "search"
       ]
     },
@@ -521,18 +433,14 @@
       "style": "regular",
       "svgName": "microphone",
       "componentName": "Microphone",
-      "keywords": [
-        "microphone",
-        "mic"
-      ]
+      "aliases": []
     },
     {
       "name": "minus",
       "style": "regular",
       "svgName": "minus",
       "componentName": "Minus",
-      "keywords": [
-        "minus",
+      "aliases": [
         "remove",
         "delete"
       ]
@@ -542,9 +450,7 @@
       "style": "regular",
       "svgName": "paperclip",
       "componentName": "Paperclip",
-      "keywords": [
-        "paper",
-        "clip",
+      "aliases": [
         "attach"
       ]
     },
@@ -553,10 +459,9 @@
       "style": "regular",
       "svgName": "person",
       "componentName": "Person",
-      "keywords": [
-        "person",
+      "aliases": [
         "profile",
-        "man"
+        "human"
       ]
     },
     {
@@ -564,8 +469,7 @@
       "style": "regular",
       "svgName": "picture",
       "componentName": "Picture",
-      "keywords": [
-        "picture",
+      "aliases": [
         "image",
         "photo"
       ]
@@ -575,8 +479,9 @@
       "style": "regular",
       "svgName": "pin",
       "componentName": "Pin",
-      "keywords": [
-        "pin"
+      "aliases": [
+        "attach",
+        "fix"
       ]
     },
     {
@@ -584,8 +489,9 @@
       "style": "fill",
       "svgName": "pin-fill",
       "componentName": "PinFill",
-      "keywords": [
-        "pin"
+      "aliases": [
+        "attach",
+        "fix"
       ]
     },
     {
@@ -593,8 +499,7 @@
       "style": "regular",
       "svgName": "plus",
       "componentName": "Plus",
-      "keywords": [
-        "plus",
+      "aliases": [
         "add",
         "new"
       ]
@@ -604,26 +509,21 @@
       "style": "regular",
       "svgName": "puzzle",
       "componentName": "Puzzle",
-      "keywords": [
-        "puzzle"
-      ]
+      "aliases": []
     },
     {
       "name": "server",
       "style": "regular",
       "svgName": "server",
       "componentName": "Server",
-      "keywords": [
-        "server"
-      ]
+      "aliases": []
     },
     {
       "name": "shield",
       "style": "regular",
       "svgName": "shield",
       "componentName": "Shield",
-      "keywords": [
-        "shield",
+      "aliases": [
         "security"
       ]
     },
@@ -632,9 +532,9 @@
       "style": "regular",
       "svgName": "shopping-bag",
       "componentName": "ShoppingBag",
-      "keywords": [
-        "shopping",
-        "bag"
+      "aliases": [
+        "basket",
+        "food"
       ]
     },
     {
@@ -642,9 +542,9 @@
       "style": "regular",
       "svgName": "shopping-basket",
       "componentName": "ShoppingBasket",
-      "keywords": [
-        "shopping",
-        "basket"
+      "aliases": [
+        "bag",
+        "food"
       ]
     },
     {
@@ -652,9 +552,9 @@
       "style": "regular",
       "svgName": "shopping-cart",
       "componentName": "ShoppingCart",
-      "keywords": [
-        "cart",
-        "shopping"
+      "aliases": [
+        "basket",
+        "food"
       ]
     },
     {
@@ -662,8 +562,8 @@
       "style": "regular",
       "svgName": "smartphone",
       "componentName": "Smartphone",
-      "keywords": [
-        "smartphone"
+      "aliases": [
+        "telephone"
       ]
     },
     {
@@ -671,8 +571,7 @@
       "style": "regular",
       "svgName": "star",
       "componentName": "Star",
-      "keywords": [
-        "star",
+      "aliases": [
         "favourites"
       ]
     },
@@ -681,8 +580,7 @@
       "style": "fill",
       "svgName": "star-fill",
       "componentName": "StarFill",
-      "keywords": [
-        "star",
+      "aliases": [
         "favourites"
       ]
     },
@@ -691,8 +589,7 @@
       "style": "regular",
       "svgName": "sticker",
       "componentName": "Sticker",
-      "keywords": [
-        "sticker",
+      "aliases": [
         "paper"
       ]
     },
@@ -701,9 +598,9 @@
       "style": "regular",
       "svgName": "strikethrough",
       "componentName": "Strikethrough",
-      "keywords": [
-        "strikethrough",
-        "text"
+      "aliases": [
+        "text",
+        "style"
       ]
     },
     {
@@ -711,27 +608,23 @@
       "style": "regular",
       "svgName": "suitcase",
       "componentName": "Suitcase",
-      "keywords": [
-        "suitcase"
-      ]
+      "aliases": []
     },
     {
       "name": "target",
       "style": "regular",
       "svgName": "target",
       "componentName": "Target",
-      "keywords": [
-        "target"
-      ]
+      "aliases": []
     },
     {
       "name": "thumbs-down",
       "style": "regular",
       "svgName": "thumbs-down",
       "componentName": "ThumbsDown",
-      "keywords": [
-        "thumb",
+      "aliases": [
         "dislike",
+        "finger",
         "arm"
       ]
     },
@@ -740,9 +633,9 @@
       "style": "fill",
       "svgName": "thumbs-down-fill",
       "componentName": "ThumbsDownFill",
-      "keywords": [
-        "thumb",
+      "aliases": [
         "dislike",
+        "finger",
         "arm"
       ]
     },
@@ -751,9 +644,9 @@
       "style": "regular",
       "svgName": "thumbs-up",
       "componentName": "ThumbsUp",
-      "keywords": [
-        "thumb",
+      "aliases": [
         "like",
+        "finger",
         "arm"
       ]
     },
@@ -762,9 +655,9 @@
       "style": "fill",
       "svgName": "thumbs-up-fill",
       "componentName": "ThumbsUpFill",
-      "keywords": [
-        "thumb",
+      "aliases": [
         "like",
+        "finger",
         "arm"
       ]
     },
@@ -773,9 +666,7 @@
       "style": "regular",
       "svgName": "thunderbolt",
       "componentName": "Thunderbolt",
-      "keywords": [
-        "thunderbolt",
-        "bolt",
+      "aliases": [
         "flash",
         "lightning",
         "electricity"
@@ -786,9 +677,7 @@
       "style": "fill",
       "svgName": "thunderbolt-fill",
       "componentName": "ThunderboltFill",
-      "keywords": [
-        "thunderbolt",
-        "bolt",
+      "aliases": [
         "flash",
         "lightning",
         "electricity"
@@ -799,8 +688,7 @@
       "style": "regular",
       "svgName": "trash",
       "componentName": "Trash",
-      "keywords": [
-        "trash",
+      "aliases": [
         "delete",
         "remove"
       ]
@@ -810,8 +698,10 @@
       "style": "regular",
       "svgName": "tray",
       "componentName": "Tray",
-      "keywords": [
-        "tray"
+      "aliases": [
+        "archive",
+        "box",
+        "drawer"
       ]
     },
     {
@@ -819,9 +709,9 @@
       "style": "regular",
       "svgName": "trolley",
       "componentName": "Trolley",
-      "keywords": [
-        "trolley",
-        "cart"
+      "aliases": [
+        "cart",
+        "box"
       ]
     },
     {
@@ -829,9 +719,9 @@
       "style": "regular",
       "svgName": "underline",
       "componentName": "Underline",
-      "keywords": [
-        "underline",
-        "text"
+      "aliases": [
+        "text",
+        "style"
       ]
     },
     {
@@ -839,8 +729,7 @@
       "style": "regular",
       "svgName": "video",
       "componentName": "Video",
-      "keywords": [
-        "video",
+      "aliases": [
         "camera"
       ]
     },
@@ -849,8 +738,7 @@
       "style": "regular",
       "svgName": "xmark",
       "componentName": "Xmark",
-      "keywords": [
-        "xmark",
+      "aliases": [
         "close",
         "delete",
         "remove"

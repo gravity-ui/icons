@@ -15,7 +15,7 @@ interface IconMeta {
     style: 'regular' | 'fill';
     svgName: string;
     componentName: string;
-    keywords: string[];
+    aliases: string[];
 }
 
 const libContext = require.context('../../lib', false, /\.tsx$/);
@@ -47,7 +47,7 @@ export const Showcase: Story = () => {
 
             return (
                 meta.name.includes(search) ||
-                meta.keywords.some((keyword: string) => keyword.includes(search))
+                meta.aliases.some((alias: string) => alias.includes(search))
             );
         });
     }

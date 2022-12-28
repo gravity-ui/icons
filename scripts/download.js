@@ -9,6 +9,8 @@ const FIGMA_TOKEN = process.env.FIGMA_TOKEN;
 const FIGMA_FILE = process.env.FIGMA_FILE;
 const FIGMA_PAGE = process.env.FIGMA_PAGE;
 
+const EMPTY_ALIASES_STRING = '-';
+
 function parsePropertiesString(str) {
     return str.split(/\s*,\s*/).reduce((acc, prop) => {
         const [name, value] = prop.split('=');
@@ -42,24 +44,29 @@ function createSvgBuilder(metadata) {
             }
 
             for (const icon of iconSet.children) {
-                const {style, keywords = ''} = parsePropertiesString(icon.name);
+                const props = parsePropertiesString(icon.name);
                 const svg = iconsById[icon.id].svg;
                 let name = iconSet.name;
+                let aliases = [];
 
-                if (!style) {
+                if (!props.style) {
                     throw new Error(`Icon has no style: ${iconSet.name}`);
                 }
 
-                if (style !== 'regular') {
-                    name += `-${style}`;
+                if (props.style !== 'regular') {
+                    name += `-${props.style}`;
+                }
+
+                if (props.aliases && props.aliases !== EMPTY_ALIASES_STRING) {
+                    aliases = props.aliases.split(' ');
                 }
 
                 metadata.icons.push({
                     name: iconSet.name,
-                    style,
+                    style: props.style,
                     svgName: name,
                     componentName: getComponentName(name),
-                    keywords: keywords.split(' '),
+                    aliases,
                 });
                 await fs.writeFile(path.join(SVGS_DIR, `${name}.svg`), svg);
             }

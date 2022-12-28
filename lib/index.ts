@@ -33,7 +33,6 @@ export {default as FaceSad} from './FaceSad';
 export {default as FaceSmile} from './FaceSmile';
 export {default as FaceSurprise} from './FaceSurprise';
 export {default as File} from './File';
-export {default as Fingerprint} from './Fingerprint';
 export {default as Folder} from './Folder';
 export {default as FolderFill} from './FolderFill';
 export {default as Gear} from './Gear';
