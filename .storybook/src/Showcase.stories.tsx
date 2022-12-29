@@ -1,9 +1,10 @@
 import React from 'react';
 import {Meta, Story} from '@storybook/react';
-import {Button, Icon as IconWrapper, Tooltip} from '@gravity-ui/uikit';
+import {Button, Icon as IconWrapper, Popover, Tooltip, Text} from '@gravity-ui/uikit';
 import metadata from '../../metadata.json';
 
 import './Showcase.stories.scss';
+import {Code} from './Code';
 
 export default {
     title: 'Showcase',
@@ -24,15 +25,44 @@ const iconsMetadataByName = (metadata.icons as IconMeta[]).reduce(
     {} as Record<string, IconMeta>,
 );
 
+type PopoverContentProps = {
+    name: string;
+    svgName: string;
+};
+
+const PopoverContent = ({name, svgName}: PopoverContentProps) => {
+    const optionsToCopy = {
+        'Default export': `import ${name} from '@gravity-ui/icons/${name}';`,
+        'Named export': `import {${name}} from '@gravity-ui/icons';`,
+        SVG: `import ${
+            name[0].toLowerCase() + name.substring(1)
+        }Icon from '@gravity-ui/icons/svgs/${svgName}.svg';`,
+    };
+
+    return (
+        <div className="showcase__popover-wrapper">
+            {Object.entries(optionsToCopy).map(([key, value]) => (
+                <React.Fragment key={key}>
+                    <Text variant="body-1">{key}:</Text>
+                    <Code text={value} showCopyIcon />
+                </React.Fragment>
+            ))}
+        </div>
+    );
+};
+
 export const Showcase: Story = () => {
     const [search, setSearch] = React.useState('');
+
     const items = libContext.keys().map((path) => {
         const module = libContext(path);
         const Icon = module.default || module;
         const name = path.match(/(\w+)\.tsx$/)?.[1] ?? '';
+        const {svgName} = iconsMetadataByName[name];
 
         return {
             name,
+            svgName,
             Icon,
         };
     });
@@ -52,6 +82,8 @@ export const Showcase: Story = () => {
         });
     }
 
+    const handlePopoverClick = React.useCallback(() => true, []);
+
     return (
         <div className="showcase">
             <div className="showcase__search">
@@ -63,15 +95,27 @@ export const Showcase: Story = () => {
                     value={search}
                     onChange={(e) => setSearch(e.target.value)}
                 />
+                <p className="showcase__search-description">click on icon to show code</p>
             </div>
+            <Popover />
             <div className="showcase__items">
                 {filteredItems.length > 0 ? (
-                    filteredItems.map(({name, Icon}) => (
-                        <Tooltip key={name} content={name} openDelay={250}>
-                            <Button view="flat" size="xl">
-                                <IconWrapper data={Icon} size={24} />
-                            </Button>
-                        </Tooltip>
+                    filteredItems.map(({name, Icon, svgName}) => (
+                        <Popover
+                            key={name}
+                            onClick={handlePopoverClick}
+                            content={<PopoverContent name={name} svgName={svgName} />}
+                            tooltipClassName="showcase__popover-tooltip"
+                            placement={['top', 'right']}
+                            hasArrow={false}
+                            openOnHover={false}
+                        >
+                            <Tooltip content={name} openDelay={250}>
+                                <Button view="flat" size="xl">
+                                    <IconWrapper data={Icon} size={24} />
+                                </Button>
+                            </Tooltip>
+                        </Popover>
                     ))
                 ) : (
                     <div className="showcase__empty">Nothing found :(</div>

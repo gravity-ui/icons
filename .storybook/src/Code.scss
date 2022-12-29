@@ -1,0 +1,18 @@
+.code {
+    &__wrapper {
+        display: flex;
+        background-color: var(--yc-color-base-generic);
+        padding: 4px;
+
+        &_copyable {
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    &__code {
+        margin-right: 4px;
+        flex: 1;
+    }
+}
