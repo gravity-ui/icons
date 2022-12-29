@@ -1,7 +1,8 @@
 .showcase {
     &__search {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         margin-bottom: 20px;
 
         &-input {
@@ -21,6 +22,11 @@
                 color: var(--yc-color-text-hint);
             }
         }
+
+        &-description {
+            font-family: monospace;
+            color: var(--yc-color-text-hint);
+        }
     }
 
     &__items {
@@ -36,5 +42,22 @@
         font-style: italic;
         font-family: serif;
         color: var(--yc-color-text-hint);
+    }
+
+    &__popover {
+        &-tooltip {
+            --yc-popover-max-width: 600px;
+        }
+
+        &-wrapper {
+            display: grid;
+            grid-template-columns: 100px minmax(0, 1fr);
+            align-items: baseline;
+            gap: 8px;
+
+            &:not(:first-child) {
+                margin-top: 8px;
+            }
+        }
     }
 }
