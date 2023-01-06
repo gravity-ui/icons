@@ -290,7 +290,8 @@
       "componentName": "File",
       "aliases": [
         "document",
-        "paper"
+        "paper",
+        "page"
       ]
     },
     {
@@ -324,8 +325,9 @@
       "svgName": "globe",
       "componentName": "Globe",
       "aliases": [
-        "language",
-        "planet"
+        "planet",
+        "world",
+        "language"
       ]
     },
     {
