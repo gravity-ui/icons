@@ -1,6 +1,8 @@
 import React from 'react';
+import block from 'bem-cn-lite';
 import {Meta, Story} from '@storybook/react';
-import {Button, Icon as IconWrapper, Tooltip} from '@gravity-ui/uikit';
+import {Button, Icon as IconWrapper} from '@gravity-ui/uikit';
+import {IconTooltip} from './IconTooltip/IconTooltip';
 import metadata from '../../metadata.json';
 
 import './Showcase.stories.scss';
@@ -18,6 +20,7 @@ interface IconMeta {
     aliases: string[];
 }
 
+const b = block('showcase');
 const libContext = require.context('../../lib', false, /\.tsx$/);
 const iconsMetadataByName = (metadata.icons as IconMeta[]).reduce(
     (acc, icon) => ({...acc, [icon.componentName]: icon}),
@@ -30,9 +33,10 @@ export const Showcase: Story = () => {
         const module = libContext(path);
         const Icon = module.default || module;
         const name = path.match(/(\w+)\.tsx$/)?.[1] ?? '';
+        const meta = iconsMetadataByName[name];
 
         return {
-            name,
+            meta,
             Icon,
         };
     });
@@ -42,42 +46,56 @@ export const Showcase: Story = () => {
     if (search.length === 0) {
         filteredItems = items;
     } else {
-        filteredItems = items.filter(({name}) => {
-            const meta = iconsMetadataByName[name];
-
+        const searchLower = search.toLowerCase();
+        filteredItems = items.filter(({meta}) => {
             return (
-                meta.name.includes(search) ||
-                meta.aliases.some((alias: string) => alias.includes(search))
+                meta.name.toLowerCase().includes(searchLower) ||
+                meta.componentName.toLowerCase().includes(searchLower) ||
+                meta.aliases.some((alias: string) => alias.toLowerCase().includes(searchLower))
             );
         });
     }
 
     return (
-        <div className="showcase">
-            <div className="showcase__search">
+        <div className={b()}>
+            <div className={b('search')}>
                 <input
                     type="text"
                     placeholder="Search"
                     autoFocus
-                    className="showcase__search-input"
+                    className={b('search-input')}
                     value={search}
                     onChange={(e) => setSearch(e.target.value)}
                 />
             </div>
-            <div className="showcase__items">
+            <div className={b('items')}>
                 {filteredItems.length > 0 ? (
-                    filteredItems.map(({name, Icon}) => (
-                        <Tooltip key={name} content={name} openDelay={250}>
+                    filteredItems.map(({meta, Icon}) => (
+                        <IconTooltip
+                            key={meta.svgName}
+                            componentName={meta.componentName}
+                            svgPath={buildIconSvgPath(meta.svgName)}
+                            importLine={buildIconImportLine(meta.componentName)}
+                            forceOpen={filteredItems.length === 1}
+                        >
                             <Button view="flat" size="xl">
                                 <IconWrapper data={Icon} size={24} />
                             </Button>
-                        </Tooltip>
+                        </IconTooltip>
                     ))
                 ) : (
-                    <div className="showcase__empty">Nothing found :(</div>
+                    <div className={b('empty')}>Nothing found :(</div>
                 )}
             </div>
         </div>
     );
 };
 Showcase.storyName = 'Showcase';
+
+function buildIconSvgPath(svgName: string) {
+    return `@gravity-ui/icons/svgs/${svgName}.svg`;
+}
+
+function buildIconImportLine(componentName: string) {
+    return `import {${componentName}} from '@gravity-ui/icons';`;
+}
