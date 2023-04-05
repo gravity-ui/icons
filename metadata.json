@@ -64,15 +64,6 @@
       "aliases": []
     },
     {
-      "name": "arrow-right-from-file",
-      "style": "regular",
-      "svgName": "arrow-right-from-file",
-      "componentName": "ArrowRightFromFile",
-      "aliases": [
-        "move"
-      ]
-    },
-    {
       "name": "arrow-right-from-square",
       "style": "regular",
       "svgName": "arrow-right-from-square",
@@ -109,6 +100,27 @@
       "aliases": []
     },
     {
+      "name": "arrow-shape-down",
+      "style": "regular",
+      "svgName": "arrow-shape-down",
+      "componentName": "ArrowShapeDown",
+      "aliases": []
+    },
+    {
+      "name": "arrow-shape-left",
+      "style": "regular",
+      "svgName": "arrow-shape-left",
+      "componentName": "ArrowShapeLeft",
+      "aliases": []
+    },
+    {
+      "name": "arrow-shape-right",
+      "style": "regular",
+      "svgName": "arrow-shape-right",
+      "componentName": "ArrowShapeRight",
+      "aliases": []
+    },
+    {
       "name": "arrow-shape-turn-up-left",
       "style": "regular",
       "svgName": "arrow-shape-turn-up-left",
@@ -120,6 +132,15 @@
       "style": "regular",
       "svgName": "arrow-shape-turn-up-right",
       "componentName": "ArrowShapeTurnUpRight",
+      "aliases": [
+        "share"
+      ]
+    },
+    {
+      "name": "arrow-shape-up",
+      "style": "regular",
+      "svgName": "arrow-shape-up",
+      "componentName": "ArrowShapeUp",
       "aliases": []
     },
     {
@@ -155,6 +176,17 @@
       ]
     },
     {
+      "name": "arrow-up-from-square-slash",
+      "style": "regular",
+      "svgName": "arrow-up-from-square-slash",
+      "componentName": "ArrowUpFromSquareSlash",
+      "aliases": [
+        "export",
+        "move",
+        "share"
+      ]
+    },
+    {
       "name": "arrow-up-right-from-square",
       "style": "regular",
       "svgName": "arrow-up-right-from-square",
@@ -162,26 +194,6 @@
       "aliases": [
         "new",
         "window"
-      ]
-    },
-    {
-      "name": "arrow-up-to-cloud",
-      "style": "regular",
-      "svgName": "arrow-up-to-cloud",
-      "componentName": "ArrowUpToCloud",
-      "aliases": [
-        "import",
-        "move"
-      ]
-    },
-    {
-      "name": "arrow-up-to-folder",
-      "style": "regular",
-      "svgName": "arrow-up-to-folder",
-      "componentName": "ArrowUpToFolder",
-      "aliases": [
-        "import",
-        "move"
       ]
     },
     {
@@ -241,6 +253,13 @@
       "aliases": []
     },
     {
+      "name": "arrows-3-rotate-left-letter-a",
+      "style": "regular",
+      "svgName": "arrows-3-rotate-left-letter-a",
+      "componentName": "Arrows3RotateLeftLetterA",
+      "aliases": []
+    },
+    {
       "name": "arrows-3-rotate-right",
       "style": "regular",
       "svgName": "arrows-3-rotate-right",
@@ -266,7 +285,9 @@
       "style": "regular",
       "svgName": "at",
       "componentName": "At",
-      "aliases": []
+      "aliases": [
+        "mail"
+      ]
     },
     {
       "name": "ban",
@@ -281,7 +302,9 @@
       "svgName": "bars",
       "componentName": "Bars",
       "aliases": [
-        "lines"
+        "lines",
+        "burger",
+        "menu"
       ]
     },
     {
@@ -290,7 +313,9 @@
       "svgName": "bars-ascending-align-center",
       "componentName": "BarsAscendingAlignCenter",
       "aliases": [
-        "lines"
+        "lines",
+        "sort",
+        "filter"
       ]
     },
     {
@@ -299,7 +324,9 @@
       "svgName": "bars-ascending-align-left",
       "componentName": "BarsAscendingAlignLeft",
       "aliases": [
-        "lines"
+        "lines",
+        "sort",
+        "filter"
       ]
     },
     {
@@ -308,7 +335,9 @@
       "svgName": "bars-ascending-align-right",
       "componentName": "BarsAscendingAlignRight",
       "aliases": [
-        "lines"
+        "lines",
+        "sort",
+        "filter"
       ]
     },
     {
@@ -317,7 +346,9 @@
       "svgName": "bars-descending-align-center",
       "componentName": "BarsDescendingAlignCenter",
       "aliases": [
-        "lines"
+        "lines",
+        "sort",
+        "filter"
       ]
     },
     {
@@ -326,7 +357,9 @@
       "svgName": "bars-descending-align-left",
       "componentName": "BarsDescendingAlignLeft",
       "aliases": [
-        "lines"
+        "lines",
+        "sort",
+        "filter"
       ]
     },
     {
@@ -335,7 +368,9 @@
       "svgName": "bars-descending-align-right",
       "componentName": "BarsDescendingAlignRight",
       "aliases": [
-        "lines"
+        "lines",
+        "sort",
+        "filter"
       ]
     },
     {
@@ -365,8 +400,17 @@
       "componentName": "Bold",
       "aliases": [
         "text",
-        "style"
+        "style",
+        "font",
+        "format"
       ]
+    },
+    {
+      "name": "book",
+      "style": "regular",
+      "svgName": "book",
+      "componentName": "Book",
+      "aliases": []
     },
     {
       "name": "book-open",
@@ -411,17 +455,50 @@
       "aliases": []
     },
     {
+      "name": "branches-down",
+      "style": "regular",
+      "svgName": "branches-down",
+      "componentName": "BranchesDown",
+      "aliases": []
+    },
+    {
+      "name": "branches-right",
+      "style": "regular",
+      "svgName": "branches-right",
+      "componentName": "BranchesRight",
+      "aliases": []
+    },
+    {
+      "name": "briefcase",
+      "style": "regular",
+      "svgName": "briefcase",
+      "componentName": "Briefcase",
+      "aliases": [
+        "bag"
+      ]
+    },
+    {
       "name": "broom-motion",
       "style": "regular",
       "svgName": "broom-motion",
       "componentName": "BroomMotion",
-      "aliases": []
+      "aliases": [
+        "clean",
+        "delete"
+      ]
     },
     {
       "name": "bucket",
       "style": "regular",
       "svgName": "bucket",
       "componentName": "Bucket",
+      "aliases": []
+    },
+    {
+      "name": "bucket-paint",
+      "style": "regular",
+      "svgName": "bucket-paint",
+      "componentName": "BucketPaint",
       "aliases": []
     },
     {
@@ -436,7 +513,10 @@
       "style": "regular",
       "svgName": "bulb",
       "componentName": "Bulb",
-      "aliases": []
+      "aliases": [
+        "lamp",
+        "light"
+      ]
     },
     {
       "name": "calendar",
@@ -493,31 +573,94 @@
       ]
     },
     {
-      "name": "case",
-      "style": "regular",
-      "svgName": "case",
-      "componentName": "Case",
-      "aliases": []
-    },
-    {
       "name": "chart-area-stacked",
       "style": "regular",
       "svgName": "chart-area-stacked",
       "componentName": "ChartAreaStacked",
+      "aliases": [
+        "diagram",
+        "graph",
+        "plot"
+      ]
+    },
+    {
+      "name": "chart-area-stacked-normalized",
+      "style": "regular",
+      "svgName": "chart-area-stacked-normalized",
+      "componentName": "ChartAreaStackedNormalized",
       "aliases": []
+    },
+    {
+      "name": "chart-bar",
+      "style": "regular",
+      "svgName": "chart-bar",
+      "componentName": "ChartBar",
+      "aliases": [
+        "diagram",
+        "graph",
+        "plot"
+      ]
+    },
+    {
+      "name": "chart-bar-stacked",
+      "style": "regular",
+      "svgName": "chart-bar-stacked",
+      "componentName": "ChartBarStacked",
+      "aliases": [
+        "diagram",
+        "graph",
+        "plot"
+      ]
     },
     {
       "name": "chart-column",
       "style": "regular",
       "svgName": "chart-column",
       "componentName": "ChartColumn",
-      "aliases": []
+      "aliases": [
+        "diagram",
+        "graph",
+        "plot"
+      ]
+    },
+    {
+      "name": "chart-column-stacked",
+      "style": "regular",
+      "svgName": "chart-column-stacked",
+      "componentName": "ChartColumnStacked",
+      "aliases": [
+        "diagram",
+        "graph",
+        "plot"
+      ]
+    },
+    {
+      "name": "chart-donut",
+      "style": "regular",
+      "svgName": "chart-donut",
+      "componentName": "ChartDonut",
+      "aliases": [
+        "diagram",
+        "graph",
+        "plot"
+      ]
     },
     {
       "name": "chart-line",
       "style": "regular",
       "svgName": "chart-line",
       "componentName": "ChartLine",
+      "aliases": [
+        "diagram",
+        "graph",
+        "plot"
+      ]
+    },
+    {
+      "name": "chart-mixed",
+      "style": "regular",
+      "svgName": "chart-mixed",
+      "componentName": "ChartMixed",
       "aliases": []
     },
     {
@@ -525,6 +668,17 @@
       "style": "regular",
       "svgName": "chart-pie",
       "componentName": "ChartPie",
+      "aliases": [
+        "diagram",
+        "graph",
+        "plot"
+      ]
+    },
+    {
+      "name": "chart-treemap",
+      "style": "regular",
+      "svgName": "chart-treemap",
+      "componentName": "ChartTreemap",
       "aliases": []
     },
     {
@@ -541,7 +695,9 @@
       "style": "regular",
       "svgName": "cherry",
       "componentName": "Cherry",
-      "aliases": []
+      "aliases": [
+        "fruit"
+      ]
     },
     {
       "name": "chevron-down",
@@ -580,13 +736,29 @@
       ]
     },
     {
+      "name": "chevrons-collapse-from-lines",
+      "style": "regular",
+      "svgName": "chevrons-collapse-from-lines",
+      "componentName": "ChevronsCollapseFromLines",
+      "aliases": []
+    },
+    {
       "name": "chevrons-collapse-horizontal",
       "style": "regular",
       "svgName": "chevrons-collapse-horizontal",
       "componentName": "ChevronsCollapseHorizontal",
       "aliases": [
-        "arrows"
+        "arrows",
+        "roll",
+        "up"
       ]
+    },
+    {
+      "name": "chevrons-collapse-to-line",
+      "style": "regular",
+      "svgName": "chevrons-collapse-to-line",
+      "componentName": "ChevronsCollapseToLine",
+      "aliases": []
     },
     {
       "name": "chevrons-collapse-up-right",
@@ -594,7 +766,10 @@
       "svgName": "chevrons-collapse-up-right",
       "componentName": "ChevronsCollapseUpRight",
       "aliases": [
-        "arrows"
+        "arrows",
+        "full",
+        "screen",
+        "wrap"
       ]
     },
     {
@@ -603,7 +778,9 @@
       "svgName": "chevrons-collapse-vertical",
       "componentName": "ChevronsCollapseVertical",
       "aliases": [
-        "arrows"
+        "arrows",
+        "roll",
+        "up"
       ]
     },
     {
@@ -616,13 +793,28 @@
       ]
     },
     {
+      "name": "chevrons-expand-from-line",
+      "style": "regular",
+      "svgName": "chevrons-expand-from-line",
+      "componentName": "ChevronsExpandFromLine",
+      "aliases": []
+    },
+    {
       "name": "chevrons-expand-horizontal",
       "style": "regular",
       "svgName": "chevrons-expand-horizontal",
       "componentName": "ChevronsExpandHorizontal",
       "aliases": [
-        "arrows"
+        "arrows",
+        "unwrap"
       ]
+    },
+    {
+      "name": "chevrons-expand-to-lines",
+      "style": "regular",
+      "svgName": "chevrons-expand-to-lines",
+      "componentName": "ChevronsExpandToLines",
+      "aliases": []
     },
     {
       "name": "chevrons-expand-up-right",
@@ -630,7 +822,10 @@
       "svgName": "chevrons-expand-up-right",
       "componentName": "ChevronsExpandUpRight",
       "aliases": [
-        "arrows"
+        "arrows",
+        "full",
+        "screen",
+        "unwrap"
       ]
     },
     {
@@ -639,7 +834,8 @@
       "svgName": "chevrons-expand-vertical",
       "componentName": "ChevronsExpandVertical",
       "aliases": [
-        "arrows"
+        "arrows",
+        "unwrap"
       ]
     },
     {
@@ -670,6 +866,76 @@
       ]
     },
     {
+      "name": "circle",
+      "style": "regular",
+      "svgName": "circle",
+      "componentName": "Circle",
+      "aliases": []
+    },
+    {
+      "name": "circle",
+      "style": "fill",
+      "svgName": "circle-fill",
+      "componentName": "CircleFill",
+      "aliases": []
+    },
+    {
+      "name": "circle-arrow-down",
+      "style": "regular",
+      "svgName": "circle-arrow-down",
+      "componentName": "CircleArrowDown",
+      "aliases": []
+    },
+    {
+      "name": "circle-arrow-down",
+      "style": "fill",
+      "svgName": "circle-arrow-down-fill",
+      "componentName": "CircleArrowDownFill",
+      "aliases": []
+    },
+    {
+      "name": "circle-arrow-left",
+      "style": "regular",
+      "svgName": "circle-arrow-left",
+      "componentName": "CircleArrowLeft",
+      "aliases": []
+    },
+    {
+      "name": "circle-arrow-left",
+      "style": "fill",
+      "svgName": "circle-arrow-left-fill",
+      "componentName": "CircleArrowLeftFill",
+      "aliases": []
+    },
+    {
+      "name": "circle-arrow-right",
+      "style": "regular",
+      "svgName": "circle-arrow-right",
+      "componentName": "CircleArrowRight",
+      "aliases": []
+    },
+    {
+      "name": "circle-arrow-right",
+      "style": "fill",
+      "svgName": "circle-arrow-right-fill",
+      "componentName": "CircleArrowRightFill",
+      "aliases": []
+    },
+    {
+      "name": "circle-arrow-up",
+      "style": "regular",
+      "svgName": "circle-arrow-up",
+      "componentName": "CircleArrowUp",
+      "aliases": []
+    },
+    {
+      "name": "circle-arrow-up",
+      "style": "fill",
+      "svgName": "circle-arrow-up-fill",
+      "componentName": "CircleArrowUpFill",
+      "aliases": []
+    },
+    {
       "name": "circle-check",
       "style": "regular",
       "svgName": "circle-check",
@@ -677,6 +943,137 @@
       "aliases": [
         "done"
       ]
+    },
+    {
+      "name": "circle-check",
+      "style": "fill",
+      "svgName": "circle-check-fill",
+      "componentName": "CircleCheckFill",
+      "aliases": [
+        "done"
+      ]
+    },
+    {
+      "name": "circle-chevron-down",
+      "style": "regular",
+      "svgName": "circle-chevron-down",
+      "componentName": "CircleChevronDown",
+      "aliases": [
+        "arrow"
+      ]
+    },
+    {
+      "name": "circle-chevron-down",
+      "style": "fill",
+      "svgName": "circle-chevron-down-fill",
+      "componentName": "CircleChevronDownFill",
+      "aliases": [
+        "arrow"
+      ]
+    },
+    {
+      "name": "circle-chevron-left",
+      "style": "regular",
+      "svgName": "circle-chevron-left",
+      "componentName": "CircleChevronLeft",
+      "aliases": [
+        "arrow"
+      ]
+    },
+    {
+      "name": "circle-chevron-left",
+      "style": "fill",
+      "svgName": "circle-chevron-left-fill",
+      "componentName": "CircleChevronLeftFill",
+      "aliases": [
+        "arrow"
+      ]
+    },
+    {
+      "name": "circle-chevron-right",
+      "style": "regular",
+      "svgName": "circle-chevron-right",
+      "componentName": "CircleChevronRight",
+      "aliases": [
+        "arrow"
+      ]
+    },
+    {
+      "name": "circle-chevron-right",
+      "style": "fill",
+      "svgName": "circle-chevron-right-fill",
+      "componentName": "CircleChevronRightFill",
+      "aliases": [
+        "arrow"
+      ]
+    },
+    {
+      "name": "circle-chevron-up",
+      "style": "regular",
+      "svgName": "circle-chevron-up",
+      "componentName": "CircleChevronUp",
+      "aliases": [
+        "arrow"
+      ]
+    },
+    {
+      "name": "circle-chevron-up",
+      "style": "fill",
+      "svgName": "circle-chevron-up-fill",
+      "componentName": "CircleChevronUpFill",
+      "aliases": [
+        "arrow"
+      ]
+    },
+    {
+      "name": "circle-chevrons-down",
+      "style": "regular",
+      "svgName": "circle-chevrons-down",
+      "componentName": "CircleChevronsDown",
+      "aliases": [
+        "arrow"
+      ]
+    },
+    {
+      "name": "circle-chevrons-left",
+      "style": "regular",
+      "svgName": "circle-chevrons-left",
+      "componentName": "CircleChevronsLeft",
+      "aliases": [
+        "arrow"
+      ]
+    },
+    {
+      "name": "circle-chevrons-right",
+      "style": "regular",
+      "svgName": "circle-chevrons-right",
+      "componentName": "CircleChevronsRight",
+      "aliases": [
+        "arrow"
+      ]
+    },
+    {
+      "name": "circle-chevrons-up",
+      "style": "regular",
+      "svgName": "circle-chevrons-up",
+      "componentName": "CircleChevronsUp",
+      "aliases": [
+        "arrow"
+      ]
+    },
+    {
+      "name": "circle-dashed",
+      "style": "regular",
+      "svgName": "circle-dashed",
+      "componentName": "CircleDashed",
+      "aliases": []
+    },
+    {
+      "name": "circle-dollar",
+      "style": "regular",
+      "svgName": "circle-dollar",
+      "componentName": "CircleDollar",
+      "aliases": []
     },
     {
       "name": "circle-exclamation",
@@ -703,6 +1100,15 @@
       "style": "regular",
       "svgName": "circle-info",
       "componentName": "CircleInfo",
+      "aliases": [
+        "information"
+      ]
+    },
+    {
+      "name": "circle-info",
+      "style": "fill",
+      "svgName": "circle-info-fill",
+      "componentName": "CircleInfoFill",
       "aliases": [
         "information"
       ]
@@ -743,6 +1149,13 @@
       "aliases": []
     },
     {
+      "name": "circle-letter-s",
+      "style": "regular",
+      "svgName": "circle-letter-s",
+      "componentName": "CircleLetterS",
+      "aliases": []
+    },
+    {
       "name": "circle-letter-t",
       "style": "regular",
       "svgName": "circle-letter-t",
@@ -761,6 +1174,16 @@
       "style": "regular",
       "svgName": "circle-minus",
       "componentName": "CircleMinus",
+      "aliases": [
+        "remove",
+        "delete"
+      ]
+    },
+    {
+      "name": "circle-minus",
+      "style": "fill",
+      "svgName": "circle-minus-fill",
+      "componentName": "CircleMinusFill",
       "aliases": [
         "remove",
         "delete"
@@ -847,6 +1270,16 @@
       ]
     },
     {
+      "name": "circle-plus",
+      "style": "fill",
+      "svgName": "circle-plus-fill",
+      "componentName": "CirclePlusFill",
+      "aliases": [
+        "add",
+        "new"
+      ]
+    },
+    {
       "name": "circle-question",
       "style": "regular",
       "svgName": "circle-question",
@@ -854,6 +1287,22 @@
       "aliases": [
         "support"
       ]
+    },
+    {
+      "name": "circle-question",
+      "style": "fill",
+      "svgName": "circle-question-fill",
+      "componentName": "CircleQuestionFill",
+      "aliases": [
+        "support"
+      ]
+    },
+    {
+      "name": "circle-ruble",
+      "style": "regular",
+      "svgName": "circle-ruble",
+      "componentName": "CircleRuble",
+      "aliases": []
     },
     {
       "name": "circle-stop",
@@ -872,6 +1321,24 @@
         "delete",
         "remove"
       ]
+    },
+    {
+      "name": "circle-xmark",
+      "style": "fill",
+      "svgName": "circle-xmark-fill",
+      "componentName": "CircleXmarkFill",
+      "aliases": [
+        "close",
+        "delete",
+        "remove"
+      ]
+    },
+    {
+      "name": "circles-3-plus",
+      "style": "regular",
+      "svgName": "circles-3-plus",
+      "componentName": "Circles3Plus",
+      "aliases": []
     },
     {
       "name": "circles-4-diamond",
@@ -897,10 +1364,54 @@
       ]
     },
     {
+      "name": "clock",
+      "style": "fill",
+      "svgName": "clock-fill",
+      "componentName": "ClockFill",
+      "aliases": [
+        "time"
+      ]
+    },
+    {
+      "name": "clock-arrow-rotate-left",
+      "style": "regular",
+      "svgName": "clock-arrow-rotate-left",
+      "componentName": "ClockArrowRotateLeft",
+      "aliases": [
+        "history",
+        "time",
+        "machine"
+      ]
+    },
+    {
       "name": "cloud",
       "style": "regular",
       "svgName": "cloud",
       "componentName": "Cloud",
+      "aliases": []
+    },
+    {
+      "name": "cloud-arrow-up-in",
+      "style": "regular",
+      "svgName": "cloud-arrow-up-in",
+      "componentName": "CloudArrowUpIn",
+      "aliases": [
+        "import",
+        "move"
+      ]
+    },
+    {
+      "name": "cloud-check",
+      "style": "regular",
+      "svgName": "cloud-check",
+      "componentName": "CloudCheck",
+      "aliases": []
+    },
+    {
+      "name": "clouds",
+      "style": "regular",
+      "svgName": "clouds",
+      "componentName": "Clouds",
       "aliases": []
     },
     {
@@ -936,6 +1447,34 @@
       "style": "regular",
       "svgName": "code-pull-request",
       "componentName": "CodePullRequest",
+      "aliases": []
+    },
+    {
+      "name": "code-pull-request-arrow-left",
+      "style": "regular",
+      "svgName": "code-pull-request-arrow-left",
+      "componentName": "CodePullRequestArrowLeft",
+      "aliases": []
+    },
+    {
+      "name": "code-pull-request-arrow-right",
+      "style": "regular",
+      "svgName": "code-pull-request-arrow-right",
+      "componentName": "CodePullRequestArrowRight",
+      "aliases": []
+    },
+    {
+      "name": "code-pull-request-check",
+      "style": "regular",
+      "svgName": "code-pull-request-check",
+      "componentName": "CodePullRequestCheck",
+      "aliases": []
+    },
+    {
+      "name": "code-pull-request-xmark",
+      "style": "regular",
+      "svgName": "code-pull-request-xmark",
+      "componentName": "CodePullRequestXmark",
       "aliases": []
     },
     {
@@ -993,6 +1532,34 @@
       ]
     },
     {
+      "name": "copy-check",
+      "style": "regular",
+      "svgName": "copy-check",
+      "componentName": "CopyCheck",
+      "aliases": []
+    },
+    {
+      "name": "copy-minus",
+      "style": "regular",
+      "svgName": "copy-minus",
+      "componentName": "CopyMinus",
+      "aliases": []
+    },
+    {
+      "name": "copy-plus",
+      "style": "regular",
+      "svgName": "copy-plus",
+      "componentName": "CopyPlus",
+      "aliases": []
+    },
+    {
+      "name": "copy-transparent",
+      "style": "regular",
+      "svgName": "copy-transparent",
+      "componentName": "CopyTransparent",
+      "aliases": []
+    },
+    {
       "name": "cpu",
       "style": "regular",
       "svgName": "cpu",
@@ -1002,10 +1569,24 @@
       ]
     },
     {
+      "name": "cpus",
+      "style": "regular",
+      "svgName": "cpus",
+      "componentName": "Cpus",
+      "aliases": []
+    },
+    {
       "name": "credit-card",
       "style": "regular",
       "svgName": "credit-card",
       "componentName": "CreditCard",
+      "aliases": []
+    },
+    {
+      "name": "crop",
+      "style": "regular",
+      "svgName": "crop",
+      "componentName": "Crop",
       "aliases": []
     },
     {
@@ -1033,6 +1614,13 @@
       "aliases": []
     },
     {
+      "name": "cubes-3-overlap",
+      "style": "regular",
+      "svgName": "cubes-3-overlap",
+      "componentName": "Cubes3Overlap",
+      "aliases": []
+    },
+    {
       "name": "database",
       "style": "regular",
       "svgName": "database",
@@ -1040,10 +1628,31 @@
       "aliases": []
     },
     {
+      "name": "database-magnifier",
+      "style": "regular",
+      "svgName": "database-magnifier",
+      "componentName": "DatabaseMagnifier",
+      "aliases": []
+    },
+    {
       "name": "databases",
       "style": "regular",
       "svgName": "databases",
       "componentName": "Databases",
+      "aliases": []
+    },
+    {
+      "name": "diamond",
+      "style": "regular",
+      "svgName": "diamond",
+      "componentName": "Diamond",
+      "aliases": []
+    },
+    {
+      "name": "diamond",
+      "style": "fill",
+      "svgName": "diamond-fill",
+      "componentName": "DiamondFill",
       "aliases": []
     },
     {
@@ -1061,42 +1670,60 @@
       "style": "regular",
       "svgName": "dice-1",
       "componentName": "Dice1",
-      "aliases": []
+      "aliases": [
+        "board",
+        "game"
+      ]
     },
     {
       "name": "dice-2",
       "style": "regular",
       "svgName": "dice-2",
       "componentName": "Dice2",
-      "aliases": []
+      "aliases": [
+        "board",
+        "game"
+      ]
     },
     {
       "name": "dice-3",
       "style": "regular",
       "svgName": "dice-3",
       "componentName": "Dice3",
-      "aliases": []
+      "aliases": [
+        "board",
+        "game"
+      ]
     },
     {
       "name": "dice-4",
       "style": "regular",
       "svgName": "dice-4",
       "componentName": "Dice4",
-      "aliases": []
+      "aliases": [
+        "board",
+        "game"
+      ]
     },
     {
       "name": "dice-5",
       "style": "regular",
       "svgName": "dice-5",
       "componentName": "Dice5",
-      "aliases": []
+      "aliases": [
+        "board",
+        "game"
+      ]
     },
     {
       "name": "dice-6",
       "style": "regular",
       "svgName": "dice-6",
       "componentName": "Dice6",
-      "aliases": []
+      "aliases": [
+        "board",
+        "game"
+      ]
     },
     {
       "name": "display",
@@ -1130,7 +1757,9 @@
       "style": "regular",
       "svgName": "droplet",
       "componentName": "Droplet",
-      "aliases": []
+      "aliases": [
+        "water"
+      ]
     },
     {
       "name": "ellipsis",
@@ -1166,6 +1795,16 @@
       "style": "regular",
       "svgName": "eraser",
       "componentName": "Eraser",
+      "aliases": [
+        "clean",
+        "delete"
+      ]
+    },
+    {
+      "name": "exclamation-shape",
+      "style": "regular",
+      "svgName": "exclamation-shape",
+      "componentName": "ExclamationShape",
       "aliases": []
     },
     {
@@ -1183,6 +1822,15 @@
       "aliases": []
     },
     {
+      "name": "face-alien",
+      "style": "regular",
+      "svgName": "face-alien",
+      "componentName": "FaceAlien",
+      "aliases": [
+        "ufo"
+      ]
+    },
+    {
       "name": "face-fun",
       "style": "regular",
       "svgName": "face-fun",
@@ -1196,6 +1844,13 @@
       "style": "regular",
       "svgName": "face-neutral",
       "componentName": "FaceNeutral",
+      "aliases": []
+    },
+    {
+      "name": "face-robot",
+      "style": "regular",
+      "svgName": "face-robot",
+      "componentName": "FaceRobot",
       "aliases": []
     },
     {
@@ -1224,13 +1879,159 @@
       "style": "regular",
       "svgName": "factory",
       "componentName": "Factory",
-      "aliases": []
+      "aliases": [
+        "building"
+      ]
     },
     {
       "name": "file",
       "style": "regular",
       "svgName": "file",
       "componentName": "File",
+      "aliases": [
+        "document",
+        "paper",
+        "page"
+      ]
+    },
+    {
+      "name": "file-arrow-down",
+      "style": "regular",
+      "svgName": "file-arrow-down",
+      "componentName": "FileArrowDown",
+      "aliases": [
+        "document",
+        "paper",
+        "page"
+      ]
+    },
+    {
+      "name": "file-arrow-left",
+      "style": "regular",
+      "svgName": "file-arrow-left",
+      "componentName": "FileArrowLeft",
+      "aliases": [
+        "document",
+        "paper",
+        "page"
+      ]
+    },
+    {
+      "name": "file-arrow-right",
+      "style": "regular",
+      "svgName": "file-arrow-right",
+      "componentName": "FileArrowRight",
+      "aliases": [
+        "document",
+        "paper",
+        "page"
+      ]
+    },
+    {
+      "name": "file-arrow-right-out",
+      "style": "regular",
+      "svgName": "file-arrow-right-out",
+      "componentName": "FileArrowRightOut",
+      "aliases": [
+        "move"
+      ]
+    },
+    {
+      "name": "file-arrow-up",
+      "style": "regular",
+      "svgName": "file-arrow-up",
+      "componentName": "FileArrowUp",
+      "aliases": [
+        "document",
+        "paper",
+        "page"
+      ]
+    },
+    {
+      "name": "file-check",
+      "style": "regular",
+      "svgName": "file-check",
+      "componentName": "FileCheck",
+      "aliases": [
+        "document",
+        "paper",
+        "page"
+      ]
+    },
+    {
+      "name": "file-code",
+      "style": "regular",
+      "svgName": "file-code",
+      "componentName": "FileCode",
+      "aliases": []
+    },
+    {
+      "name": "file-dollar",
+      "style": "regular",
+      "svgName": "file-dollar",
+      "componentName": "FileDollar",
+      "aliases": []
+    },
+    {
+      "name": "file-exclamation",
+      "style": "regular",
+      "svgName": "file-exclamation",
+      "componentName": "FileExclamation",
+      "aliases": [
+        "document",
+        "paper",
+        "page"
+      ]
+    },
+    {
+      "name": "file-magnifier",
+      "style": "regular",
+      "svgName": "file-magnifier",
+      "componentName": "FileMagnifier",
+      "aliases": [
+        "document",
+        "paper",
+        "page"
+      ]
+    },
+    {
+      "name": "file-minus",
+      "style": "regular",
+      "svgName": "file-minus",
+      "componentName": "FileMinus",
+      "aliases": [
+        "document",
+        "paper",
+        "page"
+      ]
+    },
+    {
+      "name": "file-plus",
+      "style": "regular",
+      "svgName": "file-plus",
+      "componentName": "FilePlus",
+      "aliases": [
+        "document",
+        "paper",
+        "page"
+      ]
+    },
+    {
+      "name": "file-question",
+      "style": "regular",
+      "svgName": "file-question",
+      "componentName": "FileQuestion",
+      "aliases": [
+        "document",
+        "paper",
+        "page"
+      ]
+    },
+    {
+      "name": "file-xmark",
+      "style": "regular",
+      "svgName": "file-xmark",
+      "componentName": "FileXmark",
       "aliases": [
         "document",
         "paper",
@@ -1260,13 +2061,6 @@
       ]
     },
     {
-      "name": "fire",
-      "style": "regular",
-      "svgName": "fire",
-      "componentName": "Fire",
-      "aliases": []
-    },
-    {
       "name": "flag",
       "style": "regular",
       "svgName": "flag",
@@ -1274,11 +2068,29 @@
       "aliases": []
     },
     {
+      "name": "flame",
+      "style": "regular",
+      "svgName": "flame",
+      "componentName": "Flame",
+      "aliases": [
+        "fire"
+      ]
+    },
+    {
       "name": "flask",
       "style": "regular",
       "svgName": "flask",
       "componentName": "Flask",
       "aliases": []
+    },
+    {
+      "name": "floppy-disk",
+      "style": "regular",
+      "svgName": "floppy-disk",
+      "componentName": "FloppyDisk",
+      "aliases": [
+        "save"
+      ]
     },
     {
       "name": "folder",
@@ -1323,6 +2135,16 @@
       "aliases": []
     },
     {
+      "name": "folder-arrow-up-in",
+      "style": "regular",
+      "svgName": "folder-arrow-up-in",
+      "componentName": "FolderArrowUpIn",
+      "aliases": [
+        "import",
+        "move"
+      ]
+    },
+    {
       "name": "folder-code",
       "style": "regular",
       "svgName": "folder-code",
@@ -1360,6 +2182,13 @@
       "style": "regular",
       "svgName": "folder-keyhole",
       "componentName": "FolderKeyhole",
+      "aliases": []
+    },
+    {
+      "name": "folder-lock",
+      "style": "regular",
+      "svgName": "folder-lock",
+      "componentName": "FolderLock",
       "aliases": []
     },
     {
@@ -1406,11 +2235,66 @@
       ]
     },
     {
+      "name": "font",
+      "style": "regular",
+      "svgName": "font",
+      "componentName": "Font",
+      "aliases": [
+        "text",
+        "style",
+        "font",
+        "format"
+      ]
+    },
+    {
+      "name": "font-case",
+      "style": "regular",
+      "svgName": "font-case",
+      "componentName": "FontCase",
+      "aliases": [
+        "text",
+        "style",
+        "font",
+        "format",
+        "uppercase",
+        "size"
+      ]
+    },
+    {
+      "name": "font-cursor",
+      "style": "regular",
+      "svgName": "font-cursor",
+      "componentName": "FontCursor",
+      "aliases": [
+        "edit",
+        "text",
+        "style",
+        "font",
+        "format"
+      ]
+    },
+    {
+      "name": "frame",
+      "style": "regular",
+      "svgName": "frame",
+      "componentName": "Frame",
+      "aliases": []
+    },
+    {
+      "name": "frames",
+      "style": "regular",
+      "svgName": "frames",
+      "componentName": "Frames",
+      "aliases": []
+    },
+    {
       "name": "funnel",
       "style": "regular",
       "svgName": "funnel",
       "componentName": "Funnel",
-      "aliases": []
+      "aliases": [
+        "filter"
+      ]
     },
     {
       "name": "gear",
@@ -1420,7 +2304,22 @@
       "aliases": [
         "setting",
         "custom",
-        "tuning"
+        "tuning",
+        "cog"
+      ]
+    },
+    {
+      "name": "gear-dot",
+      "style": "regular",
+      "svgName": "gear-dot",
+      "componentName": "GearDot",
+      "aliases": [
+        "setting",
+        "custom",
+        "tuning",
+        "cog",
+        "notify",
+        "notification"
       ]
     },
     {
@@ -1466,6 +2365,13 @@
       "aliases": []
     },
     {
+      "name": "ghost",
+      "style": "regular",
+      "svgName": "ghost",
+      "componentName": "Ghost",
+      "aliases": []
+    },
+    {
       "name": "globe",
       "style": "regular",
       "svgName": "globe",
@@ -1487,17 +2393,24 @@
       ]
     },
     {
+      "name": "graph-node",
+      "style": "regular",
+      "svgName": "graph-node",
+      "componentName": "GraphNode",
+      "aliases": []
+    },
+    {
+      "name": "grip",
+      "style": "regular",
+      "svgName": "grip",
+      "componentName": "Grip",
+      "aliases": []
+    },
+    {
       "name": "grip-horizontal",
       "style": "regular",
       "svgName": "grip-horizontal",
       "componentName": "GripHorizontal",
-      "aliases": []
-    },
-    {
-      "name": "grip-vertical",
-      "style": "regular",
-      "svgName": "grip-vertical",
-      "componentName": "GripVertical",
       "aliases": []
     },
     {
@@ -1575,6 +2488,39 @@
       "style": "regular",
       "svgName": "hard-drive",
       "componentName": "HardDrive",
+      "aliases": [
+        "disk",
+        "hdd"
+      ]
+    },
+    {
+      "name": "hashtag",
+      "style": "regular",
+      "svgName": "hashtag",
+      "componentName": "Hashtag",
+      "aliases": [
+        "number",
+        "pound",
+        "sign"
+      ]
+    },
+    {
+      "name": "heading",
+      "style": "regular",
+      "svgName": "heading",
+      "componentName": "Heading",
+      "aliases": [
+        "text",
+        "style",
+        "font",
+        "format"
+      ]
+    },
+    {
+      "name": "headphones",
+      "style": "regular",
+      "svgName": "headphones",
+      "componentName": "Headphones",
       "aliases": []
     },
     {
@@ -1596,6 +2542,13 @@
       ]
     },
     {
+      "name": "heart-crack",
+      "style": "regular",
+      "svgName": "heart-crack",
+      "componentName": "HeartCrack",
+      "aliases": []
+    },
+    {
       "name": "heart-pulse",
       "style": "regular",
       "svgName": "heart-pulse",
@@ -1603,12 +2556,13 @@
       "aliases": []
     },
     {
-      "name": "home",
+      "name": "house",
       "style": "regular",
-      "svgName": "home",
-      "componentName": "Home",
+      "svgName": "house",
+      "componentName": "House",
       "aliases": [
-        "house"
+        "home",
+        "building"
       ]
     },
     {
@@ -1618,7 +2572,9 @@
       "componentName": "Italic",
       "aliases": [
         "text",
-        "style"
+        "style",
+        "font",
+        "format"
       ]
     },
     {
@@ -1627,7 +2583,8 @@
       "svgName": "key",
       "componentName": "Key",
       "aliases": [
-        "security"
+        "security",
+        "safe"
       ]
     },
     {
@@ -1645,10 +2602,10 @@
       "aliases": []
     },
     {
-      "name": "layers-3-vertical",
+      "name": "layers-3-diagonal",
       "style": "regular",
-      "svgName": "layers-3-vertical",
-      "componentName": "Layers3Vertical",
+      "svgName": "layers-3-diagonal",
+      "componentName": "Layers3Diagonal",
       "aliases": []
     },
     {
@@ -1659,12 +2616,158 @@
       "aliases": []
     },
     {
+      "name": "layout-cells",
+      "style": "regular",
+      "svgName": "layout-cells",
+      "componentName": "LayoutCells",
+      "aliases": [
+        "table",
+        "grid"
+      ]
+    },
+    {
+      "name": "layout-cells-large",
+      "style": "regular",
+      "svgName": "layout-cells-large",
+      "componentName": "LayoutCellsLarge",
+      "aliases": [
+        "table",
+        "grid"
+      ]
+    },
+    {
+      "name": "layout-columns",
+      "style": "regular",
+      "svgName": "layout-columns",
+      "componentName": "LayoutColumns",
+      "aliases": [
+        "table",
+        "window"
+      ]
+    },
+    {
+      "name": "layout-columns-3",
+      "style": "regular",
+      "svgName": "layout-columns-3",
+      "componentName": "LayoutColumns3",
+      "aliases": [
+        "table",
+        "window"
+      ]
+    },
+    {
+      "name": "layout-header",
+      "style": "regular",
+      "svgName": "layout-header",
+      "componentName": "LayoutHeader",
+      "aliases": [
+        "desktop",
+        "table",
+        "window"
+      ]
+    },
+    {
+      "name": "layout-header-cells",
+      "style": "regular",
+      "svgName": "layout-header-cells",
+      "componentName": "LayoutHeaderCells",
+      "aliases": [
+        "table",
+        "grid"
+      ]
+    },
+    {
+      "name": "layout-header-cells-large",
+      "style": "regular",
+      "svgName": "layout-header-cells-large",
+      "componentName": "LayoutHeaderCellsLarge",
+      "aliases": [
+        "table",
+        "grid"
+      ]
+    },
+    {
+      "name": "layout-header-cells-large-letter-d",
+      "style": "regular",
+      "svgName": "layout-header-cells-large-letter-d",
+      "componentName": "LayoutHeaderCellsLargeLetterD",
+      "aliases": []
+    },
+    {
+      "name": "layout-header-cells-large-thunderbolt",
+      "style": "regular",
+      "svgName": "layout-header-cells-large-thunderbolt",
+      "componentName": "LayoutHeaderCellsLargeThunderbolt",
+      "aliases": []
+    },
+    {
+      "name": "layout-header-columns",
+      "style": "regular",
+      "svgName": "layout-header-columns",
+      "componentName": "LayoutHeaderColumns",
+      "aliases": [
+        "desktop",
+        "table",
+        "window"
+      ]
+    },
+    {
+      "name": "layout-header-side-content",
+      "style": "regular",
+      "svgName": "layout-header-side-content",
+      "componentName": "LayoutHeaderSideContent",
+      "aliases": [
+        "desktop",
+        "table",
+        "window"
+      ]
+    },
+    {
+      "name": "layout-list",
+      "style": "regular",
+      "svgName": "layout-list",
+      "componentName": "LayoutList",
+      "aliases": []
+    },
+    {
+      "name": "layout-rows",
+      "style": "regular",
+      "svgName": "layout-rows",
+      "componentName": "LayoutRows",
+      "aliases": [
+        "table",
+        "window"
+      ]
+    },
+    {
+      "name": "layout-rows-3",
+      "style": "regular",
+      "svgName": "layout-rows-3",
+      "componentName": "LayoutRows3",
+      "aliases": [
+        "table",
+        "window"
+      ]
+    },
+    {
+      "name": "layout-side-content",
+      "style": "regular",
+      "svgName": "layout-side-content",
+      "componentName": "LayoutSideContent",
+      "aliases": [
+        "desktop",
+        "table",
+        "window"
+      ]
+    },
+    {
       "name": "life-ring",
       "style": "regular",
       "svgName": "life-ring",
       "componentName": "LifeRing",
       "aliases": [
-        "support"
+        "support",
+        "safe"
       ]
     },
     {
@@ -1686,12 +2789,45 @@
       ]
     },
     {
+      "name": "list-check",
+      "style": "regular",
+      "svgName": "list-check",
+      "componentName": "ListCheck",
+      "aliases": [
+        "check"
+      ]
+    },
+    {
+      "name": "list-check-lock",
+      "style": "regular",
+      "svgName": "list-check-lock",
+      "componentName": "ListCheckLock",
+      "aliases": []
+    },
+    {
+      "name": "list-timeline",
+      "style": "regular",
+      "svgName": "list-timeline",
+      "componentName": "ListTimeline",
+      "aliases": []
+    },
+    {
+      "name": "list-ul",
+      "style": "regular",
+      "svgName": "list-ul",
+      "componentName": "ListUl",
+      "aliases": [
+        "dot"
+      ]
+    },
+    {
       "name": "lock",
       "style": "regular",
       "svgName": "lock",
       "componentName": "Lock",
       "aliases": [
-        "security"
+        "security",
+        "safe"
       ]
     },
     {
@@ -1700,8 +2836,107 @@
       "svgName": "lock-open",
       "componentName": "LockOpen",
       "aliases": [
-        "security"
+        "security",
+        "safe"
       ]
+    },
+    {
+      "name": "logo-acrobat",
+      "style": "regular",
+      "svgName": "logo-acrobat",
+      "componentName": "LogoAcrobat",
+      "aliases": []
+    },
+    {
+      "name": "logo-docker",
+      "style": "regular",
+      "svgName": "logo-docker",
+      "componentName": "LogoDocker",
+      "aliases": []
+    },
+    {
+      "name": "logo-gitlab",
+      "style": "regular",
+      "svgName": "logo-gitlab",
+      "componentName": "LogoGitlab",
+      "aliases": []
+    },
+    {
+      "name": "logo-linux",
+      "style": "regular",
+      "svgName": "logo-linux",
+      "componentName": "LogoLinux",
+      "aliases": []
+    },
+    {
+      "name": "logo-macos",
+      "style": "regular",
+      "svgName": "logo-macos",
+      "componentName": "LogoMacos",
+      "aliases": []
+    },
+    {
+      "name": "logo-notion",
+      "style": "regular",
+      "svgName": "logo-notion",
+      "componentName": "LogoNotion",
+      "aliases": []
+    },
+    {
+      "name": "logo-python",
+      "style": "regular",
+      "svgName": "logo-python",
+      "componentName": "LogoPython",
+      "aliases": []
+    },
+    {
+      "name": "logo-stack-overflow",
+      "style": "regular",
+      "svgName": "logo-stack-overflow",
+      "componentName": "LogoStackOverflow",
+      "aliases": []
+    },
+    {
+      "name": "logo-telegram",
+      "style": "regular",
+      "svgName": "logo-telegram",
+      "componentName": "LogoTelegram",
+      "aliases": []
+    },
+    {
+      "name": "logo-ubuntu",
+      "style": "regular",
+      "svgName": "logo-ubuntu",
+      "componentName": "LogoUbuntu",
+      "aliases": []
+    },
+    {
+      "name": "logo-windows",
+      "style": "regular",
+      "svgName": "logo-windows",
+      "componentName": "LogoWindows",
+      "aliases": []
+    },
+    {
+      "name": "logo-yandex",
+      "style": "regular",
+      "svgName": "logo-yandex",
+      "componentName": "LogoYandex",
+      "aliases": []
+    },
+    {
+      "name": "logo-yandex-cloud",
+      "style": "regular",
+      "svgName": "logo-yandex-cloud",
+      "componentName": "LogoYandexCloud",
+      "aliases": []
+    },
+    {
+      "name": "magnet",
+      "style": "regular",
+      "svgName": "magnet",
+      "componentName": "Magnet",
+      "aliases": []
     },
     {
       "name": "magnifier",
@@ -1717,14 +2952,50 @@
       "style": "regular",
       "svgName": "magnifier-minus",
       "componentName": "MagnifierMinus",
-      "aliases": []
+      "aliases": [
+        "zoom",
+        "out"
+      ]
     },
     {
       "name": "magnifier-plus",
       "style": "regular",
       "svgName": "magnifier-plus",
       "componentName": "MagnifierPlus",
+      "aliases": [
+        "zoom",
+        "in"
+      ]
+    },
+    {
+      "name": "math-intersection-shape",
+      "style": "regular",
+      "svgName": "math-intersection-shape",
+      "componentName": "MathIntersectionShape",
       "aliases": []
+    },
+    {
+      "name": "math-operations",
+      "style": "regular",
+      "svgName": "math-operations",
+      "componentName": "MathOperations",
+      "aliases": []
+    },
+    {
+      "name": "math-union-shape",
+      "style": "regular",
+      "svgName": "math-union-shape",
+      "componentName": "MathUnionShape",
+      "aliases": []
+    },
+    {
+      "name": "medal",
+      "style": "regular",
+      "svgName": "medal",
+      "componentName": "Medal",
+      "aliases": [
+        "prize"
+      ]
     },
     {
       "name": "megaphone",
@@ -1756,6 +3027,36 @@
         "remove",
         "delete"
       ]
+    },
+    {
+      "name": "nodes-down",
+      "style": "regular",
+      "svgName": "nodes-down",
+      "componentName": "NodesDown",
+      "aliases": []
+    },
+    {
+      "name": "nodes-left",
+      "style": "regular",
+      "svgName": "nodes-left",
+      "componentName": "NodesLeft",
+      "aliases": []
+    },
+    {
+      "name": "nodes-right",
+      "style": "regular",
+      "svgName": "nodes-right",
+      "componentName": "NodesRight",
+      "aliases": [
+        "share"
+      ]
+    },
+    {
+      "name": "nodes-up",
+      "style": "regular",
+      "svgName": "nodes-up",
+      "componentName": "NodesUp",
+      "aliases": []
     },
     {
       "name": "objects-align-bottom",
@@ -1800,6 +3101,29 @@
       "aliases": []
     },
     {
+      "name": "octagon-xmark",
+      "style": "regular",
+      "svgName": "octagon-xmark",
+      "componentName": "OctagonXmark",
+      "aliases": []
+    },
+    {
+      "name": "office-badge",
+      "style": "regular",
+      "svgName": "office-badge",
+      "componentName": "OfficeBadge",
+      "aliases": []
+    },
+    {
+      "name": "palette",
+      "style": "regular",
+      "svgName": "palette",
+      "componentName": "Palette",
+      "aliases": [
+        "color"
+      ]
+    },
+    {
       "name": "paperclip",
       "style": "regular",
       "svgName": "paperclip",
@@ -1814,6 +3138,33 @@
       "svgName": "passport",
       "componentName": "Passport",
       "aliases": []
+    },
+    {
+      "name": "pause",
+      "style": "regular",
+      "svgName": "pause",
+      "componentName": "Pause",
+      "aliases": []
+    },
+    {
+      "name": "pencil",
+      "style": "regular",
+      "svgName": "pencil",
+      "componentName": "Pencil",
+      "aliases": [
+        "edit",
+        "write"
+      ]
+    },
+    {
+      "name": "pencil-to-line",
+      "style": "regular",
+      "svgName": "pencil-to-line",
+      "componentName": "PencilToLine",
+      "aliases": [
+        "edit",
+        "write"
+      ]
     },
     {
       "name": "pencil-to-square",
@@ -1832,7 +3183,8 @@
       "componentName": "Person",
       "aliases": [
         "profile",
-        "human"
+        "human",
+        "user"
       ]
     },
     {
@@ -1840,20 +3192,42 @@
       "style": "regular",
       "svgName": "person-magnifier",
       "componentName": "PersonMagnifier",
-      "aliases": []
+      "aliases": [
+        "profile",
+        "human",
+        "user",
+        "search"
+      ]
     },
     {
       "name": "person-pencil",
       "style": "regular",
       "svgName": "person-pencil",
       "componentName": "PersonPencil",
-      "aliases": []
+      "aliases": [
+        "profile",
+        "human",
+        "user",
+        "edit"
+      ]
     },
     {
       "name": "person-plus",
       "style": "regular",
       "svgName": "person-plus",
       "componentName": "PersonPlus",
+      "aliases": [
+        "profile",
+        "human",
+        "user",
+        "add"
+      ]
+    },
+    {
+      "name": "person-speaker",
+      "style": "regular",
+      "svgName": "person-speaker",
+      "componentName": "PersonSpeaker",
       "aliases": []
     },
     {
@@ -1865,7 +3239,8 @@
         "person",
         "profile",
         "man",
-        "work"
+        "work",
+        "duty"
       ]
     },
     {
@@ -1873,7 +3248,12 @@
       "style": "regular",
       "svgName": "person-xmark",
       "componentName": "PersonXmark",
-      "aliases": []
+      "aliases": [
+        "profile",
+        "human",
+        "user",
+        "delete"
+      ]
     },
     {
       "name": "persons",
@@ -1883,7 +3263,17 @@
       "aliases": [
         "group",
         "team",
-        "people"
+        "people",
+        "users"
+      ]
+    },
+    {
+      "name": "persons-lock",
+      "style": "regular",
+      "svgName": "persons-lock",
+      "componentName": "PersonsLock",
+      "aliases": [
+        "federation"
       ]
     },
     {
@@ -1946,6 +3336,27 @@
       ]
     },
     {
+      "name": "play",
+      "style": "regular",
+      "svgName": "play",
+      "componentName": "Play",
+      "aliases": []
+    },
+    {
+      "name": "plug-connection",
+      "style": "regular",
+      "svgName": "plug-connection",
+      "componentName": "PlugConnection",
+      "aliases": []
+    },
+    {
+      "name": "plug-wire",
+      "style": "regular",
+      "svgName": "plug-wire",
+      "componentName": "PlugWire",
+      "aliases": []
+    },
+    {
       "name": "plus",
       "style": "regular",
       "svgName": "plus",
@@ -1953,6 +3364,22 @@
       "aliases": [
         "add",
         "new"
+      ]
+    },
+    {
+      "name": "power",
+      "style": "regular",
+      "svgName": "power",
+      "componentName": "Power",
+      "aliases": []
+    },
+    {
+      "name": "printer",
+      "style": "regular",
+      "svgName": "printer",
+      "componentName": "Printer",
+      "aliases": [
+        "print"
       ]
     },
     {
@@ -1970,21 +3397,75 @@
       "aliases": []
     },
     {
+      "name": "receipt",
+      "style": "regular",
+      "svgName": "receipt",
+      "componentName": "Receipt",
+      "aliases": [
+        "check"
+      ]
+    },
+    {
+      "name": "rectangle-pulse",
+      "style": "regular",
+      "svgName": "rectangle-pulse",
+      "componentName": "RectanglePulse",
+      "aliases": []
+    },
+    {
+      "name": "rectangles-4",
+      "style": "regular",
+      "svgName": "rectangles-4",
+      "componentName": "Rectangles4",
+      "aliases": []
+    },
+    {
+      "name": "rocket",
+      "style": "regular",
+      "svgName": "rocket",
+      "componentName": "Rocket",
+      "aliases": []
+    },
+    {
       "name": "route",
       "style": "regular",
       "svgName": "route",
       "componentName": "Route",
       "aliases": [
         "path",
-        "track"
+        "track",
+        "road"
       ]
+    },
+    {
+      "name": "sack",
+      "style": "regular",
+      "svgName": "sack",
+      "componentName": "Sack",
+      "aliases": []
+    },
+    {
+      "name": "scales-balanced",
+      "style": "regular",
+      "svgName": "scales-balanced",
+      "componentName": "ScalesBalanced",
+      "aliases": []
+    },
+    {
+      "name": "scales-unbalanced",
+      "style": "regular",
+      "svgName": "scales-unbalanced",
+      "componentName": "ScalesUnbalanced",
+      "aliases": []
     },
     {
       "name": "scissors",
       "style": "regular",
       "svgName": "scissors",
       "componentName": "Scissors",
-      "aliases": []
+      "aliases": [
+        "cut"
+      ]
     },
     {
       "name": "seal-check",
@@ -2008,7 +3489,8 @@
       "svgName": "shield",
       "componentName": "Shield",
       "aliases": [
-        "security"
+        "security",
+        "safe"
       ]
     },
     {
@@ -2018,6 +3500,7 @@
       "componentName": "ShieldCheck",
       "aliases": [
         "security",
+        "safe",
         "done"
       ]
     },
@@ -2028,6 +3511,7 @@
       "componentName": "ShieldExclamation",
       "aliases": [
         "security",
+        "safe",
         "attention",
         "warning"
       ]
@@ -2038,7 +3522,8 @@
       "svgName": "shield-keyhole",
       "componentName": "ShieldKeyhole",
       "aliases": [
-        "security"
+        "security",
+        "safe"
       ]
     },
     {
@@ -2072,10 +3557,17 @@
       ]
     },
     {
-      "name": "sliders-horizontal",
+      "name": "shuffle",
       "style": "regular",
-      "svgName": "sliders-horizontal",
-      "componentName": "SlidersHorizontal",
+      "svgName": "shuffle",
+      "componentName": "Shuffle",
+      "aliases": []
+    },
+    {
+      "name": "sliders",
+      "style": "regular",
+      "svgName": "sliders",
+      "componentName": "Sliders",
       "aliases": [
         "setting",
         "customization",
@@ -2107,13 +3599,38 @@
       "style": "regular",
       "svgName": "snowflake",
       "componentName": "Snowflake",
-      "aliases": []
+      "aliases": [
+        "cold",
+        "winter",
+        ""
+      ]
     },
     {
       "name": "sphere",
       "style": "regular",
       "svgName": "sphere",
       "componentName": "Sphere",
+      "aliases": []
+    },
+    {
+      "name": "square",
+      "style": "regular",
+      "svgName": "square",
+      "componentName": "Square",
+      "aliases": []
+    },
+    {
+      "name": "square",
+      "style": "fill",
+      "svgName": "square-fill",
+      "componentName": "SquareFill",
+      "aliases": []
+    },
+    {
+      "name": "square-article",
+      "style": "regular",
+      "svgName": "square-article",
+      "componentName": "SquareArticle",
       "aliases": []
     },
     {
@@ -2150,7 +3667,11 @@
       "style": "regular",
       "svgName": "square-hashtag",
       "componentName": "SquareHashtag",
-      "aliases": []
+      "aliases": [
+        "number",
+        "pound",
+        "sign"
+      ]
     },
     {
       "name": "square-letter-t",
@@ -2225,13 +3746,22 @@
       ]
     },
     {
+      "name": "stop",
+      "style": "regular",
+      "svgName": "stop",
+      "componentName": "Stop",
+      "aliases": []
+    },
+    {
       "name": "strikethrough",
       "style": "regular",
       "svgName": "strikethrough",
       "componentName": "Strikethrough",
       "aliases": [
         "text",
-        "style"
+        "style",
+        "font",
+        "format"
       ]
     },
     {
@@ -2239,13 +3769,45 @@
       "style": "regular",
       "svgName": "suitcase",
       "componentName": "Suitcase",
-      "aliases": []
+      "aliases": [
+        "bag"
+      ]
     },
     {
       "name": "t-shirt",
       "style": "regular",
       "svgName": "t-shirt",
       "componentName": "TShirt",
+      "aliases": [
+        "clothes"
+      ]
+    },
+    {
+      "name": "tag",
+      "style": "regular",
+      "svgName": "tag",
+      "componentName": "Tag",
+      "aliases": []
+    },
+    {
+      "name": "tag-dollar",
+      "style": "regular",
+      "svgName": "tag-dollar",
+      "componentName": "TagDollar",
+      "aliases": []
+    },
+    {
+      "name": "tag-ruble",
+      "style": "regular",
+      "svgName": "tag-ruble",
+      "componentName": "TagRuble",
+      "aliases": []
+    },
+    {
+      "name": "tags",
+      "style": "regular",
+      "svgName": "tags",
+      "componentName": "Tags",
       "aliases": []
     },
     {
@@ -2288,6 +3850,20 @@
       "style": "regular",
       "svgName": "text-align-right",
       "componentName": "TextAlignRight",
+      "aliases": []
+    },
+    {
+      "name": "text-indent",
+      "style": "regular",
+      "svgName": "text-indent",
+      "componentName": "TextIndent",
+      "aliases": []
+    },
+    {
+      "name": "text-outdent",
+      "style": "regular",
+      "svgName": "text-outdent",
+      "componentName": "TextOutdent",
       "aliases": []
     },
     {
@@ -2357,13 +3933,38 @@
       ]
     },
     {
-      "name": "trash",
+      "name": "timeline",
       "style": "regular",
-      "svgName": "trash",
-      "componentName": "Trash",
+      "svgName": "timeline",
+      "componentName": "Timeline",
+      "aliases": []
+    },
+    {
+      "name": "timestamps",
+      "style": "regular",
+      "svgName": "timestamps",
+      "componentName": "Timestamps",
+      "aliases": []
+    },
+    {
+      "name": "traffic-light",
+      "style": "regular",
+      "svgName": "traffic-light",
+      "componentName": "TrafficLight",
+      "aliases": []
+    },
+    {
+      "name": "trash-bin",
+      "style": "regular",
+      "svgName": "trash-bin",
+      "componentName": "TrashBin",
       "aliases": [
         "delete",
-        "remove"
+        "remove",
+        "trash",
+        "can",
+        "recycle",
+        "bin"
       ]
     },
     {
@@ -2376,6 +3977,20 @@
         "box",
         "drawer"
       ]
+    },
+    {
+      "name": "triangle-down",
+      "style": "regular",
+      "svgName": "triangle-down",
+      "componentName": "TriangleDown",
+      "aliases": []
+    },
+    {
+      "name": "triangle-down",
+      "style": "fill",
+      "svgName": "triangle-down-fill",
+      "componentName": "TriangleDownFill",
+      "aliases": []
     },
     {
       "name": "triangle-exclamation",
@@ -2398,6 +4013,55 @@
       ]
     },
     {
+      "name": "triangle-left",
+      "style": "regular",
+      "svgName": "triangle-left",
+      "componentName": "TriangleLeft",
+      "aliases": []
+    },
+    {
+      "name": "triangle-left",
+      "style": "fill",
+      "svgName": "triangle-left-fill",
+      "componentName": "TriangleLeftFill",
+      "aliases": []
+    },
+    {
+      "name": "triangle-right",
+      "style": "regular",
+      "svgName": "triangle-right",
+      "componentName": "TriangleRight",
+      "aliases": []
+    },
+    {
+      "name": "triangle-right",
+      "style": "fill",
+      "svgName": "triangle-right-fill",
+      "componentName": "TriangleRightFill",
+      "aliases": []
+    },
+    {
+      "name": "triangle-thunderbolt",
+      "style": "regular",
+      "svgName": "triangle-thunderbolt",
+      "componentName": "TriangleThunderbolt",
+      "aliases": []
+    },
+    {
+      "name": "triangle-up",
+      "style": "regular",
+      "svgName": "triangle-up",
+      "componentName": "TriangleUp",
+      "aliases": []
+    },
+    {
+      "name": "triangle-up",
+      "style": "fill",
+      "svgName": "triangle-up-fill",
+      "componentName": "TriangleUpFill",
+      "aliases": []
+    },
+    {
       "name": "trolley",
       "style": "regular",
       "svgName": "trolley",
@@ -2408,11 +4072,27 @@
       ]
     },
     {
+      "name": "tv",
+      "style": "regular",
+      "svgName": "tv",
+      "componentName": "Tv",
+      "aliases": []
+    },
+    {
+      "name": "tv-retro",
+      "style": "regular",
+      "svgName": "tv-retro",
+      "componentName": "TvRetro",
+      "aliases": []
+    },
+    {
       "name": "umbrella",
       "style": "regular",
       "svgName": "umbrella",
       "componentName": "Umbrella",
-      "aliases": []
+      "aliases": [
+        "rain"
+      ]
     },
     {
       "name": "underline",
@@ -2421,8 +4101,31 @@
       "componentName": "Underline",
       "aliases": [
         "text",
-        "style"
+        "style",
+        "font",
+        "format"
       ]
+    },
+    {
+      "name": "vault",
+      "style": "regular",
+      "svgName": "vault",
+      "componentName": "Vault",
+      "aliases": []
+    },
+    {
+      "name": "vector-circle",
+      "style": "regular",
+      "svgName": "vector-circle",
+      "componentName": "VectorCircle",
+      "aliases": []
+    },
+    {
+      "name": "vector-square",
+      "style": "regular",
+      "svgName": "vector-square",
+      "componentName": "VectorSquare",
+      "aliases": []
     },
     {
       "name": "video",
@@ -2438,34 +4141,58 @@
       "style": "regular",
       "svgName": "volume",
       "componentName": "Volume",
-      "aliases": []
+      "aliases": [
+        "sound",
+        "audio"
+      ]
     },
     {
       "name": "volume",
       "style": "fill",
       "svgName": "volume-fill",
       "componentName": "VolumeFill",
-      "aliases": []
+      "aliases": [
+        "sound",
+        "audio"
+      ]
     },
     {
       "name": "volume-low",
       "style": "regular",
       "svgName": "volume-low",
       "componentName": "VolumeLow",
-      "aliases": []
+      "aliases": [
+        "sound",
+        "audio"
+      ]
     },
     {
       "name": "volume-off",
       "style": "regular",
       "svgName": "volume-off",
       "componentName": "VolumeOff",
-      "aliases": []
+      "aliases": [
+        "sound",
+        "audio",
+        "mute"
+      ]
     },
     {
       "name": "volume-xmark",
       "style": "regular",
       "svgName": "volume-xmark",
       "componentName": "VolumeXmark",
+      "aliases": [
+        "sound",
+        "audio",
+        "mute"
+      ]
+    },
+    {
+      "name": "weight-hanging",
+      "style": "regular",
+      "svgName": "weight-hanging",
+      "componentName": "WeightHanging",
       "aliases": []
     },
     {
@@ -2473,7 +4200,9 @@
       "style": "regular",
       "svgName": "wrench",
       "componentName": "Wrench",
-      "aliases": []
+      "aliases": [
+        "fix"
+      ]
     },
     {
       "name": "xmark",
