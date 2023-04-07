@@ -5,7 +5,17 @@
 
 ### ⚠ BREAKING CHANGES
 
-* sync icons ([#11](https://github.com/gravity-ui/icons/issues/11))
+#### Renamings
+
+* `case` -> `briefcase`
+* `arrow-right-from-file` -> `file-arrow-right-out`
+* `arrow-up-to-folder` -> `folder-arrow-up-in`
+* `fire` -> `flame`
+* `grip-vertical` -> `grip`
+* `home` -> `house`
+* `folder-home` -> `folder-house`
+* `layers-3-vertical` -> `layers-3-diagonal`
+* `trash` -> `trash-bin`
 
 ### Features
 
