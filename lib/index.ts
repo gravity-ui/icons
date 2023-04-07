@@ -252,7 +252,7 @@ export {default as FolderCode} from './FolderCode';
 export {default as FolderExclamation} from './FolderExclamation';
 export {default as FolderFill} from './FolderFill';
 export {default as FolderFlows} from './FolderFlows';
-export {default as FolderHome} from './FolderHome';
+export {default as FolderHouse} from './FolderHouse';
 export {default as FolderKeyhole} from './FolderKeyhole';
 export {default as FolderLock} from './FolderLock';
 export {default as FolderMagnifier} from './FolderMagnifier';
