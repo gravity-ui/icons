@@ -1,5 +1,27 @@
 # Changelog
 
+## [2.0.0](https://github.com/gravity-ui/icons/compare/v1.1.0...v2.0.0) (2023-04-07)
+
+
+### ⚠ BREAKING CHANGES
+
+#### Renamings
+
+* `case` -> `briefcase`
+* `arrow-right-from-file` -> `file-arrow-right-out`
+* `arrow-up-to-folder` -> `folder-arrow-up-in`
+* `fire` -> `flame`
+* `grip-vertical` -> `grip`
+* `home` -> `house`
+* `folder-home` -> `folder-house`
+* `layers-3-vertical` -> `layers-3-diagonal`
+* `trash` -> `trash-bin`
+
+### Features
+
+* sync icons ([#11](https://github.com/gravity-ui/icons/issues/11)) ([ddb38d4](https://github.com/gravity-ui/icons/commit/ddb38d4ae741c443e2e2230c885817d610f61e1c))
+* sync icons ([#13](https://github.com/gravity-ui/icons/issues/13)) ([754875b](https://github.com/gravity-ui/icons/commit/754875b85dc28e0ed11b3820033022ce7d7d0a88))
+
 ## [1.1.0](https://github.com/gravity-ui/icons/compare/v1.0.0...v1.1.0) (2023-01-25)
 
 
