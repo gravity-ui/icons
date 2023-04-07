@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {SVGProps} from 'react';
-const FolderHome = (props: SVGProps<SVGSVGElement>) => (
+const FolderHouse = (props: SVGProps<SVGSVGElement>) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         width={16}
@@ -17,4 +17,4 @@ const FolderHome = (props: SVGProps<SVGSVGElement>) => (
         />
     </svg>
 );
-export default FolderHome;
+export default FolderHouse;

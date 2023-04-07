@@ -2169,10 +2169,10 @@
       "aliases": []
     },
     {
-      "name": "folder-home",
+      "name": "folder-house",
       "style": "regular",
-      "svgName": "folder-home",
-      "componentName": "FolderHome",
+      "svgName": "folder-house",
+      "componentName": "FolderHouse",
       "aliases": [
         "house"
       ]
@@ -2389,7 +2389,9 @@
       "componentName": "GraduationCap",
       "aliases": [
         "learn",
-        "study"
+        "study",
+        "education",
+        "hat"
       ]
     },
     {
@@ -2979,7 +2981,10 @@
       "style": "regular",
       "svgName": "math-operations",
       "componentName": "MathOperations",
-      "aliases": []
+      "aliases": [
+        "minus",
+        "plus"
+      ]
     },
     {
       "name": "math-union-shape",
@@ -3009,14 +3014,21 @@
       "style": "regular",
       "svgName": "microphone",
       "componentName": "Microphone",
-      "aliases": []
+      "aliases": [
+        "speaker",
+        "voice"
+      ]
     },
     {
       "name": "microphone-slash",
       "style": "regular",
       "svgName": "microphone-slash",
       "componentName": "MicrophoneSlash",
-      "aliases": []
+      "aliases": [
+        "mute",
+        "speaker",
+        "voice"
+      ]
     },
     {
       "name": "minus",
