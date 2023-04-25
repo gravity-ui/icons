@@ -17,7 +17,7 @@ interface IconMeta {
     style: 'regular' | 'fill';
     svgName: string;
     componentName: string;
-    aliases: string[];
+    keywords: string[];
 }
 
 const b = block('showcase');
@@ -51,7 +51,7 @@ export const Showcase: Story = () => {
             return (
                 meta.name.toLowerCase().includes(searchLower) ||
                 meta.componentName.toLowerCase().includes(searchLower) ||
-                meta.aliases.some((alias: string) => alias.toLowerCase().includes(searchLower))
+                meta.keywords.some((keyword: string) => keyword.toLowerCase().includes(searchLower))
             );
         });
     }
