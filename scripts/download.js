@@ -25,7 +25,12 @@ function svgoTransformer(svgString) {
         plugins: [
             {
                 name: 'preset-default',
-                params: {overrides: {convertColors: {currentColor: true}, removeViewBox: false}},
+                params: {
+                    overrides: {
+                        convertColors: {currentColor: /#(?!f33|ff3333)/i},
+                        removeViewBox: false,
+                    },
+                },
             },
         ],
     }).data;
