@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.1.0](https://github.com/gravity-ui/icons/compare/v2.0.0...v2.1.0) (2023-04-25)
+
+
+### Features
+
+* sync icons ([#15](https://github.com/gravity-ui/icons/issues/15)) ([f9bfa40](https://github.com/gravity-ui/icons/commit/f9bfa402829e2e618d89eef576472c55f7e5cf73))
+
+
+### Bug Fixes
+
+* do not override red dot color ([#16](https://github.com/gravity-ui/icons/issues/16)) ([2450250](https://github.com/gravity-ui/icons/commit/24502507ea8e3b28b7f319dcea722de4a280274c))
+* rename aliases back to keywords ([#18](https://github.com/gravity-ui/icons/issues/18)) ([956b059](https://github.com/gravity-ui/icons/commit/956b059bd24adbf4e18b84686ad4d7caef1aa930))
+
 ## [2.0.0](https://github.com/gravity-ui/icons/compare/v1.1.0...v2.0.0) (2023-04-07)
 
 
