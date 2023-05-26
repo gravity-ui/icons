@@ -6,8 +6,8 @@ import './IconTooltip.scss';
 
 export interface IconTooltipProps {
     componentName: string;
-    svgPath: string;
-    importLine: string;
+    importSvg: string;
+    importComponent: string;
     children: React.ReactElement;
     forceOpen?: boolean;
 }
@@ -16,8 +16,8 @@ const b = block('icon-tooltip');
 
 export function IconTooltip({
     componentName,
-    svgPath,
-    importLine,
+    importSvg,
+    importComponent,
     forceOpen,
     children,
 }: IconTooltipProps) {
@@ -31,16 +31,16 @@ export function IconTooltip({
                         {componentName}
                     </Label>
                 </div>
-                <div className={b('label')}>Path</div>
+                <div className={b('label')}>Svg</div>
                 <div className={b('value')}>
-                    <Label type="copy" copyText={svgPath}>
-                        {svgPath}
+                    <Label type="copy" copyText={importSvg}>
+                        {importSvg}
                     </Label>
                 </div>
-                <div className={b('label')}>Import</div>
+                <div className={b('label')}>Component</div>
                 <div className={b('value')}>
-                    <Label type="copy" copyText={importLine}>
-                        {importLine}
+                    <Label type="copy" copyText={importComponent}>
+                        {importComponent}
                     </Label>
                 </div>
             </div>

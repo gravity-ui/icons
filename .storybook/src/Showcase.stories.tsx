@@ -74,8 +74,8 @@ export const Showcase: Story = () => {
                         <IconTooltip
                             key={meta.svgName}
                             componentName={meta.componentName}
-                            svgPath={buildIconSvgPath(meta.svgName)}
-                            importLine={buildIconImportLine(meta.componentName)}
+                            importSvg={buildIconSvgPath(meta.svgName, meta.componentName)}
+                            importComponent={buildIconImportLine(meta.componentName)}
                             forceOpen={filteredItems.length === 1}
                         >
                             <Button view="flat" size="xl">
@@ -92,8 +92,8 @@ export const Showcase: Story = () => {
 };
 Showcase.storyName = 'Showcase';
 
-function buildIconSvgPath(svgName: string) {
-    return `@gravity-ui/icons/svgs/${svgName}.svg`;
+function buildIconSvgPath(svgName: string, componentName: string) {
+    return `import ${componentName}Icon '@gravity-ui/icons/svgs/${svgName}.svg';`;
 }
 
 function buildIconImportLine(componentName: string) {
