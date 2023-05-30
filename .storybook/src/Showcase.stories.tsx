@@ -93,7 +93,7 @@ export const Showcase: Story = () => {
 Showcase.storyName = 'Showcase';
 
 function buildIconSvgPath(svgName: string, componentName: string) {
-    return `import ${componentName}Icon '@gravity-ui/icons/svgs/${svgName}.svg';`;
+    return `import ${componentName}Icon from '@gravity-ui/icons/svgs/${svgName}.svg';`;
 }
 
 function buildIconImportLine(componentName: string) {
