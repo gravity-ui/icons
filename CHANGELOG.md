@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.2.0](https://github.com/gravity-ui/icons/compare/v2.1.0...v2.2.0) (2023-06-07)
+
+
+### Features
+
+* add svg icon default import to copy ([#19](https://github.com/gravity-ui/icons/issues/19)) ([9c07bac](https://github.com/gravity-ui/icons/commit/9c07bac72c00dc55e13d2cb1e5b51bf193706bc7))
+* sync icons ([#23](https://github.com/gravity-ui/icons/issues/23)) ([cc0d204](https://github.com/gravity-ui/icons/commit/cc0d2049f28f34d38ad97c717e03553986824f8a))
+
+
+### Bug Fixes
+
+* svg import on storybook ([#22](https://github.com/gravity-ui/icons/issues/22)) ([d68a966](https://github.com/gravity-ui/icons/commit/d68a966e5c8a2399e4e1ef9e4e8708ddeb91dee8))
+
 ## [2.1.0](https://github.com/gravity-ui/icons/compare/v2.0.0...v2.1.0) (2023-04-25)
 
 
