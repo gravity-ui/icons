@@ -66,6 +66,7 @@ export function IconTooltip({
             content={content}
             placement={['bottom', 'top']}
             tooltipClassName={b()}
+            openOnHover={false}
         >
             {children}
         </Popover>
