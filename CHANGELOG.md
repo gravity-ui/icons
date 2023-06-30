@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.3.0](https://github.com/gravity-ui/icons/compare/v2.2.0...v2.3.0) (2023-06-30)
+
+
+### Features
+
+* add metadata.json to package ([#25](https://github.com/gravity-ui/icons/issues/25)) ([8bb4bef](https://github.com/gravity-ui/icons/commit/8bb4bef83a67d485f53430314ac3d3eb48498b06))
+* sync icons ([#24](https://github.com/gravity-ui/icons/issues/24)) ([85076dc](https://github.com/gravity-ui/icons/commit/85076dcf8700709f7c04ea47d49cbb0b696490c1))
+
 ## [2.2.0](https://github.com/gravity-ui/icons/compare/v2.1.0...v2.2.0) (2023-06-07)
 
 
