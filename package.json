@@ -14,7 +14,8 @@
     "*.d.ts",
     "*.js",
     "!.*.js",
-    "!*.config.js"
+    "!*.config.js",
+    "metadata.json"
   ],
   "module": "esm/index.js",
   "sideEffects": false,
