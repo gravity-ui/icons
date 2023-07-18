@@ -15,6 +15,13 @@
       "keywords": []
     },
     {
+      "name": "abbr-ql",
+      "style": "regular",
+      "svgName": "abbr-ql",
+      "componentName": "AbbrQl",
+      "keywords": []
+    },
+    {
       "name": "abbr-sql",
       "style": "regular",
       "svgName": "abbr-sql",
@@ -92,6 +99,20 @@
       "keywords": []
     },
     {
+      "name": "arrow-left-from-line",
+      "style": "regular",
+      "svgName": "arrow-left-from-line",
+      "componentName": "ArrowLeftFromLine",
+      "keywords": []
+    },
+    {
+      "name": "arrow-left-to-line",
+      "style": "regular",
+      "svgName": "arrow-left-to-line",
+      "componentName": "ArrowLeftToLine",
+      "keywords": []
+    },
+    {
       "name": "arrow-right",
       "style": "regular",
       "svgName": "arrow-right",
@@ -106,6 +127,13 @@
       "keywords": []
     },
     {
+      "name": "arrow-right-from-line",
+      "style": "regular",
+      "svgName": "arrow-right-from-line",
+      "componentName": "ArrowRightFromLine",
+      "keywords": []
+    },
+    {
       "name": "arrow-right-from-square",
       "style": "regular",
       "svgName": "arrow-right-from-square",
@@ -115,6 +143,13 @@
         "move",
         "logout"
       ]
+    },
+    {
+      "name": "arrow-right-to-line",
+      "style": "regular",
+      "svgName": "arrow-right-to-line",
+      "componentName": "ArrowRightToLine",
+      "keywords": []
     },
     {
       "name": "arrow-right-to-square",
@@ -149,6 +184,20 @@
       "keywords": []
     },
     {
+      "name": "arrow-shape-down-from-line",
+      "style": "regular",
+      "svgName": "arrow-shape-down-from-line",
+      "componentName": "ArrowShapeDownFromLine",
+      "keywords": []
+    },
+    {
+      "name": "arrow-shape-down-to-line",
+      "style": "regular",
+      "svgName": "arrow-shape-down-to-line",
+      "componentName": "ArrowShapeDownToLine",
+      "keywords": []
+    },
+    {
       "name": "arrow-shape-left",
       "style": "regular",
       "svgName": "arrow-shape-left",
@@ -156,10 +205,38 @@
       "keywords": []
     },
     {
+      "name": "arrow-shape-left-from-line",
+      "style": "regular",
+      "svgName": "arrow-shape-left-from-line",
+      "componentName": "ArrowShapeLeftFromLine",
+      "keywords": []
+    },
+    {
+      "name": "arrow-shape-left-to-line",
+      "style": "regular",
+      "svgName": "arrow-shape-left-to-line",
+      "componentName": "ArrowShapeLeftToLine",
+      "keywords": []
+    },
+    {
       "name": "arrow-shape-right",
       "style": "regular",
       "svgName": "arrow-shape-right",
       "componentName": "ArrowShapeRight",
+      "keywords": []
+    },
+    {
+      "name": "arrow-shape-right-from-line",
+      "style": "regular",
+      "svgName": "arrow-shape-right-from-line",
+      "componentName": "ArrowShapeRightFromLine",
+      "keywords": []
+    },
+    {
+      "name": "arrow-shape-right-to-line",
+      "style": "regular",
+      "svgName": "arrow-shape-right-to-line",
+      "componentName": "ArrowShapeRightToLine",
       "keywords": []
     },
     {
@@ -183,6 +260,20 @@
       "style": "regular",
       "svgName": "arrow-shape-up",
       "componentName": "ArrowShapeUp",
+      "keywords": []
+    },
+    {
+      "name": "arrow-shape-up-from-line",
+      "style": "regular",
+      "svgName": "arrow-shape-up-from-line",
+      "componentName": "ArrowShapeUpFromLine",
+      "keywords": []
+    },
+    {
+      "name": "arrow-shape-up-to-line",
+      "style": "regular",
+      "svgName": "arrow-shape-up-to-line",
+      "componentName": "ArrowShapeUpToLine",
       "keywords": []
     },
     {
@@ -1548,6 +1639,27 @@
       "keywords": []
     },
     {
+      "name": "code-commit-horizontal",
+      "style": "regular",
+      "svgName": "code-commit-horizontal",
+      "componentName": "CodeCommitHorizontal",
+      "keywords": []
+    },
+    {
+      "name": "code-commits",
+      "style": "regular",
+      "svgName": "code-commits",
+      "componentName": "CodeCommits",
+      "keywords": []
+    },
+    {
+      "name": "code-compare",
+      "style": "regular",
+      "svgName": "code-compare",
+      "componentName": "CodeCompare",
+      "keywords": []
+    },
+    {
       "name": "code-fork",
       "style": "regular",
       "svgName": "code-fork",
@@ -1614,11 +1726,31 @@
       ]
     },
     {
+      "name": "comment",
+      "style": "fill",
+      "svgName": "comment-fill",
+      "componentName": "CommentFill",
+      "keywords": [
+        "message",
+        "bubble"
+      ]
+    },
+    {
       "name": "comment-dot",
       "style": "regular",
       "svgName": "comment-dot",
       "componentName": "CommentDot",
       "keywords": []
+    },
+    {
+      "name": "comment-plus",
+      "style": "regular",
+      "svgName": "comment-plus",
+      "componentName": "CommentPlus",
+      "keywords": [
+        "message",
+        "bubble"
+      ]
     },
     {
       "name": "comments",
@@ -2211,6 +2343,17 @@
       "style": "regular",
       "svgName": "file-question",
       "componentName": "FileQuestion",
+      "keywords": [
+        "document",
+        "paper",
+        "page"
+      ]
+    },
+    {
+      "name": "file-text",
+      "style": "regular",
+      "svgName": "file-text",
+      "componentName": "FileText",
       "keywords": [
         "document",
         "paper",
@@ -3058,10 +3201,24 @@
       ]
     },
     {
+      "name": "layout-tabs",
+      "style": "regular",
+      "svgName": "layout-tabs",
+      "componentName": "LayoutTabs",
+      "keywords": []
+    },
+    {
       "name": "letter-group",
       "style": "regular",
       "svgName": "letter-group",
       "componentName": "LetterGroup",
+      "keywords": []
+    },
+    {
+      "name": "letter-m",
+      "style": "regular",
+      "svgName": "letter-m",
+      "componentName": "LetterM",
       "keywords": []
     },
     {
@@ -4493,6 +4650,17 @@
       "style": "fill",
       "svgName": "thumbs-up-fill",
       "componentName": "ThumbsUpFill",
+      "keywords": [
+        "like",
+        "finger",
+        "arm"
+      ]
+    },
+    {
+      "name": "thumbs-up-2",
+      "style": "regular",
+      "svgName": "thumbs-up-2",
+      "componentName": "ThumbsUp2",
       "keywords": [
         "like",
         "finger",
