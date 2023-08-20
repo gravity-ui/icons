@@ -1,5 +1,5 @@
 import React from 'react';
-import block from 'bem-cn-lite';
+import {cn} from './cn';
 import {Meta, Story} from '@storybook/react';
 import {Button, Icon as IconWrapper} from '@gravity-ui/uikit';
 import {IconTooltip} from './IconTooltip/IconTooltip';
@@ -20,7 +20,7 @@ interface IconMeta {
     keywords: string[];
 }
 
-const b = block('showcase');
+const b = cn('showcase');
 const libContext = require.context('../../lib', false, /\.tsx$/);
 const iconsMetadataByName = (metadata.icons as IconMeta[]).reduce(
     (acc, icon) => ({...acc, [icon.componentName]: icon}),

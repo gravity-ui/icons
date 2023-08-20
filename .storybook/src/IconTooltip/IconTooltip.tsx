@@ -1,5 +1,5 @@
 import React from 'react';
-import block from 'bem-cn-lite';
+import {cn} from '../cn';
 import {Popover, PopoverInstanceProps, Label} from '@gravity-ui/uikit';
 
 import './IconTooltip.scss';
@@ -12,7 +12,7 @@ export interface IconTooltipProps {
     forceOpen?: boolean;
 }
 
-const b = block('icon-tooltip');
+const b = cn('icon-tooltip');
 
 export function IconTooltip({
     componentName,
