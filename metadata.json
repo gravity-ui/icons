@@ -898,6 +898,13 @@
       ]
     },
     {
+      "name": "chevron-down-wide",
+      "style": "regular",
+      "svgName": "chevron-down-wide",
+      "componentName": "ChevronDownWide",
+      "keywords": []
+    },
+    {
       "name": "chevron-left",
       "style": "regular",
       "svgName": "chevron-left",
@@ -923,6 +930,13 @@
       "keywords": [
         "arrow"
       ]
+    },
+    {
+      "name": "chevron-up-wide",
+      "style": "regular",
+      "svgName": "chevron-up-wide",
+      "componentName": "ChevronUpWide",
+      "keywords": []
     },
     {
       "name": "chevrons-collapse-from-lines",
@@ -980,6 +994,13 @@
       "keywords": [
         "arrows"
       ]
+    },
+    {
+      "name": "chevrons-down-wide",
+      "style": "regular",
+      "svgName": "chevrons-down-wide",
+      "componentName": "ChevronsDownWide",
+      "keywords": []
     },
     {
       "name": "chevrons-expand-from-line",
@@ -1053,6 +1074,13 @@
       "keywords": [
         "arrows"
       ]
+    },
+    {
+      "name": "chevrons-up-wide",
+      "style": "regular",
+      "svgName": "chevrons-up-wide",
+      "componentName": "ChevronsUpWide",
+      "keywords": []
     },
     {
       "name": "circle",
@@ -2106,6 +2134,13 @@
       "keywords": []
     },
     {
+      "name": "equal",
+      "style": "regular",
+      "svgName": "equal",
+      "componentName": "Equal",
+      "keywords": []
+    },
+    {
       "name": "eraser",
       "style": "regular",
       "svgName": "eraser",
@@ -2278,13 +2313,6 @@
       "style": "regular",
       "svgName": "file-code",
       "componentName": "FileCode",
-      "keywords": []
-    },
-    {
-      "name": "file-dollar",
-      "style": "regular",
-      "svgName": "file-dollar",
-      "componentName": "FileDollar",
       "keywords": []
     },
     {
@@ -2774,7 +2802,9 @@
       "style": "regular",
       "svgName": "grip",
       "componentName": "Grip",
-      "keywords": []
+      "keywords": [
+        "move"
+      ]
     },
     {
       "name": "grip-horizontal",
