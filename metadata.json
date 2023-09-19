@@ -1867,6 +1867,13 @@
       "keywords": []
     },
     {
+      "name": "copy-xmark",
+      "style": "regular",
+      "svgName": "copy-xmark",
+      "componentName": "CopyXmark",
+      "keywords": []
+    },
+    {
       "name": "cpu",
       "style": "regular",
       "svgName": "cpu",
@@ -3741,6 +3748,13 @@
       "keywords": []
     },
     {
+      "name": "pause",
+      "style": "fill",
+      "svgName": "pause-fill",
+      "componentName": "PauseFill",
+      "keywords": []
+    },
+    {
       "name": "pencil",
       "style": "regular",
       "svgName": "pencil",
@@ -3941,6 +3955,13 @@
       "style": "regular",
       "svgName": "play",
       "componentName": "Play",
+      "keywords": []
+    },
+    {
+      "name": "play",
+      "style": "fill",
+      "svgName": "play-fill",
+      "componentName": "PlayFill",
       "keywords": []
     },
     {
@@ -4498,6 +4519,13 @@
       "style": "regular",
       "svgName": "stop",
       "componentName": "Stop",
+      "keywords": []
+    },
+    {
+      "name": "stop",
+      "style": "fill",
+      "svgName": "stop-fill",
+      "componentName": "StopFill",
       "keywords": []
     },
     {
