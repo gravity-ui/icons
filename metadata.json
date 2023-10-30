@@ -414,10 +414,24 @@
       "keywords": []
     },
     {
+      "name": "arrows-rotate-left-slash",
+      "style": "regular",
+      "svgName": "arrows-rotate-left-slash",
+      "componentName": "ArrowsRotateLeftSlash",
+      "keywords": []
+    },
+    {
       "name": "arrows-rotate-right",
       "style": "regular",
       "svgName": "arrows-rotate-right",
       "componentName": "ArrowsRotateRight",
+      "keywords": []
+    },
+    {
+      "name": "arrows-rotate-right-slash",
+      "style": "regular",
+      "svgName": "arrows-rotate-right-slash",
+      "componentName": "ArrowsRotateRightSlash",
       "keywords": []
     },
     {
@@ -470,6 +484,28 @@
       ]
     },
     {
+      "name": "bars-ascending-align-left-arrow-down",
+      "style": "regular",
+      "svgName": "bars-ascending-align-left-arrow-down",
+      "componentName": "BarsAscendingAlignLeftArrowDown",
+      "keywords": [
+        "lines",
+        "sort",
+        "filter"
+      ]
+    },
+    {
+      "name": "bars-ascending-align-left-arrow-up",
+      "style": "regular",
+      "svgName": "bars-ascending-align-left-arrow-up",
+      "componentName": "BarsAscendingAlignLeftArrowUp",
+      "keywords": [
+        "lines",
+        "sort",
+        "filter"
+      ]
+    },
+    {
       "name": "bars-ascending-align-right",
       "style": "regular",
       "svgName": "bars-ascending-align-right",
@@ -496,6 +532,28 @@
       "style": "regular",
       "svgName": "bars-descending-align-left",
       "componentName": "BarsDescendingAlignLeft",
+      "keywords": [
+        "lines",
+        "sort",
+        "filter"
+      ]
+    },
+    {
+      "name": "bars-descending-align-left-arrow-down",
+      "style": "regular",
+      "svgName": "bars-descending-align-left-arrow-down",
+      "componentName": "BarsDescendingAlignLeftArrowDown",
+      "keywords": [
+        "lines",
+        "sort",
+        "filter"
+      ]
+    },
+    {
+      "name": "bars-descending-align-left-arrow-up",
+      "style": "regular",
+      "svgName": "bars-descending-align-left-arrow-up",
+      "componentName": "BarsDescendingAlignLeftArrowUp",
       "keywords": [
         "lines",
         "sort",
@@ -545,6 +603,17 @@
       "keywords": [
         "notify",
         "notification"
+      ]
+    },
+    {
+      "name": "bell-slash",
+      "style": "regular",
+      "svgName": "bell-slash",
+      "componentName": "BellSlash",
+      "keywords": [
+        "notify",
+        "notification",
+        "mute"
       ]
     },
     {
@@ -710,6 +779,41 @@
       "keywords": [
         "photo"
       ]
+    },
+    {
+      "name": "car",
+      "style": "regular",
+      "svgName": "car",
+      "componentName": "Car",
+      "keywords": []
+    },
+    {
+      "name": "card-club",
+      "style": "regular",
+      "svgName": "card-club",
+      "componentName": "CardClub",
+      "keywords": []
+    },
+    {
+      "name": "card-diamond",
+      "style": "regular",
+      "svgName": "card-diamond",
+      "componentName": "CardDiamond",
+      "keywords": []
+    },
+    {
+      "name": "card-heart",
+      "style": "regular",
+      "svgName": "card-heart",
+      "componentName": "CardHeart",
+      "keywords": []
+    },
+    {
+      "name": "card-spade",
+      "style": "regular",
+      "svgName": "card-spade",
+      "componentName": "CardSpade",
+      "keywords": []
     },
     {
       "name": "caret-down",
@@ -1522,6 +1626,13 @@
       "keywords": []
     },
     {
+      "name": "circle-ruble",
+      "style": "regular",
+      "svgName": "circle-ruble",
+      "componentName": "CircleRuble",
+      "keywords": []
+    },
+    {
       "name": "circle-stop",
       "style": "regular",
       "svgName": "circle-stop",
@@ -1643,6 +1754,20 @@
       "style": "regular",
       "svgName": "cloud-check",
       "componentName": "CloudCheck",
+      "keywords": []
+    },
+    {
+      "name": "cloud-gear",
+      "style": "regular",
+      "svgName": "cloud-gear",
+      "componentName": "CloudGear",
+      "keywords": []
+    },
+    {
+      "name": "cloud-nut-hex",
+      "style": "regular",
+      "svgName": "cloud-nut-hex",
+      "componentName": "CloudNutHex",
       "keywords": []
     },
     {
@@ -1963,6 +2088,13 @@
       "keywords": []
     },
     {
+      "name": "database-arrow-right",
+      "style": "regular",
+      "svgName": "database-arrow-right",
+      "componentName": "DatabaseArrowRight",
+      "keywords": []
+    },
+    {
       "name": "database-magnifier",
       "style": "regular",
       "svgName": "database-magnifier",
@@ -2141,6 +2273,13 @@
       "keywords": []
     },
     {
+      "name": "envelope-open-xmark",
+      "style": "regular",
+      "svgName": "envelope-open-xmark",
+      "componentName": "EnvelopeOpenXmark",
+      "keywords": []
+    },
+    {
       "name": "equal",
       "style": "regular",
       "svgName": "equal",
@@ -2201,6 +2340,13 @@
       "style": "regular",
       "svgName": "face-neutral",
       "componentName": "FaceNeutral",
+      "keywords": []
+    },
+    {
+      "name": "face-neutral-dashed",
+      "style": "regular",
+      "svgName": "face-neutral-dashed",
+      "componentName": "FaceNeutralDashed",
       "keywords": []
     },
     {
@@ -2383,6 +2529,13 @@
         "paper",
         "page"
       ]
+    },
+    {
+      "name": "file-ruble",
+      "style": "regular",
+      "svgName": "file-ruble",
+      "componentName": "FileRuble",
+      "keywords": []
     },
     {
       "name": "file-text",
@@ -3227,15 +3380,61 @@
       ]
     },
     {
-      "name": "layout-side-content",
+      "name": "layout-side-content-left",
       "style": "regular",
-      "svgName": "layout-side-content",
-      "componentName": "LayoutSideContent",
+      "svgName": "layout-side-content-left",
+      "componentName": "LayoutSideContentLeft",
       "keywords": [
         "desktop",
         "table",
         "window"
       ]
+    },
+    {
+      "name": "layout-side-content-right",
+      "style": "regular",
+      "svgName": "layout-side-content-right",
+      "componentName": "LayoutSideContentRight",
+      "keywords": [
+        "desktop",
+        "table",
+        "window"
+      ]
+    },
+    {
+      "name": "layout-split-columns",
+      "style": "regular",
+      "svgName": "layout-split-columns",
+      "componentName": "LayoutSplitColumns",
+      "keywords": []
+    },
+    {
+      "name": "layout-split-columns-3",
+      "style": "regular",
+      "svgName": "layout-split-columns-3",
+      "componentName": "LayoutSplitColumns3",
+      "keywords": []
+    },
+    {
+      "name": "layout-split-rows",
+      "style": "regular",
+      "svgName": "layout-split-rows",
+      "componentName": "LayoutSplitRows",
+      "keywords": []
+    },
+    {
+      "name": "layout-split-side-content-left",
+      "style": "regular",
+      "svgName": "layout-split-side-content-left",
+      "componentName": "LayoutSplitSideContentLeft",
+      "keywords": []
+    },
+    {
+      "name": "layout-split-side-content-right",
+      "style": "regular",
+      "svgName": "layout-split-side-content-right",
+      "componentName": "LayoutSplitSideContentRight",
+      "keywords": []
     },
     {
       "name": "layout-tabs",
@@ -3653,6 +3852,13 @@
       "keywords": []
     },
     {
+      "name": "nut-hex",
+      "style": "regular",
+      "svgName": "nut-hex",
+      "componentName": "NutHex",
+      "keywords": []
+    },
+    {
       "name": "objects-align-bottom",
       "style": "regular",
       "svgName": "objects-align-bottom",
@@ -3803,6 +4009,13 @@
       ]
     },
     {
+      "name": "person-gear",
+      "style": "regular",
+      "svgName": "person-gear",
+      "componentName": "PersonGear",
+      "keywords": []
+    },
+    {
       "name": "person-magnifier",
       "style": "regular",
       "svgName": "person-magnifier",
@@ -3813,6 +4026,13 @@
         "user",
         "search"
       ]
+    },
+    {
+      "name": "person-nut-hex",
+      "style": "regular",
+      "svgName": "person-nut-hex",
+      "componentName": "PersonNutHex",
+      "keywords": []
     },
     {
       "name": "person-pencil",
@@ -5035,6 +5255,17 @@
         "close",
         "delete",
         "remove"
+      ]
+    },
+    {
+      "name": "layout-side-content",
+      "style": "regular",
+      "svgName": "layout-side-content",
+      "componentName": "LayoutSideContent",
+      "keywords": [
+        "desktop",
+        "table",
+        "window"
       ]
     }
   ]
