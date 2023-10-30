@@ -41,12 +41,19 @@ function createSvgBuilder(metadata) {
     return async function svgBuilder([{children, components: icons}]) {
         const iconSets = children.filter(({type}) => type === 'COMPONENT_SET');
         const iconsById = icons.reduce((acc, item) => ({...acc, [item.id]: item}), {});
+        const uniqueIcons = new Set();
 
         iconSets.sort((a, b) => (a.name > b.name ? 1 : -1));
 
         for (const iconSet of iconSets) {
             if (!ICON_NAME_REGEXP.test(iconSet.name)) {
                 throw new Error(`Icon has incorrect name: ${iconSet.name}`);
+            }
+
+            if (uniqueIcons.has(iconSet.name)) {
+                throw new Error(`Icon has been already added: ${iconSet.name}`);
+            } else {
+                uniqueIcons.add(iconSet.name);
             }
 
             for (const icon of iconSet.children) {
