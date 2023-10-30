@@ -4,6 +4,7 @@ const figmaExport = require('@figma-export/core');
 const svgo = require('svgo');
 const {SVGS_DIR, ICON_NAME_REGEXP} = require('./constants');
 const {cleanDir, getComponentName} = require('./utils');
+const aliases = require('./aliases');
 
 const FIGMA_TOKEN = process.env.FIGMA_TOKEN;
 const FIGMA_FILE = process.env.FIGMA_FILE;
@@ -51,15 +52,16 @@ function createSvgBuilder(metadata) {
             for (const icon of iconSet.children) {
                 const props = parsePropertiesString(icon.name);
                 const svg = iconsById[icon.id].svg;
-                let name = iconSet.name;
+                const name = iconSet.name;
+                let svgName = name;
                 let keywords = [];
 
                 if (!props.style) {
-                    throw new Error(`Icon has no style: ${iconSet.name}`);
+                    throw new Error(`Icon has no style: ${name}`);
                 }
 
                 if (props.style !== 'regular') {
-                    name += `-${props.style}`;
+                    svgName += `-${props.style}`;
                 }
 
                 if (props.keywords && props.keywords !== EMPTY_KEYWORDS_STRING) {
@@ -67,13 +69,17 @@ function createSvgBuilder(metadata) {
                 }
 
                 metadata.icons.push({
-                    name: iconSet.name,
+                    name,
                     style: props.style,
-                    svgName: name,
-                    componentName: getComponentName(name),
+                    svgName,
+                    componentName: getComponentName(svgName),
                     keywords,
                 });
-                await fs.writeFile(path.join(SVGS_DIR, `${name}.svg`), svg);
+                await fs.writeFile(path.join(SVGS_DIR, `${svgName}.svg`), svg);
+            }
+
+            if (aliases[iconSet.name]) {
+                iconSets.push({...iconSet, name: aliases[iconSet.name]});
             }
         }
     };
