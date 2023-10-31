@@ -1626,13 +1626,6 @@
       "keywords": []
     },
     {
-      "name": "circle-ruble",
-      "style": "regular",
-      "svgName": "circle-ruble",
-      "componentName": "CircleRuble",
-      "keywords": []
-    },
-    {
       "name": "circle-stop",
       "style": "regular",
       "svgName": "circle-stop",
