@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.7.0](https://github.com/gravity-ui/icons/compare/v2.6.0...v2.7.0) (2023-10-31)
+
+
+### Features
+
+* support aliases for renamed icons ([#35](https://github.com/gravity-ui/icons/issues/35)) ([78bf5e5](https://github.com/gravity-ui/icons/commit/78bf5e57d3bbb466a2b85771f539aedcb15f07d0))
+* sync icons ([#34](https://github.com/gravity-ui/icons/issues/34)) ([76ec30b](https://github.com/gravity-ui/icons/commit/76ec30b01de1906b2a1acd6f47c1be07e92ec6d6))
+* sync icons ([#38](https://github.com/gravity-ui/icons/issues/38)) ([17fd6e1](https://github.com/gravity-ui/icons/commit/17fd6e180b49f8a1f1becb6967f1c2794d636a46))
+
+
+### Bug Fixes
+
+* throw on duplicates ([#37](https://github.com/gravity-ui/icons/issues/37)) ([1245bf5](https://github.com/gravity-ui/icons/commit/1245bf5ac1dbf4792d226212aa452b94343d8947))
+
 ## [2.6.0](https://github.com/gravity-ui/icons/compare/v2.5.0...v2.6.0) (2023-09-19)
 
 
