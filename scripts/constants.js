@@ -1,12 +1,9 @@
-const path = require('path');
+import path from 'path';
+import url from 'url';
 
-const SVGS_DIR = path.resolve(__dirname, '..', 'svgs');
-const ICONS_DIR = path.resolve(__dirname, '..', 'lib');
+const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 
-const ICON_NAME_REGEXP = /^([a-z0-9]|[a-z0-9](-?[a-z0-9])*-?[a-z0-9])$/;
+export const SVGS_DIR = path.resolve(__dirname, '..', 'svgs');
+export const ICONS_DIR = path.resolve(__dirname, '..', 'lib');
 
-module.exports = {
-    SVGS_DIR,
-    ICONS_DIR,
-    ICON_NAME_REGEXP,
-};
+export const ICON_NAME_REGEXP = /^([a-z0-9]|[a-z0-9](-?[a-z0-9])*-?[a-z0-9])$/;

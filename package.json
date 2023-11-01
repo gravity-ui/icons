@@ -8,6 +8,7 @@
     "react"
   ],
   "license": "MIT",
+  "type": "module",
   "files": [
     "svgs",
     "esm",
