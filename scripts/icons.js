@@ -30,7 +30,11 @@ async function run() {
             const name = getComponentName(id);
             const code = await fs.readFile(file, 'utf8');
             const iconFile = path.join(ICONS_DIR, `${name}.tsx`);
-            const content = await svgr.transform(code, {typescript: true}, {componentName: name});
+            const content = await svgr.transform(
+                code,
+                {typescript: true, plugins: ['@svgr/plugin-jsx']},
+                {componentName: name},
+            );
             const prettyContent = await prettify(content, iconFile);
 
             await fs.writeFile(iconFile, prettyContent);

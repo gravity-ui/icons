@@ -1,6 +1,6 @@
 import React from 'react';
 import {cn} from '../cn';
-import {Popover, PopoverInstanceProps, Label} from '@gravity-ui/uikit';
+import {Label, Popover, PopoverInstanceProps} from '@gravity-ui/uikit';
 
 import './IconTooltip.scss';
 
@@ -21,7 +21,7 @@ export function IconTooltip({
     forceOpen,
     children,
 }: IconTooltipProps) {
-    const popoverRef = React.useRef<PopoverInstanceProps>();
+    const popoverRef = React.useRef<PopoverInstanceProps>(null);
     const content = React.useMemo(
         () => (
             <div className={b('grid')}>

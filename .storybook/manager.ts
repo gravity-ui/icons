@@ -1,5 +1,6 @@
-import {addons} from '@storybook/addons';
+import {addons} from '@storybook/manager-api';
 import {create} from '@storybook/theming';
+import packageJson from '../package.json';
 
 addons.setConfig({
     showPanel: false,
@@ -30,7 +31,7 @@ addons.setConfig({
         inputBorderRadius: 4,
 
         brandTitle: `<div style="font-size: 18px; color: #027bf3; font-weight: 600; margin-top: -6px; margin-bottom: 2px;">Gravity UI</div>
-                <div style="font-size: 14px;color: #7d7d7d;font-weight: 400;">Icons</div>`,
+                <div style="font-size: 14px;color: #7d7d7d;font-weight: 400; white-space: nowrap">Icons v${packageJson.version}</div>`,
         brandUrl: 'https://gravity-ui.com',
     }),
 });
