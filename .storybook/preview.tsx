@@ -1,29 +1,22 @@
+// eslint-disable-next-line import/order
+import '@gravity-ui/uikit/styles/fonts.css';
+// eslint-disable-next-line import/order
 import '@gravity-ui/uikit/styles/styles.css';
 
 import React from 'react';
-import type {DecoratorFn} from '@storybook/react';
+import type {Decorator, Preview} from '@storybook/react';
 import {ThemeProvider} from '@gravity-ui/uikit';
 
-const withThemeProvider: DecoratorFn = (Story, context) => {
+const withThemeProvider: Decorator = (Story, context) => {
     return (
-        <ThemeProvider theme={context.globals.theme}>
+        <ThemeProvider theme="light">
             <Story {...context} />
         </ThemeProvider>
     );
 };
 
-export const decorators = [withThemeProvider];
-
-export const globalTypes = {
-    theme: {
-        name: 'Theme',
-        defaultValue: 'light',
-        toolbar: {
-            icon: 'mirror',
-            items: [
-                {value: 'light', right: '☼', title: 'Light'},
-                {value: 'dark', right: '☾', title: 'Dark'},
-            ],
-        },
-    },
+const preview: Preview = {
+    decorators: [withThemeProvider],
 };
+
+export default preview;

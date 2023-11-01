@@ -1,5 +1,5 @@
-const fg = require('fast-glob');
-const rimraf = require('rimraf');
+import fg from 'fast-glob';
+import {rimraf} from 'rimraf';
 
 async function run() {
     const paths = await fg(['esm', '*.d.ts', '*.js', '!.*.js', '!*.config.js'], {

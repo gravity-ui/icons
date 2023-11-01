@@ -1,10 +1,13 @@
-const path = require('path');
-const fs = require('fs/promises');
-const figmaExport = require('@figma-export/core');
-const svgo = require('svgo');
-const {SVGS_DIR, ICON_NAME_REGEXP} = require('./constants');
-const {cleanDir, getComponentName} = require('./utils');
-const aliases = require('./aliases');
+import path from 'path';
+import url from 'url';
+import fs from 'fs/promises';
+import {components as loadComponents} from '@figma-export/core';
+import {optimize} from 'svgo';
+import {ICON_NAME_REGEXP, SVGS_DIR} from './constants.js';
+import {cleanDir, getComponentName} from './utils.js';
+import {aliases} from './aliases.js';
+
+const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 
 const FIGMA_TOKEN = process.env.FIGMA_TOKEN;
 const FIGMA_FILE = process.env.FIGMA_FILE;
@@ -21,7 +24,7 @@ function parsePropertiesString(str) {
 }
 
 function svgoTransformer(svgString) {
-    return svgo.optimize(svgString, {
+    return optimize(svgString, {
         multipass: true,
         plugins: [
             {
@@ -99,7 +102,7 @@ async function run() {
         icons: [],
     };
 
-    await figmaExport.components({
+    await loadComponents({
         token: FIGMA_TOKEN,
         fileId: FIGMA_FILE,
         onlyFromPages: [FIGMA_PAGE],

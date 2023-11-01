@@ -1,9 +1,9 @@
-const path = require('path');
-const fs = require('fs/promises');
-const svgr = require('@svgr/core');
+import path from 'path';
+import fs from 'fs/promises';
+import {transform} from '@svgr/core';
 
-const {SVGS_DIR, ICONS_DIR} = require('./constants');
-const {cleanDir, prettify, getComponentName} = require('./utils');
+import {ICONS_DIR, SVGS_DIR} from './constants.js';
+import {cleanDir, getComponentName, prettify} from './utils.js';
 
 async function createIndexFile(files) {
     const indexFile = path.join(ICONS_DIR, 'index.ts');
@@ -30,7 +30,11 @@ async function run() {
             const name = getComponentName(id);
             const code = await fs.readFile(file, 'utf8');
             const iconFile = path.join(ICONS_DIR, `${name}.tsx`);
-            const content = await svgr.transform(code, {typescript: true}, {componentName: name});
+            const content = await transform(
+                code,
+                {typescript: true, plugins: ['@svgr/plugin-jsx']},
+                {componentName: name},
+            );
             const prettyContent = await prettify(content, iconFile);
 
             await fs.writeFile(iconFile, prettyContent);

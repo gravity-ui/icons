@@ -1,6 +1,6 @@
 import React from 'react';
 import {cn} from './cn';
-import {Meta, Story} from '@storybook/react';
+import {Meta, StoryFn} from '@storybook/react';
 import {Button, Icon as IconWrapper} from '@gravity-ui/uikit';
 import {IconTooltip} from './IconTooltip/IconTooltip';
 import metadata from '../../metadata.json';
@@ -27,10 +27,10 @@ const iconsMetadataByName = (metadata.icons as IconMeta[]).reduce(
     {} as Record<string, IconMeta>,
 );
 
-export const Showcase: Story = () => {
+export const Showcase: StoryFn = () => {
     const [search, setSearch] = React.useState('');
     const items = libContext.keys().map((path) => {
-        const module = libContext(path);
+        const module = libContext(path) as any;
         const Icon = module.default || module;
         const name = path.match(/(\w+)\.tsx$/)?.[1] ?? '';
         const meta = iconsMetadataByName[name];
