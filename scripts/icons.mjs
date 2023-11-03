@@ -2,8 +2,8 @@ import path from 'path';
 import fs from 'fs/promises';
 import {transform} from '@svgr/core';
 
-import {ICONS_DIR, SVGS_DIR} from './constants.js';
-import {cleanDir, getComponentName, prettify} from './utils.js';
+import {ICONS_DIR, SVGS_DIR} from './constants.mjs';
+import {cleanDir, getComponentName, prettify} from './utils.mjs';
 
 async function createIndexFile(files) {
     const indexFile = path.join(ICONS_DIR, 'index.ts');

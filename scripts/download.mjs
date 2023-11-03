@@ -3,9 +3,9 @@ import url from 'url';
 import fs from 'fs/promises';
 import {components as loadComponents} from '@figma-export/core';
 import {optimize} from 'svgo';
-import {ICON_NAME_REGEXP, SVGS_DIR} from './constants.js';
-import {cleanDir, getComponentName} from './utils.js';
-import {aliases} from './aliases.js';
+import {ICON_NAME_REGEXP, SVGS_DIR} from './constants.mjs';
+import {cleanDir, getComponentName} from './utils.mjs';
+import {aliases} from './aliases.mjs';
 
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 

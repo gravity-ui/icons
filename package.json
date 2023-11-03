@@ -8,7 +8,6 @@
     "react"
   ],
   "license": "MIT",
-  "type": "module",
   "files": [
     "svgs",
     "esm",
@@ -30,19 +29,19 @@
   "homepage": "https://gravity-ui.com",
   "scripts": {
     "prepare": "husky install",
-    "lint:js": "eslint --ext .js,.jsx,.ts,.tsx . .storybook",
+    "lint:js": "eslint --ext .js,.jsx,.mjs,.ts,.tsx . .storybook",
     "lint:styles": "stylelint '**/*.scss' '.storybook/**/*.scss'",
     "lint": "run-p lint:*",
     "typecheck": "tsc --noEmit && tsc --noEmit -p .storybook",
     "test": "exit 0",
     "start": "sb dev -p 7009",
     "build-storybook": "sb build -c .storybook -o storybook-static",
-    "src:download": "node scripts/download.js",
-    "src:icons": "node scripts/icons.js",
+    "src:download": "node scripts/download.mjs",
+    "src:icons": "node scripts/icons.mjs",
     "build:cjs": "tsc --declaration --outDir .",
     "build:esm": "tsc --module esnext --outDir esm",
     "build": "run-p build:*",
-    "clean": "node scripts/clean.js",
+    "clean": "node scripts/clean.mjs",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
