@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.8.1](https://github.com/gravity-ui/icons/compare/v2.8.0...v2.8.1) (2023-11-03)
+
+
+### Bug Fixes
+
+* remove type:module from package.json ([#44](https://github.com/gravity-ui/icons/issues/44)) ([8030bcc](https://github.com/gravity-ui/icons/commit/8030bccc8f35254eaa2cf9abf4a7c578a8a0aeec))
+
 ## [2.8.0](https://github.com/gravity-ui/icons/compare/v2.7.0...v2.8.0) (2023-11-03)
 
 
