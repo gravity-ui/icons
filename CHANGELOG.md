@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.8.0](https://github.com/gravity-ui/icons/compare/v2.7.0...v2.8.0) (2023-11-03)
+
+
+### Features
+
+* sync icons ([#42](https://github.com/gravity-ui/icons/issues/42)) ([ed88322](https://github.com/gravity-ui/icons/commit/ed88322b3338472afc3ea27fe13e5cc68a6d0c6b))
+
 ## [2.7.0](https://github.com/gravity-ui/icons/compare/v2.6.0...v2.7.0) (2023-10-31)
 
 
