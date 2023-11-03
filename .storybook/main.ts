@@ -6,19 +6,7 @@ const config: StorybookConfig = {
         options: {fastRefresh: true},
     },
     stories: ['./**/*.stories.@(ts|tsx)'],
-    addons: [
-        {name: '@storybook/preset-scss', options: {rule: {sideEffects: true}}},
-        {
-            name: '@storybook/addon-essentials',
-            options: {
-                backgrounds: false,
-                viewport: false,
-                measure: false,
-                outline: false,
-                docs: false,
-            },
-        },
-    ],
+    addons: [{name: '@storybook/preset-scss', options: {rule: {sideEffects: true}}}],
 };
 
 export default config;

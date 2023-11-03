@@ -58,7 +58,6 @@
     "@gravity-ui/stylelint-config": "^4.0.1",
     "@gravity-ui/tsconfig": "^1.0.0",
     "@gravity-ui/uikit": "^5.18.1",
-    "@storybook/addon-essentials": "^7.5.2",
     "@storybook/cli": "^7.5.2",
     "@storybook/manager-api": "^7.5.2",
     "@storybook/preset-scss": "^1.0.3",

@@ -3,7 +3,6 @@ import {create} from '@storybook/theming';
 import packageJson from '../package.json';
 
 addons.setConfig({
-    showPanel: false,
     theme: create({
         base: 'light',
 
