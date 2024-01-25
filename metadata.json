@@ -325,7 +325,12 @@
       "svgName": "arrow-up-right-from-square",
       "componentName": "ArrowUpRightFromSquare",
       "keywords": [
+        "export",
+        "external",
         "new",
+        "outer",
+        "outer link",
+        "share",
         "window"
       ]
     },
