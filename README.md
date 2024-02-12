@@ -1,4 +1,4 @@
-# @64mb/gravity-ui-vue-icons
+# @64mb/gravity-ui-icons-vue
 
 A pack of Gravity UI icons for Vue. This is a fork from: [@gravity-ui/icons](https://github.com/gravity-ui/icons)
 
@@ -7,7 +7,7 @@ Fork based on repository with MIT license: [@gravity-ui/icons/LICENSE](https://g
 ## Install
 
 ```shell
-npm install --save-dev @64mb/gravity-ui-vue-icons
+npm install --save-dev @64mb/gravity-ui-icons-vue
 ```
 
 ## Usage
@@ -15,5 +15,5 @@ npm install --save-dev @64mb/gravity-ui-vue-icons
 ### Vue
 
 ```js
-import {Cloud} from '@64mb/gravity-ui-vue-icons';
+import {Cloud} from '@64mb/gravity-ui-icons-vue';
 ```
