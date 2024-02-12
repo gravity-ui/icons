@@ -1,96 +1,72 @@
 {
-  "name": "@gravity-ui/icons",
+  "name": "@64mb/gravity-ui-icons-vue",
   "version": "2.8.1",
-  "description": "Pack of Gravity UI icons",
+  "description": "Pack of Gravity UI icons for Vue",
   "keywords": [
     "icons",
+    "icon",
     "svg",
-    "react"
+    "vue"
   ],
-  "license": "MIT",
+  "type": "module",
+  "license": "see in LICENSE",
   "files": [
-    "svgs",
-    "esm",
-    "*.d.ts",
-    "*.js",
-    "!.*.js",
-    "!*.config.js",
-    "metadata.json"
+    "dist"
   ],
-  "module": "esm/index.js",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js"
+    },
+    "./global": {
+      "types": "./dist/types/global.d.ts",
+      "require": "./dist/global.cjs",
+      "import": "./dist/global.js"
+    },
+    "./*": "./*"
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./*",
+        "./dist/types/*"
+      ]
+    }
+  },
   "sideEffects": false,
+  "unpkg": "dist/index.iife.min.js",
+  "jsdelivr": "dist/index.iife.min.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gravity-ui/icons.git"
+    "url": "git+https://github.com/64mb/gravity-ui-icons-vue.git"
   },
-  "bugs": {
-    "url": "https://github.com/gravity-ui/icons/issues"
-  },
-  "homepage": "https://gravity-ui.com",
+  "homepage": "https://64mb.ru",
   "scripts": {
-    "prepare": "husky install",
-    "lint:js": "eslint --ext .js,.jsx,.mjs,.ts,.tsx . .storybook",
-    "lint:styles": "stylelint '**/*.scss' '.storybook/**/*.scss'",
-    "lint": "run-p lint:*",
-    "typecheck": "tsc --noEmit && tsc --noEmit -p .storybook",
-    "test": "exit 0",
-    "start": "sb dev -p 7009",
-    "build-storybook": "sb build -c .storybook -o storybook-static",
-    "src:download": "node scripts/download.mjs",
-    "src:icons": "node scripts/icons.mjs",
-    "build:cjs": "tsc --declaration --outDir .",
-    "build:esm": "tsc --module esnext --outDir esm",
-    "build": "run-p build:*",
-    "clean": "node scripts/clean.mjs",
-    "prepublishOnly": "npm run build"
+    "build": "npm run build:generate && npm run build:build && npm run build:types",
+    "build:generate": "tsx vue/build/generate.ts",
+    "build:build": "NODE_ENV=production tsx vue/build/build.ts",
+    "build:types": "vue-tsc --declaration --emitDeclarationOnly"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.23.2",
-    "@babel/preset-react": "^7.22.15",
-    "@babel/preset-typescript": "^7.23.2",
-    "@bem-react/classname": "^1.6.0",
-    "@commitlint/cli": "^18.2.0",
-    "@commitlint/config-conventional": "^18.1.0",
-    "@figma-export/core": "^4.7.0",
-    "@gravity-ui/eslint-config": "^3.1.1",
-    "@gravity-ui/prettier-config": "^1.1.0",
-    "@gravity-ui/stylelint-config": "^4.0.1",
-    "@gravity-ui/tsconfig": "^1.0.0",
-    "@gravity-ui/uikit": "^5.18.1",
-    "@storybook/cli": "^7.5.2",
-    "@storybook/manager-api": "^7.5.2",
-    "@storybook/preset-scss": "^1.0.3",
-    "@storybook/react": "^7.5.2",
-    "@storybook/react-webpack5": "^7.5.2",
-    "@storybook/theming": "^7.5.2",
-    "@svgr/core": "^8.1.0",
-    "@svgr/plugin-jsx": "^8.1.0",
-    "@types/react": "^18.2.33",
-    "@types/react-dom": "^18.2.14",
-    "cross-env": "^7.0.3",
-    "eslint": "^8.52.0",
-    "fast-glob": "^3.3.1",
-    "husky": "^8.0.3",
-    "nano-staged": "^0.8.0",
-    "npm-run-all": "^4.1.5",
-    "prettier": "^3.0.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "rimraf": "^5.0.5",
-    "sass": "^1.69.5",
-    "stylelint": "^15.11.0",
-    "svgo": "^3.0.2",
-    "typescript": "^5.2.2"
-  },
-  "nano-staged": {
-    "*.{scss}": [
-      "stylelint --fix --quiet"
-    ],
-    "*.{js,jsx,ts,tsx}": [
-      "eslint --fix --quiet"
-    ],
-    "*.md": [
-      "prettier --write"
-    ]
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.10.0",
+    "@types/prettier": "^3.0.0",
+    "camelcase": "^8.0.0",
+    "chalk": "^5.3.0",
+    "consola": "^3.2.3",
+    "esbuild": "^0.19.8",
+    "esbuild-plugin-globals": "^0.2.0",
+    "fast-glob": "^3.3.2",
+    "fs-extra": "^11.1.1",
+    "tsx": "^4.5.0",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.2",
+    "unplugin-vue": "^4.5.0",
+    "vue": "^3.3.9",
+    "vue-tsc": "^1.8.22"
   }
 }

@@ -1,8 +1,0 @@
-{
-    "extends": ["@gravity-ui/eslint-config", "@gravity-ui/eslint-config/prettier"],
-    "root": true,
-    "env": {
-        "node": true
-    },
-    "ignorePatterns": ["!/.storybook"]
-}

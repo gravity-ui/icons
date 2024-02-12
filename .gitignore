@@ -5,13 +5,5 @@
 # Dependencies
 node_modules
 
-# Artifacts
-/storybook-static
-/esm
-/*.d.ts
-/*.js
-!/.*.js
-!/*.config.js
-
-# Misc
-.env
+# Build
+dist
