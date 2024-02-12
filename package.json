@@ -9,7 +9,6 @@
     "vue"
   ],
   "type": "module",
-  "license": "see in LICENSE",
   "files": [
     "dist"
   ],
@@ -44,7 +43,9 @@
     "type": "git",
     "url": "git+https://github.com/64mb/gravity-ui-icons-vue.git"
   },
-  "homepage": "https://64mb.ru",
+  "author": "64mb <team@64mb.ru> (https://github.com/64mb)",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://github.com/64mb/gravity-ui-icons-vue",
   "scripts": {
     "build": "npm run build:generate && npm run build:build && npm run build:types",
     "build:generate": "tsx vue/build/generate.ts",
