@@ -325,7 +325,12 @@
       "svgName": "arrow-up-right-from-square",
       "componentName": "ArrowUpRightFromSquare",
       "keywords": [
+        "export",
+        "external",
         "new",
+        "outer",
+        "link",
+        "share",
         "window"
       ]
     },
@@ -617,6 +622,13 @@
       ]
     },
     {
+      "name": "binoculars",
+      "style": "regular",
+      "svgName": "binoculars",
+      "componentName": "Binoculars",
+      "keywords": []
+    },
+    {
       "name": "bold",
       "style": "regular",
       "svgName": "bold",
@@ -768,7 +780,8 @@
       "svgName": "calendar",
       "componentName": "Calendar",
       "keywords": [
-        "date"
+        "date",
+        "event"
       ]
     },
     {
@@ -1491,6 +1504,15 @@
       "keywords": []
     },
     {
+      "name": "circle-link",
+      "style": "regular",
+      "svgName": "circle-link",
+      "componentName": "CircleLink",
+      "keywords": [
+        "chain"
+      ]
+    },
+    {
       "name": "circle-minus",
       "style": "regular",
       "svgName": "circle-minus",
@@ -1577,7 +1599,8 @@
       "svgName": "circle-play",
       "componentName": "CirclePlay",
       "keywords": [
-        "start"
+        "start",
+        "video"
       ]
     },
     {
@@ -1605,18 +1628,14 @@
       "style": "regular",
       "svgName": "circle-question",
       "componentName": "CircleQuestion",
-      "keywords": [
-        "support"
-      ]
+      "keywords": []
     },
     {
       "name": "circle-question",
       "style": "fill",
       "svgName": "circle-question-fill",
       "componentName": "CircleQuestionFill",
-      "keywords": [
-        "support"
-      ]
+      "keywords": []
     },
     {
       "name": "circle-ruble",
@@ -1702,7 +1721,8 @@
       "svgName": "clock",
       "componentName": "Clock",
       "keywords": [
-        "time"
+        "time",
+        "wait"
       ]
     },
     {
@@ -1711,7 +1731,8 @@
       "svgName": "clock-fill",
       "componentName": "ClockFill",
       "keywords": [
-        "time"
+        "time",
+        "wait"
       ]
     },
     {
@@ -1722,7 +1743,8 @@
       "keywords": [
         "history",
         "time",
-        "machine"
+        "machine",
+        "wait"
       ]
     },
     {
@@ -1899,6 +1921,17 @@
       ]
     },
     {
+      "name": "comment-slash",
+      "style": "regular",
+      "svgName": "comment-slash",
+      "componentName": "CommentSlash",
+      "keywords": [
+        "message",
+        "bubble",
+        "mute"
+      ]
+    },
+    {
       "name": "comments",
       "style": "regular",
       "svgName": "comments",
@@ -2053,6 +2086,13 @@
       "keywords": []
     },
     {
+      "name": "cup",
+      "style": "regular",
+      "svgName": "cup",
+      "componentName": "Cup",
+      "keywords": []
+    },
+    {
       "name": "curly-brackets",
       "style": "regular",
       "svgName": "curly-brackets",
@@ -2081,6 +2121,13 @@
       "keywords": []
     },
     {
+      "name": "database",
+      "style": "fill",
+      "svgName": "database-fill",
+      "componentName": "DatabaseFill",
+      "keywords": []
+    },
+    {
       "name": "database-arrow-right",
       "style": "regular",
       "svgName": "database-arrow-right",
@@ -2099,6 +2146,13 @@
       "style": "regular",
       "svgName": "databases",
       "componentName": "Databases",
+      "keywords": []
+    },
+    {
+      "name": "delete",
+      "style": "regular",
+      "svgName": "delete",
+      "componentName": "Delete",
       "keywords": []
     },
     {
@@ -2308,6 +2362,20 @@
       "style": "regular",
       "svgName": "eye-slash",
       "componentName": "EyeSlash",
+      "keywords": []
+    },
+    {
+      "name": "eyes-look-left",
+      "style": "regular",
+      "svgName": "eyes-look-left",
+      "componentName": "EyesLookLeft",
+      "keywords": []
+    },
+    {
+      "name": "eyes-look-right",
+      "style": "regular",
+      "svgName": "eyes-look-right",
+      "componentName": "EyesLookRight",
       "keywords": []
     },
     {
@@ -2673,6 +2741,15 @@
       ]
     },
     {
+      "name": "folder-check",
+      "style": "regular",
+      "svgName": "folder-check",
+      "componentName": "FolderCheck",
+      "keywords": [
+        "done"
+      ]
+    },
+    {
       "name": "folder-code",
       "style": "regular",
       "svgName": "folder-code",
@@ -2733,6 +2810,13 @@
       "style": "regular",
       "svgName": "folder-open",
       "componentName": "FolderOpen",
+      "keywords": []
+    },
+    {
+      "name": "folder-open",
+      "style": "fill",
+      "svgName": "folder-open-fill",
+      "componentName": "FolderOpenFill",
       "keywords": []
     },
     {
@@ -2829,6 +2913,16 @@
       "componentName": "Funnel",
       "keywords": [
         "filter"
+      ]
+    },
+    {
+      "name": "funnel-xmark",
+      "style": "regular",
+      "svgName": "funnel-xmark",
+      "componentName": "FunnelXmark",
+      "keywords": [
+        "filter",
+        "close"
       ]
     },
     {
@@ -2930,6 +3024,13 @@
         "world",
         "language"
       ]
+    },
+    {
+      "name": "gpu",
+      "style": "regular",
+      "svgName": "gpu",
+      "componentName": "Gpu",
+      "keywords": []
     },
     {
       "name": "graduation-cap",
@@ -3303,6 +3404,16 @@
       ]
     },
     {
+      "name": "layout-header-cells-large",
+      "style": "fill",
+      "svgName": "layout-header-cells-large-fill",
+      "componentName": "LayoutHeaderCellsLargeFill",
+      "keywords": [
+        "table",
+        "grid"
+      ]
+    },
+    {
       "name": "layout-header-cells-large-letter-d",
       "style": "regular",
       "svgName": "layout-header-cells-large-letter-d",
@@ -3457,7 +3568,8 @@
       "componentName": "LifeRing",
       "keywords": [
         "support",
-        "safe"
+        "safe",
+        "help"
       ]
     },
     {
@@ -3475,7 +3587,8 @@
       "svgName": "link-slash",
       "componentName": "LinkSlash",
       "keywords": [
-        "chain"
+        "chain",
+        "unlink"
       ]
     },
     {
@@ -3552,6 +3665,13 @@
       "keywords": []
     },
     {
+      "name": "logo-draw-io",
+      "style": "regular",
+      "svgName": "logo-draw-io",
+      "componentName": "LogoDrawIo",
+      "keywords": []
+    },
+    {
       "name": "logo-facebook",
       "style": "regular",
       "svgName": "logo-facebook",
@@ -3584,6 +3704,13 @@
       "style": "regular",
       "svgName": "logo-markdown",
       "componentName": "LogoMarkdown",
+      "keywords": []
+    },
+    {
+      "name": "logo-mermaid",
+      "style": "regular",
+      "svgName": "logo-mermaid",
+      "componentName": "LogoMermaid",
       "keywords": []
     },
     {
@@ -3647,6 +3774,13 @@
       "style": "regular",
       "svgName": "logo-yandex-cloud",
       "componentName": "LogoYandexCloud",
+      "keywords": []
+    },
+    {
+      "name": "logo-yandex-messenger",
+      "style": "regular",
+      "svgName": "logo-yandex-messenger",
+      "componentName": "LogoYandexMessenger",
       "keywords": []
     },
     {
@@ -3805,6 +3939,13 @@
       "style": "regular",
       "svgName": "moon",
       "componentName": "Moon",
+      "keywords": []
+    },
+    {
+      "name": "mug",
+      "style": "regular",
+      "svgName": "mug",
+      "componentName": "Mug",
       "keywords": []
     },
     {
@@ -4110,6 +4251,13 @@
       ]
     },
     {
+      "name": "person-planet-earth",
+      "style": "regular",
+      "svgName": "person-planet-earth",
+      "componentName": "PersonPlanetEarth",
+      "keywords": []
+    },
+    {
       "name": "person-plus",
       "style": "regular",
       "svgName": "person-plus",
@@ -4234,18 +4382,36 @@
       ]
     },
     {
+      "name": "pipeline",
+      "style": "regular",
+      "svgName": "pipeline",
+      "componentName": "Pipeline",
+      "keywords": []
+    },
+    {
+      "name": "planet-earth",
+      "style": "regular",
+      "svgName": "planet-earth",
+      "componentName": "PlanetEarth",
+      "keywords": []
+    },
+    {
       "name": "play",
       "style": "regular",
       "svgName": "play",
       "componentName": "Play",
-      "keywords": []
+      "keywords": [
+        "video"
+      ]
     },
     {
       "name": "play",
       "style": "fill",
       "svgName": "play-fill",
       "componentName": "PlayFill",
-      "keywords": []
+      "keywords": [
+        "video"
+      ]
     },
     {
       "name": "plug-connection",
@@ -4556,6 +4722,15 @@
       ]
     },
     {
+      "name": "snail",
+      "style": "regular",
+      "svgName": "snail",
+      "componentName": "Snail",
+      "keywords": [
+        "slow"
+      ]
+    },
+    {
       "name": "snowflake",
       "style": "regular",
       "svgName": "snowflake",
@@ -4719,6 +4894,13 @@
       ]
     },
     {
+      "name": "square-letter-p",
+      "style": "regular",
+      "svgName": "square-letter-p",
+      "componentName": "SquareLetterP",
+      "keywords": []
+    },
+    {
       "name": "square-letter-t",
       "style": "regular",
       "svgName": "square-letter-t",
@@ -4816,7 +4998,9 @@
       "style": "regular",
       "svgName": "stopwatch",
       "componentName": "Stopwatch",
-      "keywords": []
+      "keywords": [
+        "wait"
+      ]
     },
     {
       "name": "strikethrough",
@@ -4888,6 +5072,13 @@
       "style": "regular",
       "svgName": "target",
       "componentName": "Target",
+      "keywords": []
+    },
+    {
+      "name": "target-dart",
+      "style": "regular",
+      "svgName": "target-dart",
+      "componentName": "TargetDart",
       "keywords": []
     },
     {
