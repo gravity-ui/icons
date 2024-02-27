@@ -2153,7 +2153,9 @@
       "style": "regular",
       "svgName": "delete",
       "componentName": "Delete",
-      "keywords": []
+      "keywords": [
+        "backspace"
+      ]
     },
     {
       "name": "diamond",
@@ -4898,7 +4900,9 @@
       "style": "regular",
       "svgName": "square-letter-p",
       "componentName": "SquareLetterP",
-      "keywords": []
+      "keywords": [
+        "parking"
+      ]
     },
     {
       "name": "square-letter-t",
