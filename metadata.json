@@ -61,6 +61,34 @@
       ]
     },
     {
+      "name": "arrow-chevron-down",
+      "style": "regular",
+      "svgName": "arrow-chevron-down",
+      "componentName": "ArrowChevronDown",
+      "keywords": []
+    },
+    {
+      "name": "arrow-chevron-left",
+      "style": "regular",
+      "svgName": "arrow-chevron-left",
+      "componentName": "ArrowChevronLeft",
+      "keywords": []
+    },
+    {
+      "name": "arrow-chevron-right",
+      "style": "regular",
+      "svgName": "arrow-chevron-right",
+      "componentName": "ArrowChevronRight",
+      "keywords": []
+    },
+    {
+      "name": "arrow-chevron-up",
+      "style": "regular",
+      "svgName": "arrow-chevron-up",
+      "componentName": "ArrowChevronUp",
+      "keywords": []
+    },
+    {
       "name": "arrow-down",
       "style": "regular",
       "svgName": "arrow-down",
@@ -167,14 +195,18 @@
       "style": "regular",
       "svgName": "arrow-rotate-left",
       "componentName": "ArrowRotateLeft",
-      "keywords": []
+      "keywords": [
+        "refresh"
+      ]
     },
     {
       "name": "arrow-rotate-right",
       "style": "regular",
       "svgName": "arrow-rotate-right",
       "componentName": "ArrowRotateRight",
-      "keywords": []
+      "keywords": [
+        "refresh"
+      ]
     },
     {
       "name": "arrow-shape-down",
@@ -416,7 +448,9 @@
       "style": "regular",
       "svgName": "arrows-rotate-left",
       "componentName": "ArrowsRotateLeft",
-      "keywords": []
+      "keywords": [
+        "refresh"
+      ]
     },
     {
       "name": "arrows-rotate-left-slash",
@@ -430,7 +464,9 @@
       "style": "regular",
       "svgName": "arrows-rotate-right",
       "componentName": "ArrowsRotateRight",
-      "keywords": []
+      "keywords": [
+        "refresh"
+      ]
     },
     {
       "name": "arrows-rotate-right-slash",
@@ -735,6 +771,13 @@
         "clean",
         "delete"
       ]
+    },
+    {
+      "name": "brush",
+      "style": "regular",
+      "svgName": "brush",
+      "componentName": "Brush",
+      "keywords": []
     },
     {
       "name": "bucket",
@@ -1638,6 +1681,13 @@
       "keywords": []
     },
     {
+      "name": "circle-question-dot",
+      "style": "regular",
+      "svgName": "circle-question-dot",
+      "componentName": "CircleQuestionDot",
+      "keywords": []
+    },
+    {
       "name": "circle-ruble",
       "style": "regular",
       "svgName": "circle-ruble",
@@ -2149,6 +2199,13 @@
       "keywords": []
     },
     {
+      "name": "databases",
+      "style": "fill",
+      "svgName": "databases-fill",
+      "componentName": "DatabasesFill",
+      "keywords": []
+    },
+    {
       "name": "delete",
       "style": "regular",
       "svgName": "delete",
@@ -2543,6 +2600,39 @@
       "style": "regular",
       "svgName": "file-exclamation",
       "componentName": "FileExclamation",
+      "keywords": [
+        "document",
+        "paper",
+        "page"
+      ]
+    },
+    {
+      "name": "file-letter-p",
+      "style": "regular",
+      "svgName": "file-letter-p",
+      "componentName": "FileLetterP",
+      "keywords": [
+        "document",
+        "paper",
+        "page"
+      ]
+    },
+    {
+      "name": "file-letter-w",
+      "style": "regular",
+      "svgName": "file-letter-w",
+      "componentName": "FileLetterW",
+      "keywords": [
+        "document",
+        "paper",
+        "page"
+      ]
+    },
+    {
+      "name": "file-letter-x",
+      "style": "regular",
+      "svgName": "file-letter-x",
+      "componentName": "FileLetterX",
       "keywords": [
         "document",
         "paper",
@@ -3067,6 +3157,13 @@
       "style": "regular",
       "svgName": "grip-horizontal",
       "componentName": "GripHorizontal",
+      "keywords": []
+    },
+    {
+      "name": "hammer",
+      "style": "regular",
+      "svgName": "hammer",
+      "componentName": "Hammer",
       "keywords": []
     },
     {
