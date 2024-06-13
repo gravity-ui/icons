@@ -11,11 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         fetch-depth: 0
     - name: Setup Node
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: 18
         cache: npm
@@ -30,12 +30,15 @@ jobs:
     - name: Create TS/JS Files
       run: npm run src:icons
     - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v4
+      uses: peter-evans/create-pull-request@v6
       with:
         token: ${{ secrets.GRAVITY_UI_BOT_GITHUB_TOKEN }}
+        author: 'gravity-ui-bot <111915794+gravity-ui-bot@users.noreply.github.com>'
+        committer: 'gravity-ui-bot <111915794+gravity-ui-bot@users.noreply.github.com>'
         commit-message: 'feat: sync icons'
         branch: sync-icons
         delete-branch: true
+        reviewers: amje
         title: 'feat: sync icons'
         body: ''
 
