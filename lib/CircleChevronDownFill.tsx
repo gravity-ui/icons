@@ -12,7 +12,7 @@ const CircleChevronDownFill = (props: SVGProps<SVGSVGElement>) => (
         <path
             fill="currentColor"
             fillRule="evenodd"
-            d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1ZM6.03 6.72a.75.75 0 0 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l2.5-2.5a.75.75 0 1 0-1.06-1.06L8 8.69 6.03 6.72Z"
+            d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1M6.03 6.72a.75.75 0 0 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l2.5-2.5a.75.75 0 1 0-1.06-1.06L8 8.69z"
             clipRule="evenodd"
         />
     </svg>

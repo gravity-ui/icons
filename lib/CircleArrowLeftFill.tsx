@@ -12,7 +12,7 @@ const CircleArrowLeftFill = (props: SVGProps<SVGSVGElement>) => (
         <path
             fill="currentColor"
             fillRule="evenodd"
-            d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14Zm3-6.25a.75.75 0 0 0 0-1.5H6.81l.72-.72a.75.75 0 0 0-1.06-1.06l-2 2a.75.75 0 0 0 0 1.06l2 2a.75.75 0 1 0 1.06-1.06l-.72-.72H11Z"
+            d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14m3-6.25a.75.75 0 0 0 0-1.5H6.81l.72-.72a.75.75 0 0 0-1.06-1.06l-2 2a.75.75 0 0 0 0 1.06l2 2a.75.75 0 1 0 1.06-1.06l-.72-.72z"
             clipRule="evenodd"
         />
     </svg>

@@ -12,7 +12,7 @@ const CircleExclamationFill = (props: SVGProps<SVGSVGElement>) => (
         <path
             fill="currentColor"
             fillRule="evenodd"
-            d="M15 8A7 7 0 1 1 1 8a7 7 0 0 1 14 0Zm-6 2.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM8.75 5a.75.75 0 0 0-1.5 0v2.5a.75.75 0 0 0 1.5 0V5Z"
+            d="M15 8A7 7 0 1 1 1 8a7 7 0 0 1 14 0m-6 2.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0M8.75 5a.75.75 0 0 0-1.5 0v2.5a.75.75 0 0 0 1.5 0z"
             clipRule="evenodd"
         />
     </svg>
