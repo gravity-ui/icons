@@ -777,7 +777,10 @@
       "style": "regular",
       "svgName": "brush",
       "componentName": "Brush",
-      "keywords": []
+      "keywords": [
+        "paint",
+        "color"
+      ]
     },
     {
       "name": "bucket",

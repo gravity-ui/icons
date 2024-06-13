@@ -12,7 +12,7 @@ const Circle = (props: SVGProps<SVGSVGElement>) => (
         <path
             fill="currentColor"
             fillRule="evenodd"
-            d="M8 13.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11ZM8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14Z"
+            d="M8 13.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14"
             clipRule="evenodd"
         />
     </svg>

@@ -12,7 +12,7 @@ const DiamondFill = (props: SVGProps<SVGSVGElement>) => (
         <g clipPath="url(#a)">
             <path
                 fill="currentColor"
-                d="M5.879.929a3 3 0 0 1 4.242 0l4.95 4.95a3 3 0 0 1 0 4.242l-4.95 4.95a3 3 0 0 1-4.242 0l-4.95-4.95a3 3 0 0 1 0-4.242l4.95-4.95Z"
+                d="M5.879.929a3 3 0 0 1 4.242 0l4.95 4.95a3 3 0 0 1 0 4.242l-4.95 4.95a3 3 0 0 1-4.242 0l-4.95-4.95a3 3 0 0 1 0-4.242z"
             />
         </g>
         <defs>

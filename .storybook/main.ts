@@ -6,7 +6,10 @@ const config: StorybookConfig = {
         options: {fastRefresh: true},
     },
     stories: ['./**/*.stories.@(ts|tsx)'],
-    addons: [{name: '@storybook/preset-scss', options: {rule: {sideEffects: true}}}],
+    addons: [
+        {name: '@storybook/preset-scss', options: {rule: {sideEffects: true}}},
+        '@storybook/addon-webpack5-compiler-swc',
+    ],
 };
 
 export default config;

@@ -12,7 +12,7 @@ const StopFill = (props: SVGProps<SVGSVGElement>) => (
         <path
             fill="currentColor"
             fillRule="evenodd"
-            d="M4.5 1.5a3 3 0 0 0-3 3v7a3 3 0 0 0 3 3h7a3 3 0 0 0 3-3v-7a3 3 0 0 0-3-3h-7Z"
+            d="M4.5 1.5a3 3 0 0 0-3 3v7a3 3 0 0 0 3 3h7a3 3 0 0 0 3-3v-7a3 3 0 0 0-3-3z"
             clipRule="evenodd"
         />
     </svg>

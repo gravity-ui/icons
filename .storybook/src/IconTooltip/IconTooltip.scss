@@ -1,7 +1,7 @@
 @use '~@gravity-ui/uikit/styles/mixins';
 
 .icon-tooltip {
-    --yc-popover-max-width: 1000px;
+    --g-popover-max-width: 1000px;
 
     &__grid {
         display: grid;

@@ -12,7 +12,7 @@ const Equal = (props: SVGProps<SVGSVGElement>) => (
         <path
             fill="currentColor"
             fillRule="evenodd"
-            d="M13.5 11a.75.75 0 0 0 0-1.5h-11a.75.75 0 0 0 0 1.5h11Zm0-4.5a.75.75 0 0 0 0-1.5h-11a.75.75 0 0 0 0 1.5h11Z"
+            d="M13.5 11a.75.75 0 0 0 0-1.5h-11a.75.75 0 0 0 0 1.5zm0-4.5a.75.75 0 0 0 0-1.5h-11a.75.75 0 0 0 0 1.5z"
             clipRule="evenodd"
         />
     </svg>
