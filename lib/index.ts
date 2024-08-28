@@ -385,6 +385,8 @@ export {default as HandPointRight} from './HandPointRight';
 export {default as HandPointUp} from './HandPointUp';
 export {default as HandStop} from './HandStop';
 export {default as Handset} from './Handset';
+export {default as HandsetArrowIn} from './HandsetArrowIn';
+export {default as HandsetArrowOut} from './HandsetArrowOut';
 export {default as HardDrive} from './HardDrive';
 export {default as Hashtag} from './Hashtag';
 export {default as Heading} from './Heading';

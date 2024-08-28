@@ -3247,6 +3247,20 @@
       "keywords": []
     },
     {
+      "name": "handset-arrow-in",
+      "style": "regular",
+      "svgName": "handset-arrow-in",
+      "componentName": "HandsetArrowIn",
+      "keywords": []
+    },
+    {
+      "name": "handset-arrow-out",
+      "style": "regular",
+      "svgName": "handset-arrow-out",
+      "componentName": "HandsetArrowOut",
+      "keywords": []
+    },
+    {
       "name": "hard-drive",
       "style": "regular",
       "svgName": "hard-drive",
