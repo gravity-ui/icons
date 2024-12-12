@@ -448,6 +448,7 @@ export {default as ListUl} from './ListUl';
 export {default as Lock} from './Lock';
 export {default as LockOpen} from './LockOpen';
 export {default as LogoAcrobat} from './LogoAcrobat';
+export {default as LogoAndroid} from './LogoAndroid';
 export {default as LogoDocker} from './LogoDocker';
 export {default as LogoDrawIo} from './LogoDrawIo';
 export {default as LogoFacebook} from './LogoFacebook';
