@@ -3774,6 +3774,13 @@
       "keywords": []
     },
     {
+      "name": "logo-android",
+      "style": "regular",
+      "svgName": "logo-android",
+      "componentName": "LogoAndroid",
+      "keywords": []
+    },
+    {
       "name": "logo-docker",
       "style": "regular",
       "svgName": "logo-docker",
