@@ -1,12 +1,14 @@
 import * as React from 'react';
 import type {SVGProps} from 'react';
-const LayoutColumns3 = (props: SVGProps<SVGSVGElement>) => (
+import {Ref, forwardRef} from 'react';
+const LayoutColumns3 = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         width={16}
         height={16}
         fill="none"
         viewBox="0 0 16 16"
+        ref={ref}
         {...props}
     >
         <path
@@ -17,4 +19,5 @@ const LayoutColumns3 = (props: SVGProps<SVGSVGElement>) => (
         />
     </svg>
 );
-export default LayoutColumns3;
+const ForwardRef = forwardRef(LayoutColumns3);
+export default ForwardRef;
