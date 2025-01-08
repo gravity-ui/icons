@@ -46,7 +46,7 @@ export const Showcase: StoryFn = () => {
     if (search.length === 0) {
         filteredItems = items;
     } else {
-        const searchLower = search.toLowerCase();
+        const searchLower = search.toLowerCase().trim();
         filteredItems = items.filter(({meta}) => {
             return (
                 meta.name.toLowerCase().includes(searchLower) ||
