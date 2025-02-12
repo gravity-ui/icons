@@ -437,6 +437,39 @@
       "keywords": []
     },
     {
+      "name": "arrows-expand",
+      "style": "regular",
+      "svgName": "arrows-expand",
+      "componentName": "ArrowsExpand",
+      "keywords": [
+        "export",
+        "move",
+        "share"
+      ]
+    },
+    {
+      "name": "arrows-expand-horizontal",
+      "style": "regular",
+      "svgName": "arrows-expand-horizontal",
+      "componentName": "ArrowsExpandHorizontal",
+      "keywords": [
+        "export",
+        "move",
+        "share"
+      ]
+    },
+    {
+      "name": "arrows-expand-vertical",
+      "style": "regular",
+      "svgName": "arrows-expand-vertical",
+      "componentName": "ArrowsExpandVertical",
+      "keywords": [
+        "export",
+        "move",
+        "share"
+      ]
+    },
+    {
       "name": "arrows-opposite-to-dots",
       "style": "regular",
       "svgName": "arrows-opposite-to-dots",
@@ -1043,6 +1076,20 @@
       ]
     },
     {
+      "name": "check-shape",
+      "style": "regular",
+      "svgName": "check-shape",
+      "componentName": "CheckShape",
+      "keywords": []
+    },
+    {
+      "name": "check-shape",
+      "style": "fill",
+      "svgName": "check-shape-fill",
+      "componentName": "CheckShapeFill",
+      "keywords": []
+    },
+    {
       "name": "cherry",
       "style": "regular",
       "svgName": "cherry",
@@ -1494,10 +1541,38 @@
       ]
     },
     {
+      "name": "circle-letter-a",
+      "style": "regular",
+      "svgName": "circle-letter-a",
+      "componentName": "CircleLetterA",
+      "keywords": []
+    },
+    {
+      "name": "circle-letter-b",
+      "style": "regular",
+      "svgName": "circle-letter-b",
+      "componentName": "CircleLetterB",
+      "keywords": []
+    },
+    {
       "name": "circle-letter-c",
       "style": "regular",
       "svgName": "circle-letter-c",
       "componentName": "CircleLetterC",
+      "keywords": []
+    },
+    {
+      "name": "circle-letter-d",
+      "style": "regular",
+      "svgName": "circle-letter-d",
+      "componentName": "CircleLetterD",
+      "keywords": []
+    },
+    {
+      "name": "circle-letter-e",
+      "style": "regular",
+      "svgName": "circle-letter-e",
+      "componentName": "CircleLetterE",
       "keywords": []
     },
     {
@@ -1508,6 +1583,13 @@
       "keywords": []
     },
     {
+      "name": "circle-letter-g",
+      "style": "regular",
+      "svgName": "circle-letter-g",
+      "componentName": "CircleLetterG",
+      "keywords": []
+    },
+    {
       "name": "circle-letter-h",
       "style": "regular",
       "svgName": "circle-letter-h",
@@ -1515,10 +1597,66 @@
       "keywords": []
     },
     {
+      "name": "circle-letter-i",
+      "style": "regular",
+      "svgName": "circle-letter-i",
+      "componentName": "CircleLetterI",
+      "keywords": []
+    },
+    {
+      "name": "circle-letter-j",
+      "style": "regular",
+      "svgName": "circle-letter-j",
+      "componentName": "CircleLetterJ",
+      "keywords": []
+    },
+    {
+      "name": "circle-letter-k",
+      "style": "regular",
+      "svgName": "circle-letter-k",
+      "componentName": "CircleLetterK",
+      "keywords": []
+    },
+    {
+      "name": "circle-letter-l",
+      "style": "regular",
+      "svgName": "circle-letter-l",
+      "componentName": "CircleLetterL",
+      "keywords": []
+    },
+    {
+      "name": "circle-letter-m",
+      "style": "regular",
+      "svgName": "circle-letter-m",
+      "componentName": "CircleLetterM",
+      "keywords": []
+    },
+    {
+      "name": "circle-letter-n",
+      "style": "regular",
+      "svgName": "circle-letter-n",
+      "componentName": "CircleLetterN",
+      "keywords": []
+    },
+    {
+      "name": "circle-letter-o",
+      "style": "regular",
+      "svgName": "circle-letter-o",
+      "componentName": "CircleLetterO",
+      "keywords": []
+    },
+    {
       "name": "circle-letter-p",
       "style": "regular",
       "svgName": "circle-letter-p",
       "componentName": "CircleLetterP",
+      "keywords": []
+    },
+    {
+      "name": "circle-letter-q",
+      "style": "regular",
+      "svgName": "circle-letter-q",
+      "componentName": "CircleLetterQ",
       "keywords": []
     },
     {
@@ -1543,10 +1681,45 @@
       "keywords": []
     },
     {
+      "name": "circle-letter-u",
+      "style": "regular",
+      "svgName": "circle-letter-u",
+      "componentName": "CircleLetterU",
+      "keywords": []
+    },
+    {
+      "name": "circle-letter-v",
+      "style": "regular",
+      "svgName": "circle-letter-v",
+      "componentName": "CircleLetterV",
+      "keywords": []
+    },
+    {
       "name": "circle-letter-w",
       "style": "regular",
       "svgName": "circle-letter-w",
       "componentName": "CircleLetterW",
+      "keywords": []
+    },
+    {
+      "name": "circle-letter-x",
+      "style": "regular",
+      "svgName": "circle-letter-x",
+      "componentName": "CircleLetterX",
+      "keywords": []
+    },
+    {
+      "name": "circle-letter-y",
+      "style": "regular",
+      "svgName": "circle-letter-y",
+      "componentName": "CircleLetterY",
+      "keywords": []
+    },
+    {
+      "name": "circle-letter-z",
+      "style": "regular",
+      "svgName": "circle-letter-z",
+      "componentName": "CircleLetterZ",
       "keywords": []
     },
     {
@@ -1594,6 +1767,42 @@
       "componentName": "CircleNumber1",
       "keywords": [
         "one"
+      ]
+    },
+    {
+      "name": "circle-number-2",
+      "style": "regular",
+      "svgName": "circle-number-2",
+      "componentName": "CircleNumber2",
+      "keywords": [
+        "two"
+      ]
+    },
+    {
+      "name": "circle-number-3",
+      "style": "regular",
+      "svgName": "circle-number-3",
+      "componentName": "CircleNumber3",
+      "keywords": [
+        "three"
+      ]
+    },
+    {
+      "name": "circle-number-4",
+      "style": "regular",
+      "svgName": "circle-number-4",
+      "componentName": "CircleNumber4",
+      "keywords": [
+        "four"
+      ]
+    },
+    {
+      "name": "circle-number-5",
+      "style": "regular",
+      "svgName": "circle-number-5",
+      "componentName": "CircleNumber5",
+      "keywords": [
+        "five"
       ]
     },
     {
@@ -1822,7 +2031,10 @@
       "style": "regular",
       "svgName": "cloud-check",
       "componentName": "CloudCheck",
-      "keywords": []
+      "keywords": [
+        "save",
+        "done"
+      ]
     },
     {
       "name": "cloud-gear",
@@ -1836,6 +2048,13 @@
       "style": "regular",
       "svgName": "cloud-nut-hex",
       "componentName": "CloudNutHex",
+      "keywords": []
+    },
+    {
+      "name": "cloud-slash",
+      "style": "regular",
+      "svgName": "cloud-slash",
+      "componentName": "CloudSlash",
       "keywords": []
     },
     {
@@ -2054,7 +2273,10 @@
       "style": "regular",
       "svgName": "copy-picture",
       "componentName": "CopyPicture",
-      "keywords": []
+      "keywords": [
+        "image",
+        "photo"
+      ]
     },
     {
       "name": "copy-plus",
@@ -2379,7 +2601,9 @@
       "style": "regular",
       "svgName": "envelope-open",
       "componentName": "EnvelopeOpen",
-      "keywords": []
+      "keywords": [
+        "mail"
+      ]
     },
     {
       "name": "envelope-open-xmark",
@@ -2410,6 +2634,13 @@
       "style": "regular",
       "svgName": "exclamation-shape",
       "componentName": "ExclamationShape",
+      "keywords": []
+    },
+    {
+      "name": "exclamation-shape",
+      "style": "fill",
+      "svgName": "exclamation-shape-fill",
+      "componentName": "ExclamationShapeFill",
       "keywords": []
     },
     {
@@ -2448,6 +2679,13 @@
       "keywords": [
         "ufo"
       ]
+    },
+    {
+      "name": "face-angry",
+      "style": "regular",
+      "svgName": "face-angry",
+      "componentName": "FaceAngry",
+      "keywords": []
     },
     {
       "name": "face-fun",
@@ -2739,7 +2977,10 @@
       "style": "regular",
       "svgName": "filmstrip",
       "componentName": "Filmstrip",
-      "keywords": []
+      "keywords": [
+        "board",
+        "game"
+      ]
     },
     {
       "name": "fingerprint",
@@ -3244,7 +3485,9 @@
       "style": "regular",
       "svgName": "handset",
       "componentName": "Handset",
-      "keywords": []
+      "keywords": [
+        "phone"
+      ]
     },
     {
       "name": "handset-arrow-in",
@@ -3747,6 +3990,24 @@
       ]
     },
     {
+      "name": "location-arrow",
+      "style": "regular",
+      "svgName": "location-arrow",
+      "componentName": "LocationArrow",
+      "keywords": [
+        "navigation"
+      ]
+    },
+    {
+      "name": "location-arrow",
+      "style": "fill",
+      "svgName": "location-arrow-fill",
+      "componentName": "LocationArrowFill",
+      "keywords": [
+        "navigation"
+      ]
+    },
+    {
       "name": "lock",
       "style": "regular",
       "svgName": "lock",
@@ -3848,7 +4109,10 @@
       "style": "regular",
       "svgName": "logo-osi",
       "componentName": "LogoOsi",
-      "keywords": []
+      "keywords": [
+        "open",
+        "source"
+      ]
     },
     {
       "name": "logo-python",
@@ -4051,6 +4315,20 @@
       ]
     },
     {
+      "name": "minus-shape",
+      "style": "regular",
+      "svgName": "minus-shape",
+      "componentName": "MinusShape",
+      "keywords": []
+    },
+    {
+      "name": "minus-shape",
+      "style": "fill",
+      "svgName": "minus-shape-fill",
+      "componentName": "MinusShapeFill",
+      "keywords": []
+    },
+    {
       "name": "molecule",
       "style": "regular",
       "svgName": "molecule",
@@ -4062,7 +4340,9 @@
       "style": "regular",
       "svgName": "moon",
       "componentName": "Moon",
-      "keywords": []
+      "keywords": [
+        "night"
+      ]
     },
     {
       "name": "mug",
@@ -4076,7 +4356,9 @@
       "style": "regular",
       "svgName": "music-note",
       "componentName": "MusicNote",
-      "keywords": []
+      "keywords": [
+        "music"
+      ]
     },
     {
       "name": "nodes-down",
@@ -4561,6 +4843,20 @@
       ]
     },
     {
+      "name": "plus-shape",
+      "style": "regular",
+      "svgName": "plus-shape",
+      "componentName": "PlusShape",
+      "keywords": []
+    },
+    {
+      "name": "plus-shape",
+      "style": "fill",
+      "svgName": "plus-shape-fill",
+      "componentName": "PlusShapeFill",
+      "keywords": []
+    },
+    {
       "name": "power",
       "style": "regular",
       "svgName": "power",
@@ -4814,6 +5110,16 @@
       "keywords": []
     },
     {
+      "name": "skull",
+      "style": "regular",
+      "svgName": "skull",
+      "componentName": "Skull",
+      "keywords": [
+        "face",
+        "bone"
+      ]
+    },
+    {
       "name": "sliders",
       "style": "regular",
       "svgName": "sliders",
@@ -4932,14 +5238,18 @@
       "style": "regular",
       "svgName": "square-chart-bar",
       "componentName": "SquareChartBar",
-      "keywords": []
+      "keywords": [
+        "poll"
+      ]
     },
     {
       "name": "square-chart-column",
       "style": "regular",
       "svgName": "square-chart-column",
       "componentName": "SquareChartColumn",
-      "keywords": []
+      "keywords": [
+        "poll"
+      ]
     },
     {
       "name": "square-check",
@@ -4955,35 +5265,54 @@
       "style": "regular",
       "svgName": "square-dashed",
       "componentName": "SquareDashed",
-      "keywords": []
+      "keywords": [
+        "scan",
+        "focus",
+        "fullscreen"
+      ]
     },
     {
       "name": "square-dashed-circle",
       "style": "regular",
       "svgName": "square-dashed-circle",
       "componentName": "SquareDashedCircle",
-      "keywords": []
+      "keywords": [
+        "scan",
+        "focus",
+        "object"
+      ]
     },
     {
       "name": "square-dashed-letter-a",
       "style": "regular",
       "svgName": "square-dashed-letter-a",
       "componentName": "SquareDashedLetterA",
-      "keywords": []
+      "keywords": [
+        "scan",
+        "focus",
+        "text"
+      ]
     },
     {
       "name": "square-dashed-letter-t",
       "style": "regular",
       "svgName": "square-dashed-letter-t",
       "componentName": "SquareDashedLetterT",
-      "keywords": []
+      "keywords": [
+        "scan",
+        "focus",
+        "text"
+      ]
     },
     {
       "name": "square-dashed-text",
       "style": "regular",
       "svgName": "square-dashed-text",
       "componentName": "SquareDashedText",
-      "keywords": []
+      "keywords": [
+        "scan",
+        "focus"
+      ]
     },
     {
       "name": "square-dot",
@@ -5030,6 +5359,20 @@
       "style": "regular",
       "svgName": "square-letter-t",
       "componentName": "SquareLetterT",
+      "keywords": []
+    },
+    {
+      "name": "square-line-horizontal",
+      "style": "regular",
+      "svgName": "square-line-horizontal",
+      "componentName": "SquareLineHorizontal",
+      "keywords": []
+    },
+    {
+      "name": "square-line-vertical",
+      "style": "regular",
+      "svgName": "square-line-vertical",
+      "componentName": "SquareLineVertical",
       "keywords": []
     },
     {
@@ -5153,7 +5496,9 @@
       "style": "regular",
       "svgName": "sun",
       "componentName": "Sun",
-      "keywords": []
+      "keywords": [
+        "day"
+      ]
     },
     {
       "name": "t-shirt",
@@ -5368,10 +5713,42 @@
       "keywords": []
     },
     {
+      "name": "toggle-off",
+      "style": "regular",
+      "svgName": "toggle-off",
+      "componentName": "ToggleOff",
+      "keywords": [
+        "switch"
+      ]
+    },
+    {
+      "name": "toggle-on",
+      "style": "regular",
+      "svgName": "toggle-on",
+      "componentName": "ToggleOn",
+      "keywords": [
+        "switch"
+      ]
+    },
+    {
       "name": "traffic-light",
       "style": "regular",
       "svgName": "traffic-light",
       "componentName": "TrafficLight",
+      "keywords": []
+    },
+    {
+      "name": "trapezoid-left-line-horizontal",
+      "style": "regular",
+      "svgName": "trapezoid-left-line-horizontal",
+      "componentName": "TrapezoidLeftLineHorizontal",
+      "keywords": []
+    },
+    {
+      "name": "trapezoid-up-line-vertical",
+      "style": "regular",
+      "svgName": "trapezoid-up-line-vertical",
+      "componentName": "TrapezoidUpLineVertical",
       "keywords": []
     },
     {
@@ -5588,6 +5965,16 @@
       ]
     },
     {
+      "name": "volume-low",
+      "style": "fill",
+      "svgName": "volume-low-fill",
+      "componentName": "VolumeLowFill",
+      "keywords": [
+        "sound",
+        "audio"
+      ]
+    },
+    {
       "name": "volume-off",
       "style": "regular",
       "svgName": "volume-off",
@@ -5599,10 +5986,53 @@
       ]
     },
     {
+      "name": "volume-off",
+      "style": "fill",
+      "svgName": "volume-off-fill",
+      "componentName": "VolumeOffFill",
+      "keywords": [
+        "sound",
+        "audio"
+      ]
+    },
+    {
+      "name": "volume-slash",
+      "style": "regular",
+      "svgName": "volume-slash",
+      "componentName": "VolumeSlash",
+      "keywords": [
+        "sound",
+        "audio",
+        "mute"
+      ]
+    },
+    {
+      "name": "volume-slash",
+      "style": "fill",
+      "svgName": "volume-slash-fill",
+      "componentName": "VolumeSlashFill",
+      "keywords": [
+        "sound",
+        "audio",
+        "mute"
+      ]
+    },
+    {
       "name": "volume-xmark",
       "style": "regular",
       "svgName": "volume-xmark",
       "componentName": "VolumeXmark",
+      "keywords": [
+        "sound",
+        "audio",
+        "mute"
+      ]
+    },
+    {
+      "name": "volume-xmark",
+      "style": "fill",
+      "svgName": "volume-xmark-fill",
+      "componentName": "VolumeXmarkFill",
       "keywords": [
         "sound",
         "audio",
@@ -5635,6 +6065,20 @@
         "delete",
         "remove"
       ]
+    },
+    {
+      "name": "xmark-shape",
+      "style": "regular",
+      "svgName": "xmark-shape",
+      "componentName": "XmarkShape",
+      "keywords": []
+    },
+    {
+      "name": "xmark-shape",
+      "style": "fill",
+      "svgName": "xmark-shape-fill",
+      "componentName": "XmarkShapeFill",
+      "keywords": []
     },
     {
       "name": "layout-side-content",
