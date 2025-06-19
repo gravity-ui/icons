@@ -518,6 +518,24 @@
       ]
     },
     {
+      "name": "backward-step",
+      "style": "regular",
+      "svgName": "backward-step",
+      "componentName": "BackwardStep",
+      "keywords": [
+        "video"
+      ]
+    },
+    {
+      "name": "backward-step",
+      "style": "fill",
+      "svgName": "backward-step-fill",
+      "componentName": "BackwardStepFill",
+      "keywords": [
+        "video"
+      ]
+    },
+    {
       "name": "ban",
       "style": "regular",
       "svgName": "ban",
@@ -664,6 +682,16 @@
       "style": "regular",
       "svgName": "bell",
       "componentName": "Bell",
+      "keywords": [
+        "notify",
+        "notification"
+      ]
+    },
+    {
+      "name": "bell",
+      "style": "fill",
+      "svgName": "bell-fill",
+      "componentName": "BellFill",
       "keywords": [
         "notify",
         "notification"
@@ -1849,10 +1877,27 @@
       "keywords": []
     },
     {
+      "name": "circle-pause",
+      "style": "fill",
+      "svgName": "circle-pause-fill",
+      "componentName": "CirclePauseFill",
+      "keywords": []
+    },
+    {
       "name": "circle-play",
       "style": "regular",
       "svgName": "circle-play",
       "componentName": "CirclePlay",
+      "keywords": [
+        "start",
+        "video"
+      ]
+    },
+    {
+      "name": "circle-play",
+      "style": "fill",
+      "svgName": "circle-play-fill",
+      "componentName": "CirclePlayFill",
       "keywords": [
         "start",
         "video"
@@ -1911,6 +1956,13 @@
       "style": "regular",
       "svgName": "circle-stop",
       "componentName": "CircleStop",
+      "keywords": []
+    },
+    {
+      "name": "circle-stop",
+      "style": "fill",
+      "svgName": "circle-stop-fill",
+      "componentName": "CircleStopFill",
       "keywords": []
     },
     {
@@ -2565,7 +2617,9 @@
       "style": "regular",
       "svgName": "ear",
       "componentName": "Ear",
-      "keywords": []
+      "keywords": [
+        "hear"
+      ]
     },
     {
       "name": "ellipsis",
@@ -2648,14 +2702,33 @@
       "style": "regular",
       "svgName": "eye",
       "componentName": "Eye",
-      "keywords": []
+      "keywords": [
+        "view",
+        "visibility",
+        "transparency"
+      ]
+    },
+    {
+      "name": "eye-dashed",
+      "style": "regular",
+      "svgName": "eye-dashed",
+      "componentName": "EyeDashed",
+      "keywords": [
+        "view",
+        "visibility",
+        "transparency"
+      ]
     },
     {
       "name": "eye-slash",
       "style": "regular",
       "svgName": "eye-slash",
       "componentName": "EyeSlash",
-      "keywords": []
+      "keywords": [
+        "view",
+        "visibility",
+        "transparency"
+      ]
     },
     {
       "name": "eyes-look-left",
@@ -3222,6 +3295,24 @@
       ]
     },
     {
+      "name": "forward-step",
+      "style": "regular",
+      "svgName": "forward-step",
+      "componentName": "ForwardStep",
+      "keywords": [
+        "video"
+      ]
+    },
+    {
+      "name": "forward-step",
+      "style": "fill",
+      "svgName": "forward-step-fill",
+      "componentName": "ForwardStepFill",
+      "keywords": [
+        "video"
+      ]
+    },
+    {
       "name": "frame",
       "style": "regular",
       "svgName": "frame",
@@ -3635,6 +3726,16 @@
       ]
     },
     {
+      "name": "house",
+      "style": "fill",
+      "svgName": "house-fill",
+      "componentName": "HouseFill",
+      "keywords": [
+        "home",
+        "building"
+      ]
+    },
+    {
       "name": "italic",
       "style": "regular",
       "svgName": "italic",
@@ -3904,6 +4005,13 @@
       "style": "regular",
       "svgName": "layout-tabs",
       "componentName": "LayoutTabs",
+      "keywords": []
+    },
+    {
+      "name": "letter-a-underline",
+      "style": "regular",
+      "svgName": "letter-a-underline",
+      "componentName": "LetterAUnderline",
       "keywords": []
     },
     {
@@ -4611,6 +4719,17 @@
       "style": "regular",
       "svgName": "person",
       "componentName": "Person",
+      "keywords": [
+        "profile",
+        "human",
+        "user"
+      ]
+    },
+    {
+      "name": "person",
+      "style": "fill",
+      "svgName": "person-fill",
+      "componentName": "PersonFill",
       "keywords": [
         "profile",
         "human",

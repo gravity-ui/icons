@@ -1,6 +1,6 @@
 import * as React from 'react';
 import type {SVGProps} from 'react';
-const PauseFill = (props: SVGProps<SVGSVGElement>) => (
+const PersonFill = (props: SVGProps<SVGSVGElement>) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         width={16}
@@ -11,8 +11,8 @@ const PauseFill = (props: SVGProps<SVGSVGElement>) => (
     >
         <path
             fill="currentColor"
-            d="M5 1.5A1.5 1.5 0 0 1 6.5 3v10A1.5 1.5 0 0 1 5 14.5H3A1.5 1.5 0 0 1 1.5 13V3A1.5 1.5 0 0 1 3 1.5zm8 0A1.5 1.5 0 0 1 14.5 3v10a1.5 1.5 0 0 1-1.5 1.5h-2A1.5 1.5 0 0 1 9.5 13V3A1.5 1.5 0 0 1 11 1.5z"
+            d="M8 9c3.85 0 7 2.5 7 4.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 13.5C1 11.5 4.15 9 8 9m0-8a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7"
         />
     </svg>
 );
-export default PauseFill;
+export default PersonFill;
