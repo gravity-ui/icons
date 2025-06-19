@@ -14,7 +14,7 @@ const TrapezoidUpLineVertical = (props: SVGProps<SVGSVGElement>) => (
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth={1.5}
-            d="M3.306 4.13a1.75 1.75 0 0 1 1.71-1.38h5.968a1.75 1.75 0 0 1 1.71 1.38l1.516 7a1.75 1.75 0 0 1-1.71 2.12h-9a1.75 1.75 0 0 1-1.71-2.12zM8 .75v14.5"
+            d="M5.016 2.75h5.968a1.75 1.75 0 0 1 1.71 1.38l1.516 7a1.75 1.75 0 0 1-1.71 2.12h-9a1.75 1.75 0 0 1-1.71-2.12l1.516-7a1.75 1.75 0 0 1 1.71-1.38M8 .75v14.5"
         />
         <path
             fill="currentColor"

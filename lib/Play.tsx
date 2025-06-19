@@ -9,19 +9,10 @@ const Play = (props: SVGProps<SVGSVGElement>) => (
         viewBox="0 0 16 16"
         {...props}
     >
-        <g clipPath="url(#a)">
-            <path
-                fill="currentColor"
-                fillRule="evenodd"
-                d="M14.006 7.134 5.5 2.217a1 1 0 0 0-1.5.866v9.834a1 1 0 0 0 1.5.866l8.506-4.917a1 1 0 0 0 0-1.732m.75 3.03c1.665-.962 1.665-3.366 0-4.329L6.251.918C4.585-.045 2.5 1.158 2.5 3.083v9.834c0 1.925 2.085 3.128 3.751 2.164z"
-                clipRule="evenodd"
-            />
-        </g>
-        <defs>
-            <clipPath id="a">
-                <path fill="currentColor" d="M0 0h16v16H0z" />
-            </clipPath>
-        </defs>
+        <path
+            fill="currentColor"
+            d="M14.642 6.285c1.294.777 1.294 2.653 0 3.43L5.53 15.183c-1.292.775-2.924-.102-3.025-1.571l-.005-.144V2.532l.005-.143C2.605.919 4.238.043 5.53.818zm-.771 2.144a.5.5 0 0 0 0-.857L4.756 2.104A.5.5 0 0 0 4 2.532v10.936a.5.5 0 0 0 .757.429z"
+        />
     </svg>
 );
 export default Play;
