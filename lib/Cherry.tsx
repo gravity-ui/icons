@@ -1,12 +1,14 @@
 import * as React from 'react';
 import type {SVGProps} from 'react';
-const Cherry = (props: SVGProps<SVGSVGElement>) => (
+import {Ref, forwardRef} from 'react';
+const Cherry = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         width={16}
         height={16}
         fill="none"
         viewBox="0 0 16 16"
+        ref={ref}
         {...props}
     >
         <g clipPath="url(#a)">
@@ -24,4 +26,5 @@ const Cherry = (props: SVGProps<SVGSVGElement>) => (
         </defs>
     </svg>
 );
-export default Cherry;
+const ForwardRef = forwardRef(Cherry);
+export default ForwardRef;
