@@ -1,12 +1,14 @@
 import * as React from 'react';
 import type {SVGProps} from 'react';
-const CircleChevronsUp = (props: SVGProps<SVGSVGElement>) => (
+import {Ref, forwardRef} from 'react';
+const CircleChevronsUp = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         width={16}
         height={16}
         fill="none"
         viewBox="0 0 16 16"
+        ref={ref}
         {...props}
     >
         <path
@@ -17,4 +19,5 @@ const CircleChevronsUp = (props: SVGProps<SVGSVGElement>) => (
         />
     </svg>
 );
-export default CircleChevronsUp;
+const ForwardRef = forwardRef(CircleChevronsUp);
+export default ForwardRef;
