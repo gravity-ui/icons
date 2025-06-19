@@ -1,12 +1,14 @@
 import * as React from 'react';
 import type {SVGProps} from 'react';
-const GeoDots = (props: SVGProps<SVGSVGElement>) => (
+import {Ref, forwardRef} from 'react';
+const GeoDots = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         width={16}
         height={16}
         fill="none"
         viewBox="0 0 16 16"
+        ref={ref}
         {...props}
     >
         <path
@@ -17,4 +19,5 @@ const GeoDots = (props: SVGProps<SVGSVGElement>) => (
         />
     </svg>
 );
-export default GeoDots;
+const ForwardRef = forwardRef(GeoDots);
+export default ForwardRef;

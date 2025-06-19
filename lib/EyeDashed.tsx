@@ -1,12 +1,14 @@
 import * as React from 'react';
 import type {SVGProps} from 'react';
-const EyeDashed = (props: SVGProps<SVGSVGElement>) => (
+import {Ref, forwardRef} from 'react';
+const EyeDashed = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         width={16}
         height={16}
         fill="none"
         viewBox="0 0 16 16"
+        ref={ref}
         {...props}
     >
         <path
@@ -15,4 +17,5 @@ const EyeDashed = (props: SVGProps<SVGSVGElement>) => (
         />
     </svg>
 );
-export default EyeDashed;
+const ForwardRef = forwardRef(EyeDashed);
+export default ForwardRef;

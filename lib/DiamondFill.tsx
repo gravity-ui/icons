@@ -1,12 +1,14 @@
 import * as React from 'react';
 import type {SVGProps} from 'react';
-const DiamondFill = (props: SVGProps<SVGSVGElement>) => (
+import {Ref, forwardRef} from 'react';
+const DiamondFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         width={16}
         height={16}
         fill="none"
         viewBox="0 0 16 16"
+        ref={ref}
         {...props}
     >
         <g clipPath="url(#a)">
@@ -22,4 +24,5 @@ const DiamondFill = (props: SVGProps<SVGSVGElement>) => (
         </defs>
     </svg>
 );
-export default DiamondFill;
+const ForwardRef = forwardRef(DiamondFill);
+export default ForwardRef;
