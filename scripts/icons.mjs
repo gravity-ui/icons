@@ -1,5 +1,6 @@
-import path from 'path';
 import fs from 'fs/promises';
+import path from 'path';
+
 import {transform} from '@svgr/core';
 
 import {ICONS_DIR, SVGS_DIR} from './constants.mjs';
@@ -46,7 +47,6 @@ async function run() {
 }
 
 run().catch((error) => {
-    // eslint-disable-next-line no-console
     console.error(error);
     process.exit(1);
 });

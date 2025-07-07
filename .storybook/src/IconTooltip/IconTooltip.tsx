@@ -1,6 +1,8 @@
 import React from 'react';
+
+import {Label, Popover} from '@gravity-ui/uikit';
+
 import {cn} from '../cn';
-import {Label, Popover, PopoverInstanceProps} from '@gravity-ui/uikit';
 
 import './IconTooltip.scss';
 
@@ -21,26 +23,26 @@ export function IconTooltip({
     forceOpen,
     children,
 }: IconTooltipProps) {
-    const popoverRef = React.useRef<PopoverInstanceProps>(null);
+    const [open, setOpen] = React.useState(false);
     const content = React.useMemo(
         () => (
             <div className={b('grid')}>
                 <div className={b('label')}>Name</div>
-                <div className={b('value')}>
+                <div>
                     <Label type="copy" copyText={componentName}>
-                        {componentName}
+                        <div className={b('value')}>{componentName}</div>
                     </Label>
                 </div>
                 <div className={b('label')}>Svg</div>
-                <div className={b('value')}>
+                <div>
                     <Label type="copy" copyText={importSvg}>
-                        {importSvg}
+                        <div className={b('value')}>{importSvg}</div>
                     </Label>
                 </div>
                 <div className={b('label')}>Component</div>
-                <div className={b('value')}>
+                <div>
                     <Label type="copy" copyText={importComponent}>
-                        {importComponent}
+                        <div className={b('value')}>{importComponent}</div>
                     </Label>
                 </div>
             </div>
@@ -48,25 +50,14 @@ export function IconTooltip({
         [],
     );
 
-    React.useEffect(() => {
-        if (!popoverRef.current) {
-            return;
-        }
-
-        if (forceOpen) {
-            popoverRef.current.openTooltip();
-        } else {
-            popoverRef.current?.closeTooltip();
-        }
-    }, [forceOpen]);
-
     return (
         <Popover
-            ref={popoverRef}
+            open={forceOpen || open}
+            onOpenChange={setOpen}
             content={content}
             placement={['bottom', 'top']}
-            tooltipClassName={b()}
-            openOnHover={false}
+            className={b()}
+            trigger="click"
         >
             {children}
         </Popover>

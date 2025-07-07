@@ -1,7 +1,8 @@
-@use '~@gravity-ui/uikit/styles/mixins';
+@use '@gravity-ui/uikit/styles/mixins';
 
 .icon-tooltip {
-    --g-popover-max-width: 1000px;
+    max-width: 1000px;
+    padding: var(--g-spacing-4);
 
     &__grid {
         display: grid;
@@ -15,7 +16,8 @@
 
     &__value {
         white-space: nowrap;
-        font-family: 'SF Mono', 'Menlo', 'Monaco', 'Consolas', 'Ubuntu Mono', 'Liberation Mono',
+        font-family:
+            'SF Mono', 'Menlo', 'Monaco', 'Consolas', 'Ubuntu Mono', 'Liberation Mono',
             'DejaVu Sans Mono', 'Courier New', 'Courier', monospace;
     }
 }
