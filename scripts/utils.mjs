@@ -1,4 +1,5 @@
 import fs from 'fs/promises';
+
 import prettier from 'prettier';
 
 export async function cleanDir(dir) {

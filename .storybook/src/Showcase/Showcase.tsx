@@ -1,16 +1,13 @@
 import React from 'react';
-import {cn} from './cn';
-import {Meta, StoryFn} from '@storybook/react';
+
 import {Button, Icon as IconWrapper} from '@gravity-ui/uikit';
-import {IconTooltip} from './IconTooltip/IconTooltip';
-import metadata from '../../metadata.json';
 
-import './Showcase.stories.scss';
+import {IconTooltip} from '../IconTooltip/IconTooltip';
+import {cn} from '../cn';
 
-export default {
-    title: 'Showcase',
-    id: 'showcase',
-} as Meta;
+import metadata from '../../../metadata.json';
+
+import './Showcase.scss';
 
 interface IconMeta {
     name: string;
@@ -21,16 +18,18 @@ interface IconMeta {
 }
 
 const b = cn('showcase');
-const libContext = require.context('../../lib', false, /\.tsx$/);
+const libContext = require.context('../../../lib', false, /\.tsx$/);
 const iconsMetadataByName = (metadata.icons as IconMeta[]).reduce(
     (acc, icon) => ({...acc, [icon.componentName]: icon}),
     {} as Record<string, IconMeta>,
 );
 
-export const Showcase: StoryFn = () => {
+export function Showcase() {
     const [search, setSearch] = React.useState('');
     const items = libContext.keys().map((path) => {
-        const module = libContext(path) as any;
+        const module = libContext(path) as {
+            default: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
+        };
         const Icon = module.default || module;
         const name = path.match(/(\w+)\.tsx$/)?.[1] ?? '';
         const meta = iconsMetadataByName[name];
@@ -78,7 +77,7 @@ export const Showcase: StoryFn = () => {
                             importComponent={buildIconImportLine(meta.componentName)}
                             forceOpen={filteredItems.length === 1}
                         >
-                            <Button view="flat" size="xl">
+                            <Button view="flat" size="xl" aria-label={meta.componentName}>
                                 <IconWrapper data={Icon} size={24} />
                             </Button>
                         </IconTooltip>
@@ -89,8 +88,7 @@ export const Showcase: StoryFn = () => {
             </div>
         </div>
     );
-};
-Showcase.storyName = 'Showcase';
+}
 
 function buildIconSvgPath(svgName: string, componentName: string) {
     return `import ${componentName}Icon from '@gravity-ui/icons/svgs/${svgName}.svg';`;

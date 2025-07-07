@@ -1,11 +1,13 @@
+import fs from 'fs/promises';
 import path from 'path';
 import url from 'url';
-import fs from 'fs/promises';
+
 import {components as loadComponents} from '@figma-export/core';
 import {optimize} from 'svgo';
+
+import {aliases} from './aliases.mjs';
 import {ICON_NAME_REGEXP, SVGS_DIR} from './constants.mjs';
 import {cleanDir, getComponentName} from './utils.mjs';
-import {aliases} from './aliases.mjs';
 
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 
@@ -18,6 +20,7 @@ const EMPTY_KEYWORDS_STRING = '-';
 function parsePropertiesString(str) {
     return str.split(/\s*,\s*/).reduce((acc, prop) => {
         const [name, value] = prop.split('=');
+        // eslint-disable-next-line no-param-reassign
         acc[name] = value;
         return acc;
     }, {});
@@ -32,10 +35,10 @@ function svgoTransformer(svgString) {
                 params: {
                     overrides: {
                         convertColors: {currentColor: /#(?!f33|ff3333)/i},
-                        removeViewBox: false,
                     },
                 },
             },
+            'removeTitle',
         ],
     }).data;
 }
@@ -116,7 +119,6 @@ async function run() {
 }
 
 run().catch((error) => {
-    // eslint-disable-next-line no-console
     console.error(error);
     process.exit(1);
 });
