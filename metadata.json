@@ -5290,6 +5290,26 @@
       ]
     },
     {
+      "name": "sparkles",
+      "style": "regular",
+      "svgName": "sparkles",
+      "componentName": "Sparkles",
+      "keywords": [
+        "magic",
+        "ai"
+      ]
+    },
+    {
+      "name": "sparkles",
+      "style": "fill",
+      "svgName": "sparkles-fill",
+      "componentName": "SparklesFill",
+      "keywords": [
+        "magic",
+        "ai"
+      ]
+    },
+    {
       "name": "sphere",
       "style": "regular",
       "svgName": "sphere",

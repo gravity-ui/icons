@@ -631,6 +631,8 @@ export {default as SlidersVertical} from './SlidersVertical';
 export {default as Smartphone} from './Smartphone';
 export {default as Snail} from './Snail';
 export {default as Snowflake} from './Snowflake';
+export {default as Sparkles} from './Sparkles';
+export {default as SparklesFill} from './SparklesFill';
 export {default as Sphere} from './Sphere';
 export {default as Square} from './Square';
 export {default as SquareArticle} from './SquareArticle';
