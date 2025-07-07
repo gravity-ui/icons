@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.15.0](https://github.com/gravity-ui/icons/compare/v2.14.0...v2.15.0) (2025-07-07)
+
+
+### Features
+
+* sync icons ([#76](https://github.com/gravity-ui/icons/issues/76)) ([0ab4e8c](https://github.com/gravity-ui/icons/commit/0ab4e8c57c71312307b387d5362af49e11df34a7))
+* use tslib helpers in cjs files ([#79](https://github.com/gravity-ui/icons/issues/79)) ([2d5ad4d](https://github.com/gravity-ui/icons/commit/2d5ad4db3e5ae776571dc5efd3d9e89e2aaf5fb3))
+
 ## [2.14.0](https://github.com/gravity-ui/icons/compare/v2.13.0...v2.14.0) (2025-06-19)
 
 
