@@ -83,6 +83,7 @@ export {default as BarsUnaligned} from './BarsUnaligned';
 export {default as Bell} from './Bell';
 export {default as BellDot} from './BellDot';
 export {default as BellFill} from './BellFill';
+export {default as BellFillDot} from './BellFillDot';
 export {default as BellSlash} from './BellSlash';
 export {default as Binoculars} from './Binoculars';
 export {default as Bold} from './Bold';

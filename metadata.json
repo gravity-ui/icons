@@ -708,6 +708,16 @@
       ]
     },
     {
+      "name": "bell-dot",
+      "style": "fill",
+      "svgName": "bell-fill-dot",
+      "componentName": "BellFillDot",
+      "keywords": [
+        "notify",
+        "notification"
+      ]
+    },
+    {
       "name": "bell-slash",
       "style": "regular",
       "svgName": "bell-slash",
