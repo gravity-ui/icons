@@ -6255,6 +6255,34 @@
         "table",
         "window"
       ]
+    },
+    {
+      "name": "table-row-insert",
+      "style": "regular",
+      "svgName": "table-row-insert",
+      "componentName": "TableRowInsert",
+      "keywords": ["table", "row", "insert"]
+    },
+    {
+      "name": "table-row-remove",
+      "style": "regular",
+      "svgName": "table-row-remove",
+      "componentName": "TableRowRemove",
+      "keywords": ["table", "row", "remove"]
+    },
+    {
+      "name": "table-column-insert",
+      "style": "regular",
+      "svgName": "table-column-insert",
+      "componentName": "TableColumnInsert",
+      "keywords": ["table", "column", "insert"]
+    },
+    {
+      "name": "table-column-remove",
+      "style": "regular",
+      "svgName": "table-column-remove",
+      "componentName": "TableColumnRemove",
+      "keywords": ["table", "column", "remove"]
     }
   ]
 }
