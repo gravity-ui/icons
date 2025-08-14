@@ -1104,6 +1104,15 @@
       ]
     },
     {
+      "name": "check-double",
+      "style": "regular",
+      "svgName": "check-double",
+      "componentName": "CheckDouble",
+      "keywords": [
+        "read"
+      ]
+    },
+    {
       "name": "check-shape",
       "style": "regular",
       "svgName": "check-shape",
@@ -2510,6 +2519,16 @@
       "style": "regular",
       "svgName": "diamond-exclamation",
       "componentName": "DiamondExclamation",
+      "keywords": [
+        "attention",
+        "warning"
+      ]
+    },
+    {
+      "name": "diamond-exclamation",
+      "style": "fill",
+      "svgName": "diamond-exclamation-fill",
+      "componentName": "DiamondExclamationFill",
       "keywords": [
         "attention",
         "warning"
@@ -4196,6 +4215,13 @@
       "style": "regular",
       "svgName": "logo-markdown",
       "componentName": "LogoMarkdown",
+      "keywords": []
+    },
+    {
+      "name": "logo-mcp",
+      "style": "regular",
+      "svgName": "logo-mcp",
+      "componentName": "LogoMcp",
       "keywords": []
     },
     {
