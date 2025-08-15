@@ -1,12 +1,14 @@
 import * as React from 'react';
 import type {SVGProps} from 'react';
-const Power = (props: SVGProps<SVGSVGElement>) => (
+import {Ref, forwardRef} from 'react';
+const Power = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         width={16}
         height={16}
         fill="none"
         viewBox="0 0 16 16"
+        ref={ref}
         {...props}
     >
         <path
@@ -17,4 +19,5 @@ const Power = (props: SVGProps<SVGSVGElement>) => (
         />
     </svg>
 );
-export default Power;
+const ForwardRef = forwardRef(Power);
+export default ForwardRef;

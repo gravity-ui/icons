@@ -1,12 +1,14 @@
 import * as React from 'react';
 import type {SVGProps} from 'react';
-const GearDot = (props: SVGProps<SVGSVGElement>) => (
+import {Ref, forwardRef} from 'react';
+const GearDot = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         width={16}
         height={16}
         fill="none"
         viewBox="0 0 16 16"
+        ref={ref}
         {...props}
     >
         <g fillRule="evenodd" clipRule="evenodd">
@@ -18,4 +20,5 @@ const GearDot = (props: SVGProps<SVGSVGElement>) => (
         </g>
     </svg>
 );
-export default GearDot;
+const ForwardRef = forwardRef(GearDot);
+export default ForwardRef;
