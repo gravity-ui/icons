@@ -1,0 +1,11 @@
+import figma from '@figma/code-connect';
+
+import Comments from '../lib/Comments';
+
+figma.connect(
+    Comments,
+    'https://www.figma.com/design/QN28S6ulZ6vsq0UhwaLjsc/Gravity-UI-Icons?node-id=2274%3A76219',
+    {
+        example: () => <Comments />,
+    },
+);

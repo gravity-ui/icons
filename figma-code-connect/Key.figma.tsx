@@ -1,0 +1,11 @@
+import figma from '@figma/code-connect';
+
+import Key from '../lib/Key';
+
+figma.connect(
+    Key,
+    'https://www.figma.com/design/QN28S6ulZ6vsq0UhwaLjsc/Gravity-UI-Icons?node-id=2246%3A75555',
+    {
+        example: () => <Key />,
+    },
+);

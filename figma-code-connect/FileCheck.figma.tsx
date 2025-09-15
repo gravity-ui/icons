@@ -1,0 +1,11 @@
+import figma from '@figma/code-connect';
+
+import FileCheck from '../lib/FileCheck';
+
+figma.connect(
+    FileCheck,
+    'https://www.figma.com/design/QN28S6ulZ6vsq0UhwaLjsc/Gravity-UI-Icons?node-id=5156%3A444',
+    {
+        example: () => <FileCheck />,
+    },
+);

@@ -1,0 +1,11 @@
+import figma from '@figma/code-connect';
+
+import ArrowUturnCcwDown from '../lib/ArrowUturnCcwDown';
+
+figma.connect(
+    ArrowUturnCcwDown,
+    'https://www.figma.com/design/QN28S6ulZ6vsq0UhwaLjsc/Gravity-UI-Icons?node-id=3884%3A89779',
+    {
+        example: () => <ArrowUturnCcwDown />,
+    },
+);

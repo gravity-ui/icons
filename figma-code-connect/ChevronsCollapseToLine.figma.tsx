@@ -1,0 +1,11 @@
+import figma from '@figma/code-connect';
+
+import ChevronsCollapseToLine from '../lib/ChevronsCollapseToLine';
+
+figma.connect(
+    ChevronsCollapseToLine,
+    'https://www.figma.com/design/QN28S6ulZ6vsq0UhwaLjsc/Gravity-UI-Icons?node-id=5561%3A636',
+    {
+        example: () => <ChevronsCollapseToLine />,
+    },
+);

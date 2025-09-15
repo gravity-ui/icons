@@ -1,0 +1,11 @@
+import figma from '@figma/code-connect';
+
+import AntennaSignal from '../lib/AntennaSignal';
+
+figma.connect(
+    AntennaSignal,
+    'https://www.figma.com/design/QN28S6ulZ6vsq0UhwaLjsc/Gravity-UI-Icons?node-id=6990%3A1088',
+    {
+        example: () => <AntennaSignal />,
+    },
+);

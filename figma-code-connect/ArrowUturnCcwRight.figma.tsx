@@ -1,0 +1,11 @@
+import figma from '@figma/code-connect';
+
+import ArrowUturnCcwRight from '../lib/ArrowUturnCcwRight';
+
+figma.connect(
+    ArrowUturnCcwRight,
+    'https://www.figma.com/design/QN28S6ulZ6vsq0UhwaLjsc/Gravity-UI-Icons?node-id=3998%3A88320',
+    {
+        example: () => <ArrowUturnCcwRight />,
+    },
+);
