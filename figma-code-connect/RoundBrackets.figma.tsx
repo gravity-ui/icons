@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import RoundBrackets from '../lib/RoundBrackets';
+import {RoundBrackets} from '../lib';
 
 figma.connect(
     RoundBrackets,

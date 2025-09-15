@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ShieldExclamation from '../lib/ShieldExclamation';
+import {ShieldExclamation} from '../lib';
 
 figma.connect(
     ShieldExclamation,

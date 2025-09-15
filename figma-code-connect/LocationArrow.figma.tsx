@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LocationArrow from '../lib/LocationArrow';
+import {LocationArrow} from '../lib';
 
 figma.connect(
     LocationArrow,

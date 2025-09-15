@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LetterGroup from '../lib/LetterGroup';
+import {LetterGroup} from '../lib';
 
 figma.connect(
     LetterGroup,

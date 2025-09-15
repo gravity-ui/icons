@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Vault from '../lib/Vault';
+import {Vault} from '../lib';
 
 figma.connect(
     Vault,

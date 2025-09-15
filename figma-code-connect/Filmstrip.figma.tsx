@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Filmstrip from '../lib/Filmstrip';
+import {Filmstrip} from '../lib';
 
 figma.connect(
     Filmstrip,

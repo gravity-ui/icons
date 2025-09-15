@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Skull from '../lib/Skull';
+import {Skull} from '../lib';
 
 figma.connect(
     Skull,

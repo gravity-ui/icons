@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Bug from '../lib/Bug';
+import {Bug} from '../lib';
 
 figma.connect(
     Bug,

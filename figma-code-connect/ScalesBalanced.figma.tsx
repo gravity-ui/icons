@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ScalesBalanced from '../lib/ScalesBalanced';
+import {ScalesBalanced} from '../lib';
 
 figma.connect(
     ScalesBalanced,

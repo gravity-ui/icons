@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import GraphNode from '../lib/GraphNode';
+import {GraphNode} from '../lib';
 
 figma.connect(
     GraphNode,

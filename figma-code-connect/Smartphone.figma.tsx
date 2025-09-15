@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Smartphone from '../lib/Smartphone';
+import {Smartphone} from '../lib';
 
 figma.connect(
     Smartphone,

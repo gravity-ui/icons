@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Tag from '../lib/Tag';
+import {Tag} from '../lib';
 
 figma.connect(
     Tag,

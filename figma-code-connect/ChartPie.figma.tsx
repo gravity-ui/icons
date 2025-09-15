@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ChartPie from '../lib/ChartPie';
+import {ChartPie} from '../lib';
 
 figma.connect(
     ChartPie,

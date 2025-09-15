@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LogoGitlab from '../lib/LogoGitlab';
+import {LogoGitlab} from '../lib';
 
 figma.connect(
     LogoGitlab,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import SquareBarsVertical from '../lib/SquareBarsVertical';
+import {SquareBarsVertical} from '../lib';
 
 figma.connect(
     SquareBarsVertical,

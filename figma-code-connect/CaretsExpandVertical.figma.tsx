@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CaretsExpandVertical from '../lib/CaretsExpandVertical';
+import {CaretsExpandVertical} from '../lib';
 
 figma.connect(
     CaretsExpandVertical,

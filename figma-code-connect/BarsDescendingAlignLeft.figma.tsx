@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import BarsDescendingAlignLeft from '../lib/BarsDescendingAlignLeft';
+import {BarsDescendingAlignLeft} from '../lib';
 
 figma.connect(
     BarsDescendingAlignLeft,

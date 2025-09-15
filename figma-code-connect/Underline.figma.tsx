@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Underline from '../lib/Underline';
+import {Underline} from '../lib';
 
 figma.connect(
     Underline,

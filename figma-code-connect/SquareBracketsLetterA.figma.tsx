@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import SquareBracketsLetterA from '../lib/SquareBracketsLetterA';
+import {SquareBracketsLetterA} from '../lib';
 
 figma.connect(
     SquareBracketsLetterA,

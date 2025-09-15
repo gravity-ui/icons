@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import EnvelopeOpen from '../lib/EnvelopeOpen';
+import {EnvelopeOpen} from '../lib';
 
 figma.connect(
     EnvelopeOpen,

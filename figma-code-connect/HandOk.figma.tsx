@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import HandOk from '../lib/HandOk';
+import {HandOk} from '../lib';
 
 figma.connect(
     HandOk,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CaretDown from '../lib/CaretDown';
+import {CaretDown} from '../lib';
 
 figma.connect(
     CaretDown,

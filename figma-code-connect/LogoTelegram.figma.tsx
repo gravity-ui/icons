@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LogoTelegram from '../lib/LogoTelegram';
+import {LogoTelegram} from '../lib';
 
 figma.connect(
     LogoTelegram,

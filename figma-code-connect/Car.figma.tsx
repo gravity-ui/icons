@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Car from '../lib/Car';
+import {Car} from '../lib';
 
 figma.connect(
     Car,

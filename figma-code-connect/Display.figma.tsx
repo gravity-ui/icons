@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Display from '../lib/Display';
+import {Display} from '../lib';
 
 figma.connect(
     Display,

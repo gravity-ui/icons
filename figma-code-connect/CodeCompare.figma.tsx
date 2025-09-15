@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CodeCompare from '../lib/CodeCompare';
+import {CodeCompare} from '../lib';
 
 figma.connect(
     CodeCompare,

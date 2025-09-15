@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import TriangleUp from '../lib/TriangleUp';
+import {TriangleUp} from '../lib';
 
 figma.connect(
     TriangleUp,

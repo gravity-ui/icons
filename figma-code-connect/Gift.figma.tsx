@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Gift from '../lib/Gift';
+import {Gift} from '../lib';
 
 figma.connect(
     Gift,

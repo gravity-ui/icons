@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Flask from '../lib/Flask';
+import {Flask} from '../lib';
 
 figma.connect(
     Flask,

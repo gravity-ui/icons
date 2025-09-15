@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Medal from '../lib/Medal';
+import {Medal} from '../lib';
 
 figma.connect(
     Medal,

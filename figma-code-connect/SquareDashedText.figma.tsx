@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import SquareDashedText from '../lib/SquareDashedText';
+import {SquareDashedText} from '../lib';
 
 figma.connect(
     SquareDashedText,

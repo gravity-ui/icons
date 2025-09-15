@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import BranchesDown from '../lib/BranchesDown';
+import {BranchesDown} from '../lib';
 
 figma.connect(
     BranchesDown,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ChartBar from '../lib/ChartBar';
+import {ChartBar} from '../lib';
 
 figma.connect(
     ChartBar,

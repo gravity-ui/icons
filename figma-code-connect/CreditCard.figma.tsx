@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CreditCard from '../lib/CreditCard';
+import {CreditCard} from '../lib';
 
 figma.connect(
     CreditCard,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LogoStackOverflow from '../lib/LogoStackOverflow';
+import {LogoStackOverflow} from '../lib';
 
 figma.connect(
     LogoStackOverflow,

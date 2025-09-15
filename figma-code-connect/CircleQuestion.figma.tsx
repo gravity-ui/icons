@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CircleQuestion from '../lib/CircleQuestion';
+import {CircleQuestion} from '../lib';
 
 figma.connect(
     CircleQuestion,

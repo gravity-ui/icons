@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LogoFacebook from '../lib/LogoFacebook';
+import {LogoFacebook} from '../lib';
 
 figma.connect(
     LogoFacebook,

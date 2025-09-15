@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FaceNeutral from '../lib/FaceNeutral';
+import {FaceNeutral} from '../lib';
 
 figma.connect(
     FaceNeutral,

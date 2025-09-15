@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ShieldCheck from '../lib/ShieldCheck';
+import {ShieldCheck} from '../lib';
 
 figma.connect(
     ShieldCheck,

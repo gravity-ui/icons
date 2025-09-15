@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import PencilToLine from '../lib/PencilToLine';
+import {PencilToLine} from '../lib';
 
 figma.connect(
     PencilToLine,

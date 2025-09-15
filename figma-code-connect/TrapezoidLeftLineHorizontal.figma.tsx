@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import TrapezoidLeftLineHorizontal from '../lib/TrapezoidLeftLineHorizontal';
+import {TrapezoidLeftLineHorizontal} from '../lib';
 
 figma.connect(
     TrapezoidLeftLineHorizontal,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CircleDollar from '../lib/CircleDollar';
+import {CircleDollar} from '../lib';
 
 figma.connect(
     CircleDollar,

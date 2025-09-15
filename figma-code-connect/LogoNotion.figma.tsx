@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LogoNotion from '../lib/LogoNotion';
+import {LogoNotion} from '../lib';
 
 figma.connect(
     LogoNotion,

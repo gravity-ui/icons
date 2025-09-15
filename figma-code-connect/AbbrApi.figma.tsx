@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import AbbrApi from '../lib/AbbrApi';
+import {AbbrApi} from '../lib';
 
 figma.connect(
     AbbrApi,

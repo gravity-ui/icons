@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Play from '../lib/Play';
+import {Play} from '../lib';
 
 figma.connect(
     Play,

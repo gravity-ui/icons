@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FunnelXmark from '../lib/FunnelXmark';
+import {FunnelXmark} from '../lib';
 
 figma.connect(
     FunnelXmark,

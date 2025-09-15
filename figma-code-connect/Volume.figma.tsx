@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Volume from '../lib/Volume';
+import {Volume} from '../lib';
 
 figma.connect(
     Volume,

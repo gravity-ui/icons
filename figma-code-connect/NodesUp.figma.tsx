@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import NodesUp from '../lib/NodesUp';
+import {NodesUp} from '../lib';
 
 figma.connect(
     NodesUp,

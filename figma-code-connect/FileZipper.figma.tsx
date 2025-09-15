@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FileZipper from '../lib/FileZipper';
+import {FileZipper} from '../lib';
 
 figma.connect(
     FileZipper,

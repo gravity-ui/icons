@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CopyPlus from '../lib/CopyPlus';
+import {CopyPlus} from '../lib';
 
 figma.connect(
     CopyPlus,

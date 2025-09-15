@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Binoculars from '../lib/Binoculars';
+import {Binoculars} from '../lib';
 
 figma.connect(
     Binoculars,

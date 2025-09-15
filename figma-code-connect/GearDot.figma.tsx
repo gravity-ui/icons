@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import GearDot from '../lib/GearDot';
+import {GearDot} from '../lib';
 
 figma.connect(
     GearDot,

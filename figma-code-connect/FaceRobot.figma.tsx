@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FaceRobot from '../lib/FaceRobot';
+import {FaceRobot} from '../lib';
 
 figma.connect(
     FaceRobot,

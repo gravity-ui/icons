@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Trolley from '../lib/Trolley';
+import {Trolley} from '../lib';
 
 figma.connect(
     Trolley,

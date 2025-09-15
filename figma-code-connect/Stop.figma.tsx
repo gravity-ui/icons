@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Stop from '../lib/Stop';
+import {Stop} from '../lib';
 
 figma.connect(
     Stop,

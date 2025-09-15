@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LogoYandexCloud from '../lib/LogoYandexCloud';
+import {LogoYandexCloud} from '../lib';
 
 figma.connect(
     LogoYandexCloud,

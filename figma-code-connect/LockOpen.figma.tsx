@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LockOpen from '../lib/LockOpen';
+import {LockOpen} from '../lib';
 
 figma.connect(
     LockOpen,

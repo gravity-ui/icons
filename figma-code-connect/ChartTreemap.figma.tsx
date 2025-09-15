@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ChartTreemap from '../lib/ChartTreemap';
+import {ChartTreemap} from '../lib';
 
 figma.connect(
     ChartTreemap,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import EyeSlash from '../lib/EyeSlash';
+import {EyeSlash} from '../lib';
 
 figma.connect(
     EyeSlash,

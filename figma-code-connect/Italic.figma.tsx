@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Italic from '../lib/Italic';
+import {Italic} from '../lib';
 
 figma.connect(
     Italic,

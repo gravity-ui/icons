@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Magnet from '../lib/Magnet';
+import {Magnet} from '../lib';
 
 figma.connect(
     Magnet,

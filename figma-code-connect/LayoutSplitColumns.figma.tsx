@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LayoutSplitColumns from '../lib/LayoutSplitColumns';
+import {LayoutSplitColumns} from '../lib';
 
 figma.connect(
     LayoutSplitColumns,

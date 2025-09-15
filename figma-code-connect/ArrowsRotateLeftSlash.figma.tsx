@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ArrowsRotateLeftSlash from '../lib/ArrowsRotateLeftSlash';
+import {ArrowsRotateLeftSlash} from '../lib';
 
 figma.connect(
     ArrowsRotateLeftSlash,

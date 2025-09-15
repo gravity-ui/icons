@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Cube from '../lib/Cube';
+import {Cube} from '../lib';
 
 figma.connect(
     Cube,

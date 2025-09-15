@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import TriangleExclamation from '../lib/TriangleExclamation';
+import {TriangleExclamation} from '../lib';
 
 figma.connect(
     TriangleExclamation,

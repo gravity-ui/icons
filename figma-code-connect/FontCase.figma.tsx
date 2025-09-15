@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FontCase from '../lib/FontCase';
+import {FontCase} from '../lib';
 
 figma.connect(
     FontCase,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import SquarePlus from '../lib/SquarePlus';
+import {SquarePlus} from '../lib';
 
 figma.connect(
     SquarePlus,

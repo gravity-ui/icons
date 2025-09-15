@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import DatabaseMagnifier from '../lib/DatabaseMagnifier';
+import {DatabaseMagnifier} from '../lib';
 
 figma.connect(
     DatabaseMagnifier,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CodeCommits from '../lib/CodeCommits';
+import {CodeCommits} from '../lib';
 
 figma.connect(
     CodeCommits,

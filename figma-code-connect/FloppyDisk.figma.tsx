@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FloppyDisk from '../lib/FloppyDisk';
+import {FloppyDisk} from '../lib';
 
 figma.connect(
     FloppyDisk,

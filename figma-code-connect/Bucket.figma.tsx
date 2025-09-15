@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Bucket from '../lib/Bucket';
+import {Bucket} from '../lib';
 
 figma.connect(
     Bucket,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Clock from '../lib/Clock';
+import {Clock} from '../lib';
 
 figma.connect(
     Clock,

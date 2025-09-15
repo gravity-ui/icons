@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Flag from '../lib/Flag';
+import {Flag} from '../lib';
 
 figma.connect(
     Flag,

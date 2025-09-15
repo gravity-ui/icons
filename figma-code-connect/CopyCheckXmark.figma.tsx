@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CopyCheckXmark from '../lib/CopyCheckXmark';
+import {CopyCheckXmark} from '../lib';
 
 figma.connect(
     CopyCheckXmark,

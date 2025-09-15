@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FolderMagnifier from '../lib/FolderMagnifier';
+import {FolderMagnifier} from '../lib';
 
 figma.connect(
     FolderMagnifier,

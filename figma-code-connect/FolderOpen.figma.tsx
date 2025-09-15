@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FolderOpen from '../lib/FolderOpen';
+import {FolderOpen} from '../lib';
 
 figma.connect(
     FolderOpen,

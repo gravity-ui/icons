@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CodePullRequestCheck from '../lib/CodePullRequestCheck';
+import {CodePullRequestCheck} from '../lib';
 
 figma.connect(
     CodePullRequestCheck,

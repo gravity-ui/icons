@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CardDiamond from '../lib/CardDiamond';
+import {CardDiamond} from '../lib';
 
 figma.connect(
     CardDiamond,

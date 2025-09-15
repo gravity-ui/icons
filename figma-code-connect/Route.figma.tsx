@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Route from '../lib/Route';
+import {Route} from '../lib';
 
 figma.connect(
     Route,

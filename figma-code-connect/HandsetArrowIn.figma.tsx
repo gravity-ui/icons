@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import HandsetArrowIn from '../lib/HandsetArrowIn';
+import {HandsetArrowIn} from '../lib';
 
 figma.connect(
     HandsetArrowIn,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Cubes3Overlap from '../lib/Cubes3Overlap';
+import {Cubes3Overlap} from '../lib';
 
 figma.connect(
     Cubes3Overlap,

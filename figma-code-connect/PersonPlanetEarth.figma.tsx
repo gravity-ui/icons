@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import PersonPlanetEarth from '../lib/PersonPlanetEarth';
+import {PersonPlanetEarth} from '../lib';
 
 figma.connect(
     PersonPlanetEarth,

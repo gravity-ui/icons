@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CodePullRequestArrowRight from '../lib/CodePullRequestArrowRight';
+import {CodePullRequestArrowRight} from '../lib';
 
 figma.connect(
     CodePullRequestArrowRight,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import GearPlay from '../lib/GearPlay';
+import {GearPlay} from '../lib';
 
 figma.connect(
     GearPlay,

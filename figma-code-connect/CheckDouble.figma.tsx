@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CheckDouble from '../lib/CheckDouble';
+import {CheckDouble} from '../lib';
 
 figma.connect(
     CheckDouble,

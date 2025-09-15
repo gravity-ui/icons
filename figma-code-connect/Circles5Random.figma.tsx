@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Circles5Random from '../lib/Circles5Random';
+import {Circles5Random} from '../lib';
 
 figma.connect(
     Circles5Random,

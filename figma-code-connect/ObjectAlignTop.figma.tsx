@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ObjectAlignTop from '../lib/ObjectAlignTop';
+import {ObjectAlignTop} from '../lib';
 
 figma.connect(
     ObjectAlignTop,

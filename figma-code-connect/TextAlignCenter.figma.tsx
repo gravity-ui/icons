@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import TextAlignCenter from '../lib/TextAlignCenter';
+import {TextAlignCenter} from '../lib';
 
 figma.connect(
     TextAlignCenter,

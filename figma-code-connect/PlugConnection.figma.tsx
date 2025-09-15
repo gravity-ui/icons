@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import PlugConnection from '../lib/PlugConnection';
+import {PlugConnection} from '../lib';
 
 figma.connect(
     PlugConnection,

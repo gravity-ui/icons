@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Stethoscope from '../lib/Stethoscope';
+import {Stethoscope} from '../lib';
 
 figma.connect(
     Stethoscope,

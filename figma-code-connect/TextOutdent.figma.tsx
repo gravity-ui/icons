@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import TextOutdent from '../lib/TextOutdent';
+import {TextOutdent} from '../lib';
 
 figma.connect(
     TextOutdent,

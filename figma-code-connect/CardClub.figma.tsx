@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CardClub from '../lib/CardClub';
+import {CardClub} from '../lib';
 
 figma.connect(
     CardClub,

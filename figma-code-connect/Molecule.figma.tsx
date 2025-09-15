@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Molecule from '../lib/Molecule';
+import {Molecule} from '../lib';
 
 figma.connect(
     Molecule,

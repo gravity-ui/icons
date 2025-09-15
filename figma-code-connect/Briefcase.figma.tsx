@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Briefcase from '../lib/Briefcase';
+import {Briefcase} from '../lib';
 
 figma.connect(
     Briefcase,

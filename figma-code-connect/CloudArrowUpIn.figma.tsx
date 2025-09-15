@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CloudArrowUpIn from '../lib/CloudArrowUpIn';
+import {CloudArrowUpIn} from '../lib';
 
 figma.connect(
     CloudArrowUpIn,

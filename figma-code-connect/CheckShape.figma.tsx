@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CheckShape from '../lib/CheckShape';
+import {CheckShape} from '../lib';
 
 figma.connect(
     CheckShape,

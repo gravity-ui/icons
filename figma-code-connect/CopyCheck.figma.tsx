@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CopyCheck from '../lib/CopyCheck';
+import {CopyCheck} from '../lib';
 
 figma.connect(
     CopyCheck,

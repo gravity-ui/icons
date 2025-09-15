@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Pin from '../lib/Pin';
+import {Pin} from '../lib';
 
 figma.connect(
     Pin,

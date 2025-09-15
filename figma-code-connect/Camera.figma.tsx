@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Camera from '../lib/Camera';
+import {Camera} from '../lib';
 
 figma.connect(
     Camera,

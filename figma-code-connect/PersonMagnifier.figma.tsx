@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import PersonMagnifier from '../lib/PersonMagnifier';
+import {PersonMagnifier} from '../lib';
 
 figma.connect(
     PersonMagnifier,

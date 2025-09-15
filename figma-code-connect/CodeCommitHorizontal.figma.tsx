@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CodeCommitHorizontal from '../lib/CodeCommitHorizontal';
+import {CodeCommitHorizontal} from '../lib';
 
 figma.connect(
     CodeCommitHorizontal,

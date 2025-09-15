@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ShoppingCart from '../lib/ShoppingCart';
+import {ShoppingCart} from '../lib';
 
 figma.connect(
     ShoppingCart,

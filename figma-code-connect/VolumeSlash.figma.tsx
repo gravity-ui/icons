@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import VolumeSlash from '../lib/VolumeSlash';
+import {VolumeSlash} from '../lib';
 
 figma.connect(
     VolumeSlash,

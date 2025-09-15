@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Heart from '../lib/Heart';
+import {Heart} from '../lib';
 
 figma.connect(
     Heart,

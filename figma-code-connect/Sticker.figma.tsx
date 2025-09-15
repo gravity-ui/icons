@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Sticker from '../lib/Sticker';
+import {Sticker} from '../lib';
 
 figma.connect(
     Sticker,

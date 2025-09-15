@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ShieldKeyhole from '../lib/ShieldKeyhole';
+import {ShieldKeyhole} from '../lib';
 
 figma.connect(
     ShieldKeyhole,

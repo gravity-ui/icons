@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Funnel from '../lib/Funnel';
+import {Funnel} from '../lib';
 
 figma.connect(
     Funnel,

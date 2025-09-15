@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Eraser from '../lib/Eraser';
+import {Eraser} from '../lib';
 
 figma.connect(
     Eraser,

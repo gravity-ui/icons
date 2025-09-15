@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Bookmark from '../lib/Bookmark';
+import {Bookmark} from '../lib';
 
 figma.connect(
     Bookmark,

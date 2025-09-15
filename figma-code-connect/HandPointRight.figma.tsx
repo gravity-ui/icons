@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import HandPointRight from '../lib/HandPointRight';
+import {HandPointRight} from '../lib';
 
 figma.connect(
     HandPointRight,

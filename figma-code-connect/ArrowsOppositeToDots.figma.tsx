@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ArrowsOppositeToDots from '../lib/ArrowsOppositeToDots';
+import {ArrowsOppositeToDots} from '../lib';
 
 figma.connect(
     ArrowsOppositeToDots,

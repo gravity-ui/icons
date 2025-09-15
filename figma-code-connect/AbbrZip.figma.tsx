@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import AbbrZip from '../lib/AbbrZip';
+import {AbbrZip} from '../lib';
 
 figma.connect(
     AbbrZip,

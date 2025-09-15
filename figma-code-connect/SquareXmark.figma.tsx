@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import SquareXmark from '../lib/SquareXmark';
+import {SquareXmark} from '../lib';
 
 figma.connect(
     SquareXmark,

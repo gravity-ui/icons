@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Cherry from '../lib/Cherry';
+import {Cherry} from '../lib';
 
 figma.connect(
     Cherry,

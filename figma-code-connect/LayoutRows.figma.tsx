@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LayoutRows from '../lib/LayoutRows';
+import {LayoutRows} from '../lib';
 
 figma.connect(
     LayoutRows,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LogoYandexMessenger from '../lib/LogoYandexMessenger';
+import {LogoYandexMessenger} from '../lib';
 
 figma.connect(
     LogoYandexMessenger,

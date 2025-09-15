@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import TagRuble from '../lib/TagRuble';
+import {TagRuble} from '../lib';
 
 figma.connect(
     TagRuble,

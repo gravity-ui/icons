@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CodePullRequestXmark from '../lib/CodePullRequestXmark';
+import {CodePullRequestXmark} from '../lib';
 
 figma.connect(
     CodePullRequestXmark,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Pulse from '../lib/Pulse';
+import {Pulse} from '../lib';
 
 figma.connect(
     Pulse,

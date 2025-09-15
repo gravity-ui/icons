@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Bold from '../lib/Bold';
+import {Bold} from '../lib';
 
 figma.connect(
     Bold,

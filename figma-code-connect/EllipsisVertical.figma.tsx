@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import EllipsisVertical from '../lib/EllipsisVertical';
+import {EllipsisVertical} from '../lib';
 
 figma.connect(
     EllipsisVertical,

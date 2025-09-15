@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import VolumeOff from '../lib/VolumeOff';
+import {VolumeOff} from '../lib';
 
 figma.connect(
     VolumeOff,

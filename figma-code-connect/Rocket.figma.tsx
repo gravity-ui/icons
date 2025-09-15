@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Rocket from '../lib/Rocket';
+import {Rocket} from '../lib';
 
 figma.connect(
     Rocket,

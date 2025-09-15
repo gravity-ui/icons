@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CircleDashed from '../lib/CircleDashed';
+import {CircleDashed} from '../lib';
 
 figma.connect(
     CircleDashed,

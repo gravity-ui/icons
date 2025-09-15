@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LogoAndroid from '../lib/LogoAndroid';
+import {LogoAndroid} from '../lib';
 
 figma.connect(
     LogoAndroid,

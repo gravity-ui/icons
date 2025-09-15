@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LayoutFooter from '../lib/LayoutFooter';
+import {LayoutFooter} from '../lib';
 
 figma.connect(
     LayoutFooter,

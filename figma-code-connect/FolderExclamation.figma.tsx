@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FolderExclamation from '../lib/FolderExclamation';
+import {FolderExclamation} from '../lib';
 
 figma.connect(
     FolderExclamation,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ChevronRight from '../lib/ChevronRight';
+import {ChevronRight} from '../lib';
 
 figma.connect(
     ChevronRight,

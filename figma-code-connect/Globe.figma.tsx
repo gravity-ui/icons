@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Globe from '../lib/Globe';
+import {Globe} from '../lib';
 
 figma.connect(
     Globe,

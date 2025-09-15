@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Percent from '../lib/Percent';
+import {Percent} from '../lib';
 
 figma.connect(
     Percent,

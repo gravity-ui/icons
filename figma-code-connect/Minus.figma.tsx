@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Minus from '../lib/Minus';
+import {Minus} from '../lib';
 
 figma.connect(
     Minus,

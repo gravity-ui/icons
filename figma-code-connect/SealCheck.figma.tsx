@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import SealCheck from '../lib/SealCheck';
+import {SealCheck} from '../lib';
 
 figma.connect(
     SealCheck,

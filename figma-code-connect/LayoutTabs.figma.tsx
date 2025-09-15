@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LayoutTabs from '../lib/LayoutTabs';
+import {LayoutTabs} from '../lib';
 
 figma.connect(
     LayoutTabs,

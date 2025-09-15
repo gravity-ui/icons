@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import PinSlash from '../lib/PinSlash';
+import {PinSlash} from '../lib';
 
 figma.connect(
     PinSlash,

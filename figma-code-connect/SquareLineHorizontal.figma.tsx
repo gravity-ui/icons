@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import SquareLineHorizontal from '../lib/SquareLineHorizontal';
+import {SquareLineHorizontal} from '../lib';
 
 figma.connect(
     SquareLineHorizontal,

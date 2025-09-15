@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ForwardStep from '../lib/ForwardStep';
+import {ForwardStep} from '../lib';
 
 figma.connect(
     ForwardStep,

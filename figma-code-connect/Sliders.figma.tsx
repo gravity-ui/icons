@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Sliders from '../lib/Sliders';
+import {Sliders} from '../lib';
 
 figma.connect(
     Sliders,

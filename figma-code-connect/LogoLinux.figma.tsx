@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LogoLinux from '../lib/LogoLinux';
+import {LogoLinux} from '../lib';
 
 figma.connect(
     LogoLinux,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Handset from '../lib/Handset';
+import {Handset} from '../lib';
 
 figma.connect(
     Handset,

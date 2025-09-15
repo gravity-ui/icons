@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import BroadcastSignal from '../lib/BroadcastSignal';
+import {BroadcastSignal} from '../lib';
 
 figma.connect(
     BroadcastSignal,

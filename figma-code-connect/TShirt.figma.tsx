@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import TShirt from '../lib/TShirt';
+import {TShirt} from '../lib';
 
 figma.connect(
     TShirt,

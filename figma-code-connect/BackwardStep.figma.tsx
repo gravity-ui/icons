@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import BackwardStep from '../lib/BackwardStep';
+import {BackwardStep} from '../lib';
 
 figma.connect(
     BackwardStep,

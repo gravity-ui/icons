@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FileExclamation from '../lib/FileExclamation';
+import {FileExclamation} from '../lib';
 
 figma.connect(
     FileExclamation,

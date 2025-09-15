@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import MathOperations from '../lib/MathOperations';
+import {MathOperations} from '../lib';
 
 figma.connect(
     MathOperations,

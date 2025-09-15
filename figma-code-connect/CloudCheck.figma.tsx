@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CloudCheck from '../lib/CloudCheck';
+import {CloudCheck} from '../lib';
 
 figma.connect(
     CloudCheck,

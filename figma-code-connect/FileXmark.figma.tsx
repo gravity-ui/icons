@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FileXmark from '../lib/FileXmark';
+import {FileXmark} from '../lib';
 
 figma.connect(
     FileXmark,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Droplet from '../lib/Droplet';
+import {Droplet} from '../lib';
 
 figma.connect(
     Droplet,

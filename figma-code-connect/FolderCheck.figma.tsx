@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FolderCheck from '../lib/FolderCheck';
+import {FolderCheck} from '../lib';
 
 figma.connect(
     FolderCheck,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import At from '../lib/At';
+import {At} from '../lib';
 
 figma.connect(
     At,

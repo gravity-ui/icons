@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Shield from '../lib/Shield';
+import {Shield} from '../lib';
 
 figma.connect(
     Shield,

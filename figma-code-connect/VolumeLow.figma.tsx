@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import VolumeLow from '../lib/VolumeLow';
+import {VolumeLow} from '../lib';
 
 figma.connect(
     VolumeLow,

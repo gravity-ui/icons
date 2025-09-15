@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CircleInfo from '../lib/CircleInfo';
+import {CircleInfo} from '../lib';
 
 figma.connect(
     CircleInfo,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Flame from '../lib/Flame';
+import {Flame} from '../lib';
 
 figma.connect(
     Flame,

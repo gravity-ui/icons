@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ChevronsCollapseHorizontal from '../lib/ChevronsCollapseHorizontal';
+import {ChevronsCollapseHorizontal} from '../lib';
 
 figma.connect(
     ChevronsCollapseHorizontal,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CircleStop from '../lib/CircleStop';
+import {CircleStop} from '../lib';
 
 figma.connect(
     CircleStop,

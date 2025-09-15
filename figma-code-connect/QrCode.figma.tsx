@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import QrCode from '../lib/QrCode';
+import {QrCode} from '../lib';
 
 figma.connect(
     QrCode,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import PersonSpeaker from '../lib/PersonSpeaker';
+import {PersonSpeaker} from '../lib';
 
 figma.connect(
     PersonSpeaker,

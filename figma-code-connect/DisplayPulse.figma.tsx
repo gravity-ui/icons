@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import DisplayPulse from '../lib/DisplayPulse';
+import {DisplayPulse} from '../lib';
 
 figma.connect(
     DisplayPulse,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import PlugWire from '../lib/PlugWire';
+import {PlugWire} from '../lib';
 
 figma.connect(
     PlugWire,

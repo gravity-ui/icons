@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FolderCode from '../lib/FolderCode';
+import {FolderCode} from '../lib';
 
 figma.connect(
     FolderCode,

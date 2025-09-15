@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CopyChevronRight from '../lib/CopyChevronRight';
+import {CopyChevronRight} from '../lib';
 
 figma.connect(
     CopyChevronRight,

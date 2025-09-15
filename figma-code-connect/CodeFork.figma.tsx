@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CodeFork from '../lib/CodeFork';
+import {CodeFork} from '../lib';
 
 figma.connect(
     CodeFork,

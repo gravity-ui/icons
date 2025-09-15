@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import DiamondExclamation from '../lib/DiamondExclamation';
+import {DiamondExclamation} from '../lib';
 
 figma.connect(
     DiamondExclamation,

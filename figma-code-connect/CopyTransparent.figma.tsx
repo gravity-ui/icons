@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CopyTransparent from '../lib/CopyTransparent';
+import {CopyTransparent} from '../lib';
 
 figma.connect(
     CopyTransparent,

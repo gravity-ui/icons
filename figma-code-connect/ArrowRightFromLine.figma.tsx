@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ArrowRightFromLine from '../lib/ArrowRightFromLine';
+import {ArrowRightFromLine} from '../lib';
 
 figma.connect(
     ArrowRightFromLine,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import BellDot from '../lib/BellDot';
+import {BellDot} from '../lib';
 
 figma.connect(
     BellDot,

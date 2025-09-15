@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Power from '../lib/Power';
+import {Power} from '../lib';
 
 figma.connect(
     Power,

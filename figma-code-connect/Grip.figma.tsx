@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Grip from '../lib/Grip';
+import {Grip} from '../lib';
 
 figma.connect(
     Grip,

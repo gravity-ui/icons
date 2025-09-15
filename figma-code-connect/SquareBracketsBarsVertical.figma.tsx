@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import SquareBracketsBarsVertical from '../lib/SquareBracketsBarsVertical';
+import {SquareBracketsBarsVertical} from '../lib';
 
 figma.connect(
     SquareBracketsBarsVertical,

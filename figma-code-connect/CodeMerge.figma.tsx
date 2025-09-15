@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CodeMerge from '../lib/CodeMerge';
+import {CodeMerge} from '../lib';
 
 figma.connect(
     CodeMerge,

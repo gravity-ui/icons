@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Font from '../lib/Font';
+import {Font} from '../lib';
 
 figma.connect(
     Font,

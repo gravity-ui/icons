@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FileDollar from '../lib/FileDollar';
+import {FileDollar} from '../lib';
 
 figma.connect(
     FileDollar,

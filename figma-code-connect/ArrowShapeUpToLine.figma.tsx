@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ArrowShapeUpToLine from '../lib/ArrowShapeUpToLine';
+import {ArrowShapeUpToLine} from '../lib';
 
 figma.connect(
     ArrowShapeUpToLine,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Stopwatch from '../lib/Stopwatch';
+import {Stopwatch} from '../lib';
 
 figma.connect(
     Stopwatch,

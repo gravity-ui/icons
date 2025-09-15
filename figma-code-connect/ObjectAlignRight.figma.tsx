@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ObjectAlignRight from '../lib/ObjectAlignRight';
+import {ObjectAlignRight} from '../lib';
 
 figma.connect(
     ObjectAlignRight,

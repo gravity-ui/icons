@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LogoMacos from '../lib/LogoMacos';
+import {LogoMacos} from '../lib';
 
 figma.connect(
     LogoMacos,

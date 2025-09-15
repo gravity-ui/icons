@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Brush from '../lib/Brush';
+import {Brush} from '../lib';
 
 figma.connect(
     Brush,

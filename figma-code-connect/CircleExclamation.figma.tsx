@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CircleExclamation from '../lib/CircleExclamation';
+import {CircleExclamation} from '../lib';
 
 figma.connect(
     CircleExclamation,

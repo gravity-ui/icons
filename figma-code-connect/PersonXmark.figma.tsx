@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import PersonXmark from '../lib/PersonXmark';
+import {PersonXmark} from '../lib';
 
 figma.connect(
     PersonXmark,

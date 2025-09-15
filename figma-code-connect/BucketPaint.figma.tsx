@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import BucketPaint from '../lib/BucketPaint';
+import {BucketPaint} from '../lib';
 
 figma.connect(
     BucketPaint,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ClockArrowRotateLeft from '../lib/ClockArrowRotateLeft';
+import {ClockArrowRotateLeft} from '../lib';
 
 figma.connect(
     ClockArrowRotateLeft,

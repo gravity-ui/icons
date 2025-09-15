@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Scissors from '../lib/Scissors';
+import {Scissors} from '../lib';
 
 figma.connect(
     Scissors,

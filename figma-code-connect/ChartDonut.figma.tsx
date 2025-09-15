@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ChartDonut from '../lib/ChartDonut';
+import {ChartDonut} from '../lib';
 
 figma.connect(
     ChartDonut,

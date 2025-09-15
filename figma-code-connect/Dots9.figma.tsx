@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Dots9 from '../lib/Dots9';
+import {Dots9} from '../lib';
 
 figma.connect(
     Dots9,

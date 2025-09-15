@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Terminal from '../lib/Terminal';
+import {Terminal} from '../lib';
 
 figma.connect(
     Terminal,

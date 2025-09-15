@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LayoutColumns from '../lib/LayoutColumns';
+import {LayoutColumns} from '../lib';
 
 figma.connect(
     LayoutColumns,

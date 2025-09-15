@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import MusicNote from '../lib/MusicNote';
+import {MusicNote} from '../lib';
 
 figma.connect(
     MusicNote,

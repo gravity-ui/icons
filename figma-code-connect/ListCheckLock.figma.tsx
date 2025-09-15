@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ListCheckLock from '../lib/ListCheckLock';
+import {ListCheckLock} from '../lib';
 
 figma.connect(
     ListCheckLock,

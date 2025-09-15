@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import GeoPolygons from '../lib/GeoPolygons';
+import {GeoPolygons} from '../lib';
 
 figma.connect(
     GeoPolygons,

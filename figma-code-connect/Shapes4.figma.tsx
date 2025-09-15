@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Shapes4 from '../lib/Shapes4';
+import {Shapes4} from '../lib';
 
 figma.connect(
     Shapes4,

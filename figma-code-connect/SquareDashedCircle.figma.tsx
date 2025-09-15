@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import SquareDashedCircle from '../lib/SquareDashedCircle';
+import {SquareDashedCircle} from '../lib';
 
 figma.connect(
     SquareDashedCircle,

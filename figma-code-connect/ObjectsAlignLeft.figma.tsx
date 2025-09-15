@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ObjectsAlignLeft from '../lib/ObjectsAlignLeft';
+import {ObjectsAlignLeft} from '../lib';
 
 figma.connect(
     ObjectsAlignLeft,

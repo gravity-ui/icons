@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Pause from '../lib/Pause';
+import {Pause} from '../lib';
 
 figma.connect(
     Pause,

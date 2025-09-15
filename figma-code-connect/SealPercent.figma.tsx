@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import SealPercent from '../lib/SealPercent';
+import {SealPercent} from '../lib';
 
 figma.connect(
     SealPercent,

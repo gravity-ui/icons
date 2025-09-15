@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Circles4Diamond from '../lib/Circles4Diamond';
+import {Circles4Diamond} from '../lib';
 
 figma.connect(
     Circles4Diamond,

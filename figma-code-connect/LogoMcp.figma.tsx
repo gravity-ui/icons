@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LogoMcp from '../lib/LogoMcp';
+import {LogoMcp} from '../lib';
 
 figma.connect(
     LogoMcp,

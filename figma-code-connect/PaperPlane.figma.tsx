@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import PaperPlane from '../lib/PaperPlane';
+import {PaperPlane} from '../lib';
 
 figma.connect(
     PaperPlane,

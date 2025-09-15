@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FolderHouse from '../lib/FolderHouse';
+import {FolderHouse} from '../lib';
 
 figma.connect(
     FolderHouse,

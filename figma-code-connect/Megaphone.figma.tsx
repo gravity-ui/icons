@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Megaphone from '../lib/Megaphone';
+import {Megaphone} from '../lib';
 
 figma.connect(
     Megaphone,

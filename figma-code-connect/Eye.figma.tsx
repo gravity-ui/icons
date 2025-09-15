@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Eye from '../lib/Eye';
+import {Eye} from '../lib';
 
 figma.connect(
     Eye,

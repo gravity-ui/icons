@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LayoutHeaderCursor from '../lib/LayoutHeaderCursor';
+import {LayoutHeaderCursor} from '../lib';
 
 figma.connect(
     LayoutHeaderCursor,

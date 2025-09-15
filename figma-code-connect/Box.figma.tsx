@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Box from '../lib/Box';
+import {Box} from '../lib';
 
 figma.connect(
     Box,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import BellSlash from '../lib/BellSlash';
+import {BellSlash} from '../lib';
 
 figma.connect(
     BellSlash,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import GeoPin from '../lib/GeoPin';
+import {GeoPin} from '../lib';
 
 figma.connect(
     GeoPin,

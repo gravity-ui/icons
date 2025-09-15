@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import MathIntersectionShape from '../lib/MathIntersectionShape';
+import {MathIntersectionShape} from '../lib';
 
 figma.connect(
     MathIntersectionShape,

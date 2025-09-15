@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Key from '../lib/Key';
+import {Key} from '../lib';
 
 figma.connect(
     Key,

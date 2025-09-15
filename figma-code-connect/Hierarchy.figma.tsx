@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Hierarchy from '../lib/Hierarchy';
+import {Hierarchy} from '../lib';
 
 figma.connect(
     Hierarchy,

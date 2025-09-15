@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LogoWindows from '../lib/LogoWindows';
+import {LogoWindows} from '../lib';
 
 figma.connect(
     LogoWindows,

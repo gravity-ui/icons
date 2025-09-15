@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CopyPicture from '../lib/CopyPicture';
+import {CopyPicture} from '../lib';
 
 figma.connect(
     CopyPicture,

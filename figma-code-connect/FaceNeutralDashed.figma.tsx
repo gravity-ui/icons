@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FaceNeutralDashed from '../lib/FaceNeutralDashed';
+import {FaceNeutralDashed} from '../lib';
 
 figma.connect(
     FaceNeutralDashed,

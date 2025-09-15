@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Snail from '../lib/Snail';
+import {Snail} from '../lib';
 
 figma.connect(
     Snail,

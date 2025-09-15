@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import EyeDashed from '../lib/EyeDashed';
+import {EyeDashed} from '../lib';
 
 figma.connect(
     EyeDashed,

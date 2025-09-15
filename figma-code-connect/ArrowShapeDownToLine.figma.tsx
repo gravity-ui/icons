@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ArrowShapeDownToLine from '../lib/ArrowShapeDownToLine';
+import {ArrowShapeDownToLine} from '../lib';
 
 figma.connect(
     ArrowShapeDownToLine,

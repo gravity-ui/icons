@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import SquareHashtag from '../lib/SquareHashtag';
+import {SquareHashtag} from '../lib';
 
 figma.connect(
     SquareHashtag,

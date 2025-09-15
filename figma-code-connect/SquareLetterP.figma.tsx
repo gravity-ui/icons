@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import SquareLetterP from '../lib/SquareLetterP';
+import {SquareLetterP} from '../lib';
 
 figma.connect(
     SquareLetterP,

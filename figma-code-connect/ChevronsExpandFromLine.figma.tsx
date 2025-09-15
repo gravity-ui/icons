@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ChevronsExpandFromLine from '../lib/ChevronsExpandFromLine';
+import {ChevronsExpandFromLine} from '../lib';
 
 figma.connect(
     ChevronsExpandFromLine,

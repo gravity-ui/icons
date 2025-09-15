@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import BranchesRight from '../lib/BranchesRight';
+import {BranchesRight} from '../lib';
 
 figma.connect(
     BranchesRight,

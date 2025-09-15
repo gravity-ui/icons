@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FileRuble from '../lib/FileRuble';
+import {FileRuble} from '../lib';
 
 figma.connect(
     FileRuble,

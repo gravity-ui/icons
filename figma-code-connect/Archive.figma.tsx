@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Archive from '../lib/Archive';
+import {Archive} from '../lib';
 
 figma.connect(
     Archive,

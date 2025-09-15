@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Diamond from '../lib/Diamond';
+import {Diamond} from '../lib';
 
 figma.connect(
     Diamond,

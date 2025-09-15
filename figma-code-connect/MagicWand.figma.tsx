@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import MagicWand from '../lib/MagicWand';
+import {MagicWand} from '../lib';
 
 figma.connect(
     MagicWand,

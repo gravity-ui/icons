@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Strikethrough from '../lib/Strikethrough';
+import {Strikethrough} from '../lib';
 
 figma.connect(
     Strikethrough,

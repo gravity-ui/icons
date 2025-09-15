@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ListCheck from '../lib/ListCheck';
+import {ListCheck} from '../lib';
 
 figma.connect(
     ListCheck,

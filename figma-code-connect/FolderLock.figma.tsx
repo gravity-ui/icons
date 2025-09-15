@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FolderLock from '../lib/FolderLock';
+import {FolderLock} from '../lib';
 
 figma.connect(
     FolderLock,

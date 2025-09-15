@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LetterM from '../lib/LetterM';
+import {LetterM} from '../lib';
 
 figma.connect(
     LetterM,

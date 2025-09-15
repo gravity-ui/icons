@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Umbrella from '../lib/Umbrella';
+import {Umbrella} from '../lib';
 
 figma.connect(
     Umbrella,

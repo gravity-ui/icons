@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Book from '../lib/Book';
+import {Book} from '../lib';
 
 figma.connect(
     Book,

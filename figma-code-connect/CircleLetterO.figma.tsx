@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CircleLetterO from '../lib/CircleLetterO';
+import {CircleLetterO} from '../lib';
 
 figma.connect(
     CircleLetterO,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ChevronsExpandVertical from '../lib/ChevronsExpandVertical';
+import {ChevronsExpandVertical} from '../lib';
 
 figma.connect(
     ChevronsExpandVertical,

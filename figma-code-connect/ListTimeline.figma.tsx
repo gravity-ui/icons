@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ListTimeline from '../lib/ListTimeline';
+import {ListTimeline} from '../lib';
 
 figma.connect(
     ListTimeline,

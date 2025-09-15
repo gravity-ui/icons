@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Folders from '../lib/Folders';
+import {Folders} from '../lib';
 
 figma.connect(
     Folders,

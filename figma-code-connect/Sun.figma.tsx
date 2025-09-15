@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Sun from '../lib/Sun';
+import {Sun} from '../lib';
 
 figma.connect(
     Sun,

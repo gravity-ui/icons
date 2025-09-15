@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LayoutHeader from '../lib/LayoutHeader';
+import {LayoutHeader} from '../lib';
 
 figma.connect(
     LayoutHeader,

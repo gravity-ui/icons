@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Printer from '../lib/Printer';
+import {Printer} from '../lib';
 
 figma.connect(
     Printer,

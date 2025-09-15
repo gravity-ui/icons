@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import HandsetArrowOut from '../lib/HandsetArrowOut';
+import {HandsetArrowOut} from '../lib';
 
 figma.connect(
     HandsetArrowOut,

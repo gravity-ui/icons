@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Star from '../lib/Star';
+import {Star} from '../lib';
 
 figma.connect(
     Star,

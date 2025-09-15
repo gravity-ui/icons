@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FileText from '../lib/FileText';
+import {FileText} from '../lib';
 
 figma.connect(
     FileText,

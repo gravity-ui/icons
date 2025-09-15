@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Databases from '../lib/Databases';
+import {Databases} from '../lib';
 
 figma.connect(
     Databases,

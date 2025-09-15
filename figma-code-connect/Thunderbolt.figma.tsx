@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Thunderbolt from '../lib/Thunderbolt';
+import {Thunderbolt} from '../lib';
 
 figma.connect(
     Thunderbolt,

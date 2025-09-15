@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import XmarkShape from '../lib/XmarkShape';
+import {XmarkShape} from '../lib';
 
 figma.connect(
     XmarkShape,

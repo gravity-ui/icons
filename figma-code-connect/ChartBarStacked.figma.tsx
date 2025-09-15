@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ChartBarStacked from '../lib/ChartBarStacked';
+import {ChartBarStacked} from '../lib';
 
 figma.connect(
     ChartBarStacked,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Compass from '../lib/Compass';
+import {Compass} from '../lib';
 
 figma.connect(
     Compass,

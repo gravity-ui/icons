@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ObjectAlignCenterHorizontal from '../lib/ObjectAlignCenterHorizontal';
+import {ObjectAlignCenterHorizontal} from '../lib';
 
 figma.connect(
     ObjectAlignCenterHorizontal,

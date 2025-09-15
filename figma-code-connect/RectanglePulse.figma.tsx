@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import RectanglePulse from '../lib/RectanglePulse';
+import {RectanglePulse} from '../lib';
 
 figma.connect(
     RectanglePulse,

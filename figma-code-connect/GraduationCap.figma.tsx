@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import GraduationCap from '../lib/GraduationCap';
+import {GraduationCap} from '../lib';
 
 figma.connect(
     GraduationCap,

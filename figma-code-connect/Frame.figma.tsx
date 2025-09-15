@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Frame from '../lib/Frame';
+import {Frame} from '../lib';
 
 figma.connect(
     Frame,

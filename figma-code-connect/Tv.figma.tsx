@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Tv from '../lib/Tv';
+import {Tv} from '../lib';
 
 figma.connect(
     Tv,

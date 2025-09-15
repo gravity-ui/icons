@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CurlyBrackets from '../lib/CurlyBrackets';
+import {CurlyBrackets} from '../lib';
 
 figma.connect(
     CurlyBrackets,

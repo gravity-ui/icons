@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ChartMixed from '../lib/ChartMixed';
+import {ChartMixed} from '../lib';
 
 figma.connect(
     ChartMixed,

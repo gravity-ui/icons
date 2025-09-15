@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Hashtag from '../lib/Hashtag';
+import {Hashtag} from '../lib';
 
 figma.connect(
     Hashtag,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Server from '../lib/Server';
+import {Server} from '../lib';
 
 figma.connect(
     Server,

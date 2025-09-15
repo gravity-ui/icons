@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LogoYandexTracker from '../lib/LogoYandexTracker';
+import {LogoYandexTracker} from '../lib';
 
 figma.connect(
     LogoYandexTracker,

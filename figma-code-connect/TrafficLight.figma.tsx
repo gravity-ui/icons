@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import TrafficLight from '../lib/TrafficLight';
+import {TrafficLight} from '../lib';
 
 figma.connect(
     TrafficLight,

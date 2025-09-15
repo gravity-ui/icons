@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import SquareDot from '../lib/SquareDot';
+import {SquareDot} from '../lib';
 
 figma.connect(
     SquareDot,

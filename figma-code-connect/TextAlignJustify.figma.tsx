@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import TextAlignJustify from '../lib/TextAlignJustify';
+import {TextAlignJustify} from '../lib';
 
 figma.connect(
     TextAlignJustify,

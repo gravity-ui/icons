@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Snowflake from '../lib/Snowflake';
+import {Snowflake} from '../lib';
 
 figma.connect(
     Snowflake,

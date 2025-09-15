@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Heading3 from '../lib/Heading3';
+import {Heading3} from '../lib';
 
 figma.connect(
     Heading3,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ObjectsAlignJustifyHorizontal from '../lib/ObjectsAlignJustifyHorizontal';
+import {ObjectsAlignJustifyHorizontal} from '../lib';
 
 figma.connect(
     ObjectsAlignJustifyHorizontal,

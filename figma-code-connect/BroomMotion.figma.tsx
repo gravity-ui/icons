@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import BroomMotion from '../lib/BroomMotion';
+import {BroomMotion} from '../lib';
 
 figma.connect(
     BroomMotion,

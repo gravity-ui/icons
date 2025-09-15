@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import SquareBars from '../lib/SquareBars';
+import {SquareBars} from '../lib';
 
 figma.connect(
     SquareBars,

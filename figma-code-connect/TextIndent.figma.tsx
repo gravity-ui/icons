@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import TextIndent from '../lib/TextIndent';
+import {TextIndent} from '../lib';
 
 figma.connect(
     TextIndent,

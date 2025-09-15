@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Sphere from '../lib/Sphere';
+import {Sphere} from '../lib';
 
 figma.connect(
     Sphere,

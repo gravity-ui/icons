@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ChartColumn from '../lib/ChartColumn';
+import {ChartColumn} from '../lib';
 
 figma.connect(
     ChartColumn,

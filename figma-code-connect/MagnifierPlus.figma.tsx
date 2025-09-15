@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import MagnifierPlus from '../lib/MagnifierPlus';
+import {MagnifierPlus} from '../lib';
 
 figma.connect(
     MagnifierPlus,

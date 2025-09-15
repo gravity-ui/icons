@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Clouds from '../lib/Clouds';
+import {Clouds} from '../lib';
 
 figma.connect(
     Clouds,

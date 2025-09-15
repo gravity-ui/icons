@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Factory from '../lib/Factory';
+import {Factory} from '../lib';
 
 figma.connect(
     Factory,

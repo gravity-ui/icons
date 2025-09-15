@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Pipeline from '../lib/Pipeline';
+import {Pipeline} from '../lib';
 
 figma.connect(
     Pipeline,

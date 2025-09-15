@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Xmark from '../lib/Xmark';
+import {Xmark} from '../lib';
 
 figma.connect(
     Xmark,

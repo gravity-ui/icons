@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CircleXmark from '../lib/CircleXmark';
+import {CircleXmark} from '../lib';
 
 figma.connect(
     CircleXmark,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import OctagonXmark from '../lib/OctagonXmark';
+import {OctagonXmark} from '../lib';
 
 figma.connect(
     OctagonXmark,

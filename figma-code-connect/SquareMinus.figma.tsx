@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import SquareMinus from '../lib/SquareMinus';
+import {SquareMinus} from '../lib';
 
 figma.connect(
     SquareMinus,

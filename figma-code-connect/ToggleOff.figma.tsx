@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ToggleOff from '../lib/ToggleOff';
+import {ToggleOff} from '../lib';
 
 figma.connect(
     ToggleOff,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import BarsPlay from '../lib/BarsPlay';
+import {BarsPlay} from '../lib';
 
 figma.connect(
     BarsPlay,

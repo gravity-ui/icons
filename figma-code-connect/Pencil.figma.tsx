@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Pencil from '../lib/Pencil';
+import {Pencil} from '../lib';
 
 figma.connect(
     Pencil,

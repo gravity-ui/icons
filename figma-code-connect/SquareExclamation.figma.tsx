@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import SquareExclamation from '../lib/SquareExclamation';
+import {SquareExclamation} from '../lib';
 
 figma.connect(
     SquareExclamation,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Wrench from '../lib/Wrench';
+import {Wrench} from '../lib';
 
 figma.connect(
     Wrench,

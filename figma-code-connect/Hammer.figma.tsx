@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Hammer from '../lib/Hammer';
+import {Hammer} from '../lib';
 
 figma.connect(
     Hammer,

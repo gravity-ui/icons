@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LayoutSideContentRight from '../lib/LayoutSideContentRight';
+import {LayoutSideContentRight} from '../lib';
 
 figma.connect(
     LayoutSideContentRight,

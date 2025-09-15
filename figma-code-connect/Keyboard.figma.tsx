@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Keyboard from '../lib/Keyboard';
+import {Keyboard} from '../lib';
 
 figma.connect(
     Keyboard,

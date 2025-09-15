@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Suitcase from '../lib/Suitcase';
+import {Suitcase} from '../lib';
 
 figma.connect(
     Suitcase,

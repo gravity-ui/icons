@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Shuffle from '../lib/Shuffle';
+import {Shuffle} from '../lib';
 
 figma.connect(
     Shuffle,

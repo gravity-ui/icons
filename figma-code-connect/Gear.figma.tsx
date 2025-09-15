@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Gear from '../lib/Gear';
+import {Gear} from '../lib';
 
 figma.connect(
     Gear,

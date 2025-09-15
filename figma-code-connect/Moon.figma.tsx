@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Moon from '../lib/Moon';
+import {Moon} from '../lib';
 
 figma.connect(
     Moon,

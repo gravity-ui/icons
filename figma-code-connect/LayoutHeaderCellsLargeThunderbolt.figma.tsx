@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LayoutHeaderCellsLargeThunderbolt from '../lib/LayoutHeaderCellsLargeThunderbolt';
+import {LayoutHeaderCellsLargeThunderbolt} from '../lib';
 
 figma.connect(
     LayoutHeaderCellsLargeThunderbolt,

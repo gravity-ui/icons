@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import TagDollar from '../lib/TagDollar';
+import {TagDollar} from '../lib';
 
 figma.connect(
     TagDollar,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CirclePause from '../lib/CirclePause';
+import {CirclePause} from '../lib';
 
 figma.connect(
     CirclePause,

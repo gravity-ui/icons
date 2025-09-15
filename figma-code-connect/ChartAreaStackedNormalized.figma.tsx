@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ChartAreaStackedNormalized from '../lib/ChartAreaStackedNormalized';
+import {ChartAreaStackedNormalized} from '../lib';
 
 figma.connect(
     ChartAreaStackedNormalized,

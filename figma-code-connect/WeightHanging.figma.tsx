@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import WeightHanging from '../lib/WeightHanging';
+import {WeightHanging} from '../lib';
 
 figma.connect(
     WeightHanging,

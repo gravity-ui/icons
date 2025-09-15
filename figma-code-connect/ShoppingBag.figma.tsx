@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ShoppingBag from '../lib/ShoppingBag';
+import {ShoppingBag} from '../lib';
 
 figma.connect(
     ShoppingBag,

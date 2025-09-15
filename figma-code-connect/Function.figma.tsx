@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Function from '../lib/Function';
+import {Function} from '../lib';
 
 figma.connect(
     Function,

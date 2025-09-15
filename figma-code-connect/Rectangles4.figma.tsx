@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Rectangles4 from '../lib/Rectangles4';
+import {Rectangles4} from '../lib';
 
 figma.connect(
     Rectangles4,

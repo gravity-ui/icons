@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Lock from '../lib/Lock';
+import {Lock} from '../lib';
 
 figma.connect(
     Lock,

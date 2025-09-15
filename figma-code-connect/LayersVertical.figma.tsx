@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LayersVertical from '../lib/LayersVertical';
+import {LayersVertical} from '../lib';
 
 figma.connect(
     LayersVertical,

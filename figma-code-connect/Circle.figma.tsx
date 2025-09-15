@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Circle from '../lib/Circle';
+import {Circle} from '../lib';
 
 figma.connect(
     Circle,

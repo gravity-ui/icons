@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Sparkles from '../lib/Sparkles';
+import {Sparkles} from '../lib';
 
 figma.connect(
     Sparkles,

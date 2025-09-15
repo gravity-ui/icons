@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LinkSlash from '../lib/LinkSlash';
+import {LinkSlash} from '../lib';
 
 figma.connect(
     LinkSlash,

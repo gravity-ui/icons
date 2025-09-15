@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import AbbrMl from '../lib/AbbrMl';
+import {AbbrMl} from '../lib';
 
 figma.connect(
     AbbrMl,

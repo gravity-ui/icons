@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Layers from '../lib/Layers';
+import {Layers} from '../lib';
 
 figma.connect(
     Layers,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FolderPlus from '../lib/FolderPlus';
+import {FolderPlus} from '../lib';
 
 figma.connect(
     FolderPlus,

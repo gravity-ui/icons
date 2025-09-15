@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ChartColumnStacked from '../lib/ChartColumnStacked';
+import {ChartColumnStacked} from '../lib';
 
 figma.connect(
     ChartColumnStacked,

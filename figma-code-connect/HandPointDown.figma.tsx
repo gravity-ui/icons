@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import HandPointDown from '../lib/HandPointDown';
+import {HandPointDown} from '../lib';
 
 figma.connect(
     HandPointDown,

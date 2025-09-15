@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Ban from '../lib/Ban';
+import {Ban} from '../lib';
 
 figma.connect(
     Ban,

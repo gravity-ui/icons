@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CirclesIntersection from '../lib/CirclesIntersection';
+import {CirclesIntersection} from '../lib';
 
 figma.connect(
     CirclesIntersection,

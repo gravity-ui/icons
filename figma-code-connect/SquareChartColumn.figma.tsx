@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import SquareChartColumn from '../lib/SquareChartColumn';
+import {SquareChartColumn} from '../lib';
 
 figma.connect(
     SquareChartColumn,

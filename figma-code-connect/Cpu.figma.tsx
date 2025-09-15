@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Cpu from '../lib/Cpu';
+import {Cpu} from '../lib';
 
 figma.connect(
     Cpu,

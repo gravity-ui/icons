@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Geo from '../lib/Geo';
+import {Geo} from '../lib';
 
 figma.connect(
     Geo,

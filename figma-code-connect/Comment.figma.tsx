@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Comment from '../lib/Comment';
+import {Comment} from '../lib';
 
 figma.connect(
     Comment,

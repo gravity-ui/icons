@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import SquareArticle from '../lib/SquareArticle';
+import {SquareArticle} from '../lib';
 
 figma.connect(
     SquareArticle,

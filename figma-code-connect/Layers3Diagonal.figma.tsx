@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Layers3Diagonal from '../lib/Layers3Diagonal';
+import {Layers3Diagonal} from '../lib';
 
 figma.connect(
     Layers3Diagonal,

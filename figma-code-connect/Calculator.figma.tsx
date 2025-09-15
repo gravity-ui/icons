@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Calculator from '../lib/Calculator';
+import {Calculator} from '../lib';
 
 figma.connect(
     Calculator,

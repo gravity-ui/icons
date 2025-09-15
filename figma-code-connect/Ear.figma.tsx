@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Ear from '../lib/Ear';
+import {Ear} from '../lib';
 
 figma.connect(
     Ear,

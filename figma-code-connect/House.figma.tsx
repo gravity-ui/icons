@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import House from '../lib/House';
+import {House} from '../lib';
 
 figma.connect(
     House,

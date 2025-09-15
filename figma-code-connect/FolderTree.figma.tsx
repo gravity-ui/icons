@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FolderTree from '../lib/FolderTree';
+import {FolderTree} from '../lib';
 
 figma.connect(
     FolderTree,

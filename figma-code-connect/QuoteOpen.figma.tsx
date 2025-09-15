@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import QuoteOpen from '../lib/QuoteOpen';
+import {QuoteOpen} from '../lib';
 
 figma.connect(
     QuoteOpen,

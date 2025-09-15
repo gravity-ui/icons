@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CircleMinus from '../lib/CircleMinus';
+import {CircleMinus} from '../lib';
 
 figma.connect(
     CircleMinus,

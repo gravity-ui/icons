@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Bell from '../lib/Bell';
+import {Bell} from '../lib';
 
 figma.connect(
     Bell,

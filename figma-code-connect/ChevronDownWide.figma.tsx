@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ChevronDownWide from '../lib/ChevronDownWide';
+import {ChevronDownWide} from '../lib';
 
 figma.connect(
     ChevronDownWide,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Passport from '../lib/Passport';
+import {Passport} from '../lib';
 
 figma.connect(
     Passport,

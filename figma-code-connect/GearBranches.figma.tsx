@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import GearBranches from '../lib/GearBranches';
+import {GearBranches} from '../lib';
 
 figma.connect(
     GearBranches,

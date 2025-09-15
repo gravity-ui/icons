@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LetterAUnderline from '../lib/LetterAUnderline';
+import {LetterAUnderline} from '../lib';
 
 figma.connect(
     LetterAUnderline,

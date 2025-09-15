@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Bars from '../lib/Bars';
+import {Bars} from '../lib';
 
 figma.connect(
     Bars,

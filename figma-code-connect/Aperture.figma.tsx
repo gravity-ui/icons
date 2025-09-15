@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Aperture from '../lib/Aperture';
+import {Aperture} from '../lib';
 
 figma.connect(
     Aperture,

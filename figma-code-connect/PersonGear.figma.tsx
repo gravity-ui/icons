@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import PersonGear from '../lib/PersonGear';
+import {PersonGear} from '../lib';
 
 figma.connect(
     PersonGear,

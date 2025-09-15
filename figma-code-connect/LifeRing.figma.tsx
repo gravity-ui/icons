@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LifeRing from '../lib/LifeRing';
+import {LifeRing} from '../lib';
 
 figma.connect(
     LifeRing,

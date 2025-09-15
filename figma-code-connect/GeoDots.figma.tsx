@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import GeoDots from '../lib/GeoDots';
+import {GeoDots} from '../lib';
 
 figma.connect(
     GeoDots,

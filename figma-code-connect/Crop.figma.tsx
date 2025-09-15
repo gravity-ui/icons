@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Crop from '../lib/Crop';
+import {Crop} from '../lib';
 
 figma.connect(
     Crop,

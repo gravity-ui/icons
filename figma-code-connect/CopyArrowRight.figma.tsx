@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CopyArrowRight from '../lib/CopyArrowRight';
+import {CopyArrowRight} from '../lib';
 
 figma.connect(
     CopyArrowRight,

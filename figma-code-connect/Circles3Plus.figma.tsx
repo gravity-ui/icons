@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Circles3Plus from '../lib/Circles3Plus';
+import {Circles3Plus} from '../lib';
 
 figma.connect(
     Circles3Plus,

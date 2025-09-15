@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Tray from '../lib/Tray';
+import {Tray} from '../lib';
 
 figma.connect(
     Tray,

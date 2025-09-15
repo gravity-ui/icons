@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Dice2 from '../lib/Dice2';
+import {Dice2} from '../lib';
 
 figma.connect(
     Dice2,

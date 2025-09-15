@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Circles4Square from '../lib/Circles4Square';
+import {Circles4Square} from '../lib';
 
 figma.connect(
     Circles4Square,

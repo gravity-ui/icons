@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import SquareCheck from '../lib/SquareCheck';
+import {SquareCheck} from '../lib';
 
 figma.connect(
     SquareCheck,

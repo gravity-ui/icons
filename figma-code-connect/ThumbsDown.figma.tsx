@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ThumbsDown from '../lib/ThumbsDown';
+import {ThumbsDown} from '../lib';
 
 figma.connect(
     ThumbsDown,

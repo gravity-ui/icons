@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Headphones from '../lib/Headphones';
+import {Headphones} from '../lib';
 
 figma.connect(
     Headphones,

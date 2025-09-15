@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import EyesLookRight from '../lib/EyesLookRight';
+import {EyesLookRight} from '../lib';
 
 figma.connect(
     EyesLookRight,

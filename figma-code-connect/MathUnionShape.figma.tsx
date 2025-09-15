@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import MathUnionShape from '../lib/MathUnionShape';
+import {MathUnionShape} from '../lib';
 
 figma.connect(
     MathUnionShape,

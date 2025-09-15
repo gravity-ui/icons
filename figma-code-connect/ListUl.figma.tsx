@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ListUl from '../lib/ListUl';
+import {ListUl} from '../lib';
 
 figma.connect(
     ListUl,

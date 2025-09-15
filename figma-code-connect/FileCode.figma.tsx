@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FileCode from '../lib/FileCode';
+import {FileCode} from '../lib';
 
 figma.connect(
     FileCode,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import TvRetro from '../lib/TvRetro';
+import {TvRetro} from '../lib';
 
 figma.connect(
     TvRetro,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import TriangleRight from '../lib/TriangleRight';
+import {TriangleRight} from '../lib';
 
 figma.connect(
     TriangleRight,

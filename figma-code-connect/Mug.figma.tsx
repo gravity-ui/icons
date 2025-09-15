@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Mug from '../lib/Mug';
+import {Mug} from '../lib';
 
 figma.connect(
     Mug,

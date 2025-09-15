@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import TargetDart from '../lib/TargetDart';
+import {TargetDart} from '../lib';
 
 figma.connect(
     TargetDart,

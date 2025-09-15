@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Timestamps from '../lib/Timestamps';
+import {Timestamps} from '../lib';
 
 figma.connect(
     Timestamps,

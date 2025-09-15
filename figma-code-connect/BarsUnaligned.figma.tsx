@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import BarsUnaligned from '../lib/BarsUnaligned';
+import {BarsUnaligned} from '../lib';
 
 figma.connect(
     BarsUnaligned,

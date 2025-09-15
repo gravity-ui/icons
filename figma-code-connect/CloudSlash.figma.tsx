@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CloudSlash from '../lib/CloudSlash';
+import {CloudSlash} from '../lib';
 
 figma.connect(
     CloudSlash,

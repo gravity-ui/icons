@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CloudNutHex from '../lib/CloudNutHex';
+import {CloudNutHex} from '../lib';
 
 figma.connect(
     CloudNutHex,

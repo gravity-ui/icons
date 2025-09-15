@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CircleChevronUp from '../lib/CircleChevronUp';
+import {CircleChevronUp} from '../lib';
 
 figma.connect(
     CircleChevronUp,

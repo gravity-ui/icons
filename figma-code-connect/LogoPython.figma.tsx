@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LogoPython from '../lib/LogoPython';
+import {LogoPython} from '../lib';
 
 figma.connect(
     LogoPython,

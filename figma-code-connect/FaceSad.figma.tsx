@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FaceSad from '../lib/FaceSad';
+import {FaceSad} from '../lib';
 
 figma.connect(
     FaceSad,

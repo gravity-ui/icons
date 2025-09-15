@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ChartLineLabel from '../lib/ChartLineLabel';
+import {ChartLineLabel} from '../lib';
 
 figma.connect(
     ChartLineLabel,

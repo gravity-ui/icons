@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FontCursor from '../lib/FontCursor';
+import {FontCursor} from '../lib';
 
 figma.connect(
     FontCursor,

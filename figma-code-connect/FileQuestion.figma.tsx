@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FileQuestion from '../lib/FileQuestion';
+import {FileQuestion} from '../lib';
 
 figma.connect(
     FileQuestion,

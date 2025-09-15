@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import TextAlignRight from '../lib/TextAlignRight';
+import {TextAlignRight} from '../lib';
 
 figma.connect(
     TextAlignRight,

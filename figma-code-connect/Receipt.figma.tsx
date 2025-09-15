@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Receipt from '../lib/Receipt';
+import {Receipt} from '../lib';
 
 figma.connect(
     Receipt,

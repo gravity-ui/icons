@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Delete from '../lib/Delete';
+import {Delete} from '../lib';
 
 figma.connect(
     Delete,

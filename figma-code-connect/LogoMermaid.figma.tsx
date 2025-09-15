@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LogoMermaid from '../lib/LogoMermaid';
+import {LogoMermaid} from '../lib';
 
 figma.connect(
     LogoMermaid,

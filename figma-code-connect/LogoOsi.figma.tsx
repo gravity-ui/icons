@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LogoOsi from '../lib/LogoOsi';
+import {LogoOsi} from '../lib';
 
 figma.connect(
     LogoOsi,

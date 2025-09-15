@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import VectorSquare from '../lib/VectorSquare';
+import {VectorSquare} from '../lib';
 
 figma.connect(
     VectorSquare,

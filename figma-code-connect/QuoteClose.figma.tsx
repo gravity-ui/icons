@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import QuoteClose from '../lib/QuoteClose';
+import {QuoteClose} from '../lib';
 
 figma.connect(
     QuoteClose,

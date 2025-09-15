@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FolderKeyhole from '../lib/FolderKeyhole';
+import {FolderKeyhole} from '../lib';
 
 figma.connect(
     FolderKeyhole,

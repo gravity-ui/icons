@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CircleLink from '../lib/CircleLink';
+import {CircleLink} from '../lib';
 
 figma.connect(
     CircleLink,

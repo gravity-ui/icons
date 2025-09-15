@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ArrowsExpandHorizontal from '../lib/ArrowsExpandHorizontal';
+import {ArrowsExpandHorizontal} from '../lib';
 
 figma.connect(
     ArrowsExpandHorizontal,

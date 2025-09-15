@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import AntennaSignal from '../lib/AntennaSignal';
+import {AntennaSignal} from '../lib';
 
 figma.connect(
     AntennaSignal,

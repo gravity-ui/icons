@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LayoutCellsLarge from '../lib/LayoutCellsLarge';
+import {LayoutCellsLarge} from '../lib';
 
 figma.connect(
     LayoutCellsLarge,

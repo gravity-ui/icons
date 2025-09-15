@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Equal from '../lib/Equal';
+import {Equal} from '../lib';
 
 figma.connect(
     Equal,

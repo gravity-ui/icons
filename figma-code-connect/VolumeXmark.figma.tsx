@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import VolumeXmark from '../lib/VolumeXmark';
+import {VolumeXmark} from '../lib';
 
 figma.connect(
     VolumeXmark,

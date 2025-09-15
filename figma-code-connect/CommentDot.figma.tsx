@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CommentDot from '../lib/CommentDot';
+import {CommentDot} from '../lib';
 
 figma.connect(
     CommentDot,

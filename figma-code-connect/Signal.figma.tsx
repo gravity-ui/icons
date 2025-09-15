@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Signal from '../lib/Signal';
+import {Signal} from '../lib';
 
 figma.connect(
     Signal,

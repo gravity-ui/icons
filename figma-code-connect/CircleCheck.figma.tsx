@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CircleCheck from '../lib/CircleCheck';
+import {CircleCheck} from '../lib';
 
 figma.connect(
     CircleCheck,

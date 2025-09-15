@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Pill from '../lib/Pill';
+import {Pill} from '../lib';
 
 figma.connect(
     Pill,

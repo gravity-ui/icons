@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ChevronsCollapseToLine from '../lib/ChevronsCollapseToLine';
+import {ChevronsCollapseToLine} from '../lib';
 
 figma.connect(
     ChevronsCollapseToLine,

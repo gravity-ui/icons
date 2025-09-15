@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LogoMarkdown from '../lib/LogoMarkdown';
+import {LogoMarkdown} from '../lib';
 
 figma.connect(
     LogoMarkdown,

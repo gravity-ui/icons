@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import EnvelopeOpenXmark from '../lib/EnvelopeOpenXmark';
+import {EnvelopeOpenXmark} from '../lib';
 
 figma.connect(
     EnvelopeOpenXmark,

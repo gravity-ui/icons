@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LogoAcrobat from '../lib/LogoAcrobat';
+import {LogoAcrobat} from '../lib';
 
 figma.connect(
     LogoAcrobat,

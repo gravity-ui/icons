@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import TrashBin from '../lib/TrashBin';
+import {TrashBin} from '../lib';
 
 figma.connect(
     TrashBin,

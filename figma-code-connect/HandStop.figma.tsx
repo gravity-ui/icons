@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import HandStop from '../lib/HandStop';
+import {HandStop} from '../lib';
 
 figma.connect(
     HandStop,

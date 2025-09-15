@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import BarsAscendingAlignCenter from '../lib/BarsAscendingAlignCenter';
+import {BarsAscendingAlignCenter} from '../lib';
 
 figma.connect(
     BarsAscendingAlignCenter,

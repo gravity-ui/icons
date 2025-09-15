@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CircleArrowLeft from '../lib/CircleArrowLeft';
+import {CircleArrowLeft} from '../lib';
 
 figma.connect(
     CircleArrowLeft,

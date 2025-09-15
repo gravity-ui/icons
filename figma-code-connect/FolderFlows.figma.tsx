@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FolderFlows from '../lib/FolderFlows';
+import {FolderFlows} from '../lib';
 
 figma.connect(
     FolderFlows,

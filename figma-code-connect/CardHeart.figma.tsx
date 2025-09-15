@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CardHeart from '../lib/CardHeart';
+import {CardHeart} from '../lib';
 
 figma.connect(
     CardHeart,

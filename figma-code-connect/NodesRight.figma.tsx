@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import NodesRight from '../lib/NodesRight';
+import {NodesRight} from '../lib';
 
 figma.connect(
     NodesRight,

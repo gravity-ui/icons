@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LayoutList from '../lib/LayoutList';
+import {LayoutList} from '../lib';
 
 figma.connect(
     LayoutList,

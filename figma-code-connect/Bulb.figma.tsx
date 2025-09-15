@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Bulb from '../lib/Bulb';
+import {Bulb} from '../lib';
 
 figma.connect(
     Bulb,

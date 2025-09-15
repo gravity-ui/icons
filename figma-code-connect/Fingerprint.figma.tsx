@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Fingerprint from '../lib/Fingerprint';
+import {Fingerprint} from '../lib';
 
 figma.connect(
     Fingerprint,

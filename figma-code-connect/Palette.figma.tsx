@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Palette from '../lib/Palette';
+import {Palette} from '../lib';
 
 figma.connect(
     Palette,

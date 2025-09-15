@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import MapPinMinus from '../lib/MapPinMinus';
+import {MapPinMinus} from '../lib';
 
 figma.connect(
     MapPinMinus,

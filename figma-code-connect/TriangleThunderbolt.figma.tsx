@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import TriangleThunderbolt from '../lib/TriangleThunderbolt';
+import {TriangleThunderbolt} from '../lib';
 
 figma.connect(
     TriangleThunderbolt,

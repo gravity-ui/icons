@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LogoUbuntu from '../lib/LogoUbuntu';
+import {LogoUbuntu} from '../lib';
 
 figma.connect(
     LogoUbuntu,

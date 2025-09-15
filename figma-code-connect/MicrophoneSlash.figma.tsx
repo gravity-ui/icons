@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import MicrophoneSlash from '../lib/MicrophoneSlash';
+import {MicrophoneSlash} from '../lib';
 
 figma.connect(
     MicrophoneSlash,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CirclesConcentric from '../lib/CirclesConcentric';
+import {CirclesConcentric} from '../lib';
 
 figma.connect(
     CirclesConcentric,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import PlusShape from '../lib/PlusShape';
+import {PlusShape} from '../lib';
 
 figma.connect(
     PlusShape,

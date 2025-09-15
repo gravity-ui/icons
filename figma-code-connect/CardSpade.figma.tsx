@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CardSpade from '../lib/CardSpade';
+import {CardSpade} from '../lib';
 
 figma.connect(
     CardSpade,

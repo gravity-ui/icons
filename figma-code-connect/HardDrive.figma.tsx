@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import HardDrive from '../lib/HardDrive';
+import {HardDrive} from '../lib';
 
 figma.connect(
     HardDrive,

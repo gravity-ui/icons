@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CrownDiamond from '../lib/CrownDiamond';
+import {CrownDiamond} from '../lib';
 
 figma.connect(
     CrownDiamond,

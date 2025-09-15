@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import FileLetterP from '../lib/FileLetterP';
+import {FileLetterP} from '../lib';
 
 figma.connect(
     FileLetterP,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import VectorCircle from '../lib/VectorCircle';
+import {VectorCircle} from '../lib';
 
 figma.connect(
     VectorCircle,

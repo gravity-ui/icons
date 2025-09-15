@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ArrowUturnCwRight from '../lib/ArrowUturnCwRight';
+import {ArrowUturnCwRight} from '../lib';
 
 figma.connect(
     ArrowUturnCwRight,

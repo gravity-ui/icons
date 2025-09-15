@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LogoDocker from '../lib/LogoDocker';
+import {LogoDocker} from '../lib';
 
 figma.connect(
     LogoDocker,

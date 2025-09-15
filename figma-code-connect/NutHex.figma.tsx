@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import NutHex from '../lib/NutHex';
+import {NutHex} from '../lib';
 
 figma.connect(
     NutHex,

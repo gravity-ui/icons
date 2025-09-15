@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import LogoDrawIo from '../lib/LogoDrawIo';
+import {LogoDrawIo} from '../lib';
 
 figma.connect(
     LogoDrawIo,

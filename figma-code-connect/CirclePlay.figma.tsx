@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CirclePlay from '../lib/CirclePlay';
+import {CirclePlay} from '../lib';
 
 figma.connect(
     CirclePlay,

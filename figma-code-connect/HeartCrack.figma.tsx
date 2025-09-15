@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import HeartCrack from '../lib/HeartCrack';
+import {HeartCrack} from '../lib';
 
 figma.connect(
     HeartCrack,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import TrapezoidUpLineVertical from '../lib/TrapezoidUpLineVertical';
+import {TrapezoidUpLineVertical} from '../lib';
 
 figma.connect(
     TrapezoidUpLineVertical,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Sack from '../lib/Sack';
+import {Sack} from '../lib';
 
 figma.connect(
     Sack,

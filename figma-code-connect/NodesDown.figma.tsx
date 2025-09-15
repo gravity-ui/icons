@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import NodesDown from '../lib/NodesDown';
+import {NodesDown} from '../lib';
 
 figma.connect(
     NodesDown,

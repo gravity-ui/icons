@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import PersonNutHex from '../lib/PersonNutHex';
+import {PersonNutHex} from '../lib';
 
 figma.connect(
     PersonNutHex,

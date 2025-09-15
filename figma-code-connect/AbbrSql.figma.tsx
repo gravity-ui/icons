@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import AbbrSql from '../lib/AbbrSql';
+import {AbbrSql} from '../lib';
 
 figma.connect(
     AbbrSql,

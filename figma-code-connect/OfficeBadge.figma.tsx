@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import OfficeBadge from '../lib/OfficeBadge';
+import {OfficeBadge} from '../lib';
 
 figma.connect(
     OfficeBadge,

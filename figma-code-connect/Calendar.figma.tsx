@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Calendar from '../lib/Calendar';
+import {Calendar} from '../lib';
 
 figma.connect(
     Calendar,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Ghost from '../lib/Ghost';
+import {Ghost} from '../lib';
 
 figma.connect(
     Ghost,

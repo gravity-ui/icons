@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import ChevronUp from '../lib/ChevronUp';
+import {ChevronUp} from '../lib';
 
 figma.connect(
     ChevronUp,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CommentSlash from '../lib/CommentSlash';
+import {CommentSlash} from '../lib';
 
 figma.connect(
     CommentSlash,

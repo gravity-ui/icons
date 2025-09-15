@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import SquareListUl from '../lib/SquareListUl';
+import {SquareListUl} from '../lib';
 
 figma.connect(
     SquareListUl,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Video from '../lib/Video';
+import {Video} from '../lib';
 
 figma.connect(
     Video,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Ticket from '../lib/Ticket';
+import {Ticket} from '../lib';
 
 figma.connect(
     Ticket,

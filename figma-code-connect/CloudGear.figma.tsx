@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import CloudGear from '../lib/CloudGear';
+import {CloudGear} from '../lib';
 
 figma.connect(
     CloudGear,

@@ -1,6 +1,6 @@
 import figma from '@figma/code-connect';
 
-import Paperclip from '../lib/Paperclip';
+import {Paperclip} from '../lib';
 
 figma.connect(
     Paperclip,
