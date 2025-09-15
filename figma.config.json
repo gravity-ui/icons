@@ -3,7 +3,7 @@
     "include": ["/**/*.{tsx,jsx}"],
     "label": "React",
     "importPaths": {
-      "src/components/*": "@gravity-ui/icons"
+      "lib/*": "@gravity-ui/icons"
     },
     "interactiveSetupFigmaFileUrl": "https://www.figma.com/design/QN28S6ulZ6vsq0UhwaLjsc/Gravity-UI-Icons"
   }
