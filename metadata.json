@@ -36,6 +36,27 @@
       "keywords": []
     },
     {
+      "name": "alarm",
+      "style": "fill",
+      "svgName": "alarm-fill",
+      "componentName": "AlarmFill",
+      "keywords": []
+    },
+    {
+      "name": "alarm",
+      "style": "regular",
+      "svgName": "alarm",
+      "componentName": "Alarm",
+      "keywords": []
+    },
+    {
+      "name": "almost-equal",
+      "style": "regular",
+      "svgName": "almost-equal",
+      "componentName": "AlmostEqual",
+      "keywords": []
+    },
+    {
       "name": "antenna-signal",
       "style": "regular",
       "svgName": "antenna-signal",
@@ -100,6 +121,20 @@
       "style": "regular",
       "svgName": "arrow-down-from-line",
       "componentName": "ArrowDownFromLine",
+      "keywords": []
+    },
+    {
+      "name": "arrow-down-left",
+      "style": "regular",
+      "svgName": "arrow-down-left",
+      "componentName": "ArrowDownLeft",
+      "keywords": []
+    },
+    {
+      "name": "arrow-down-right",
+      "style": "regular",
+      "svgName": "arrow-down-right",
+      "componentName": "ArrowDownRight",
       "keywords": []
     },
     {
@@ -200,6 +235,13 @@
       ]
     },
     {
+      "name": "arrow-rotate-left-number-5",
+      "style": "regular",
+      "svgName": "arrow-rotate-left-number-5",
+      "componentName": "ArrowRotateLeftNumber5",
+      "keywords": []
+    },
+    {
       "name": "arrow-rotate-right",
       "style": "regular",
       "svgName": "arrow-rotate-right",
@@ -207,6 +249,13 @@
       "keywords": [
         "refresh"
       ]
+    },
+    {
+      "name": "arrow-rotate-right-number-5",
+      "style": "regular",
+      "svgName": "arrow-rotate-right-number-5",
+      "componentName": "ArrowRotateRightNumber5",
+      "keywords": []
     },
     {
       "name": "arrow-shape-down",
@@ -350,6 +399,20 @@
         "move",
         "share"
       ]
+    },
+    {
+      "name": "arrow-up-left",
+      "style": "regular",
+      "svgName": "arrow-up-left",
+      "componentName": "ArrowUpLeft",
+      "keywords": []
+    },
+    {
+      "name": "arrow-up-right",
+      "style": "regular",
+      "svgName": "arrow-up-right",
+      "componentName": "ArrowUpRight",
+      "keywords": []
     },
     {
       "name": "arrow-up-right-from-square",
@@ -773,6 +836,13 @@
       ]
     },
     {
+      "name": "books",
+      "style": "regular",
+      "svgName": "books",
+      "componentName": "Books",
+      "keywords": []
+    },
+    {
       "name": "box",
       "style": "regular",
       "svgName": "box",
@@ -817,6 +887,15 @@
       ]
     },
     {
+      "name": "briefcase",
+      "style": "fill",
+      "svgName": "briefcase-fill",
+      "componentName": "BriefcaseFill",
+      "keywords": [
+        "bag"
+      ]
+    },
+    {
       "name": "broadcast-signal",
       "style": "regular",
       "svgName": "broadcast-signal",
@@ -832,6 +911,13 @@
         "clean",
         "delete"
       ]
+    },
+    {
+      "name": "broom-motion",
+      "style": "fill",
+      "svgName": "broom-motion-fill",
+      "componentName": "BroomMotionFill",
+      "keywords": []
     },
     {
       "name": "brush",
@@ -890,6 +976,13 @@
         "date",
         "event"
       ]
+    },
+    {
+      "name": "calendar-xmark",
+      "style": "regular",
+      "svgName": "calendar-xmark",
+      "componentName": "CalendarXmark",
+      "keywords": []
     },
     {
       "name": "camera",
@@ -1063,10 +1156,24 @@
       ]
     },
     {
+      "name": "chart-line-arrow-up",
+      "style": "regular",
+      "svgName": "chart-line-arrow-up",
+      "componentName": "ChartLineArrowUp",
+      "keywords": []
+    },
+    {
       "name": "chart-line-label",
       "style": "regular",
       "svgName": "chart-line-label",
       "componentName": "ChartLineLabel",
+      "keywords": []
+    },
+    {
+      "name": "chart-line-points",
+      "style": "regular",
+      "svgName": "chart-line-points",
+      "componentName": "ChartLinePoints",
       "keywords": []
     },
     {
@@ -1975,6 +2082,13 @@
       "keywords": []
     },
     {
+      "name": "circle-tree",
+      "style": "regular",
+      "svgName": "circle-tree",
+      "componentName": "CircleTree",
+      "keywords": []
+    },
+    {
       "name": "circle-xmark",
       "style": "regular",
       "svgName": "circle-xmark",
@@ -2728,6 +2842,13 @@
       ]
     },
     {
+      "name": "eye-closed",
+      "style": "regular",
+      "svgName": "eye-closed",
+      "componentName": "EyeClosed",
+      "keywords": []
+    },
+    {
       "name": "eye-dashed",
       "style": "regular",
       "svgName": "eye-dashed",
@@ -2807,6 +2928,13 @@
       "style": "regular",
       "svgName": "face-robot",
       "componentName": "FaceRobot",
+      "keywords": []
+    },
+    {
+      "name": "face-robot-smile",
+      "style": "regular",
+      "svgName": "face-robot-smile",
+      "componentName": "FaceRobotSmile",
       "keywords": []
     },
     {
@@ -3083,6 +3211,13 @@
         "scan",
         "touch"
       ]
+    },
+    {
+      "name": "firewall",
+      "style": "regular",
+      "svgName": "firewall",
+      "componentName": "Firewall",
+      "keywords": []
     },
     {
       "name": "flag",
@@ -3409,6 +3544,13 @@
       "style": "regular",
       "svgName": "gear-play",
       "componentName": "GearPlay",
+      "keywords": []
+    },
+    {
+      "name": "gem",
+      "style": "regular",
+      "svgName": "gem",
+      "componentName": "Gem",
       "keywords": []
     },
     {
@@ -4145,10 +4287,30 @@
       ]
     },
     {
+      "name": "lock",
+      "style": "fill",
+      "svgName": "lock-fill",
+      "componentName": "LockFill",
+      "keywords": [
+        "security",
+        "safe"
+      ]
+    },
+    {
       "name": "lock-open",
       "style": "regular",
       "svgName": "lock-open",
       "componentName": "LockOpen",
+      "keywords": [
+        "security",
+        "safe"
+      ]
+    },
+    {
+      "name": "lock-open",
+      "style": "fill",
+      "svgName": "lock-open-fill",
+      "componentName": "LockOpenFill",
       "keywords": [
         "security",
         "safe"
@@ -4166,6 +4328,13 @@
       "style": "regular",
       "svgName": "logo-android",
       "componentName": "LogoAndroid",
+      "keywords": []
+    },
+    {
+      "name": "logo-debian",
+      "style": "regular",
+      "svgName": "logo-debian",
+      "componentName": "LogoDebian",
       "keywords": []
     },
     {
@@ -4190,10 +4359,31 @@
       "keywords": []
     },
     {
+      "name": "logo-figma",
+      "style": "regular",
+      "svgName": "logo-figma",
+      "componentName": "LogoFigma",
+      "keywords": []
+    },
+    {
+      "name": "logo-github",
+      "style": "regular",
+      "svgName": "logo-github",
+      "componentName": "LogoGithub",
+      "keywords": []
+    },
+    {
       "name": "logo-gitlab",
       "style": "regular",
       "svgName": "logo-gitlab",
       "componentName": "LogoGitlab",
+      "keywords": []
+    },
+    {
+      "name": "logo-linkedin",
+      "style": "regular",
+      "svgName": "logo-linkedin",
+      "componentName": "LogoLinkedin",
       "keywords": []
     },
     {
@@ -4232,6 +4422,20 @@
       "keywords": []
     },
     {
+      "name": "logo-microsoft-office",
+      "style": "regular",
+      "svgName": "logo-microsoft-office",
+      "componentName": "LogoMicrosoftOffice",
+      "keywords": []
+    },
+    {
+      "name": "logo-nodejs",
+      "style": "regular",
+      "svgName": "logo-nodejs",
+      "componentName": "LogoNodejs",
+      "keywords": []
+    },
+    {
       "name": "logo-notion",
       "style": "regular",
       "svgName": "logo-notion",
@@ -4253,6 +4457,13 @@
       "style": "regular",
       "svgName": "logo-python",
       "componentName": "LogoPython",
+      "keywords": []
+    },
+    {
+      "name": "logo-slack",
+      "style": "regular",
+      "svgName": "logo-slack",
+      "componentName": "LogoSlack",
       "keywords": []
     },
     {
@@ -4437,6 +4648,13 @@
         "speaker",
         "voice"
       ]
+    },
+    {
+      "name": "microscope",
+      "style": "regular",
+      "svgName": "microscope",
+      "componentName": "Microscope",
+      "keywords": []
     },
     {
       "name": "minus",
@@ -4655,6 +4873,13 @@
       "style": "regular",
       "svgName": "office-badge",
       "componentName": "OfficeBadge",
+      "keywords": []
+    },
+    {
+      "name": "paintbrush",
+      "style": "regular",
+      "svgName": "paintbrush",
+      "componentName": "Paintbrush",
       "keywords": []
     },
     {
@@ -4936,6 +5161,20 @@
       "style": "regular",
       "svgName": "pipeline",
       "componentName": "Pipeline",
+      "keywords": []
+    },
+    {
+      "name": "plane",
+      "style": "fill",
+      "svgName": "plane-fill",
+      "componentName": "PlaneFill",
+      "keywords": []
+    },
+    {
+      "name": "plane",
+      "style": "regular",
+      "svgName": "plane",
+      "componentName": "Plane",
       "keywords": []
     },
     {
@@ -5336,6 +5575,13 @@
       ]
     },
     {
+      "name": "speedometer",
+      "style": "regular",
+      "svgName": "speedometer",
+      "componentName": "Speedometer",
+      "keywords": []
+    },
+    {
       "name": "sphere",
       "style": "regular",
       "svgName": "sphere",
@@ -5666,6 +5912,13 @@
       ]
     },
     {
+      "name": "superscript",
+      "style": "regular",
+      "svgName": "superscript",
+      "componentName": "Superscript",
+      "keywords": []
+    },
+    {
       "name": "t-shirt",
       "style": "regular",
       "svgName": "t-shirt",
@@ -5673,6 +5926,13 @@
       "keywords": [
         "clothes"
       ]
+    },
+    {
+      "name": "tachometer",
+      "style": "regular",
+      "svgName": "tachometer",
+      "componentName": "Tachometer",
+      "keywords": []
     },
     {
       "name": "tag",
@@ -6068,6 +6328,13 @@
         "font",
         "format"
       ]
+    },
+    {
+      "name": "universal-access",
+      "style": "regular",
+      "svgName": "universal-access",
+      "componentName": "UniversalAccess",
+      "keywords": []
     },
     {
       "name": "vault",
