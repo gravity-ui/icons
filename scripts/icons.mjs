@@ -33,7 +33,7 @@ async function run() {
             const iconFile = path.join(ICONS_DIR, `${name}.tsx`);
             const content = await transform(
                 code,
-                {typescript: true, plugins: ['@svgr/plugin-jsx']},
+                {typescript: true, ref: true, plugins: ['@svgr/plugin-jsx']},
                 {componentName: name},
             );
             const prettyContent = await prettify(content, iconFile);
