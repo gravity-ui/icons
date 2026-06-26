@@ -606,6 +606,15 @@
       "keywords": []
     },
     {
+      "name": "ban-dashed",
+      "style": "regular",
+      "svgName": "ban-dashed",
+      "componentName": "BanDashed",
+      "keywords": [
+        "inactive"
+      ]
+    },
+    {
       "name": "bars",
       "style": "regular",
       "svgName": "bars",
@@ -1341,6 +1350,13 @@
       ]
     },
     {
+      "name": "chevrons-collapse-vertical-to-line",
+      "style": "regular",
+      "svgName": "chevrons-collapse-vertical-to-line",
+      "componentName": "ChevronsCollapseVerticalToLine",
+      "keywords": []
+    },
+    {
       "name": "chevrons-down",
       "style": "regular",
       "svgName": "chevrons-down",
@@ -1401,6 +1417,13 @@
         "arrows",
         "unwrap"
       ]
+    },
+    {
+      "name": "chevrons-expand-vertical-from-line",
+      "style": "regular",
+      "svgName": "chevrons-expand-vertical-from-line",
+      "componentName": "ChevronsExpandVerticalFromLine",
+      "keywords": []
     },
     {
       "name": "chevrons-left",
@@ -2390,6 +2413,18 @@
       ]
     },
     {
+      "name": "comments-dot",
+      "style": "regular",
+      "svgName": "comments-dot",
+      "componentName": "CommentsDot",
+      "keywords": [
+        "dialog",
+        "messages",
+        "bubbles",
+        "notification"
+      ]
+    },
+    {
       "name": "compass",
       "style": "regular",
       "svgName": "compass",
@@ -2589,6 +2624,20 @@
       "style": "regular",
       "svgName": "database-magnifier",
       "componentName": "DatabaseMagnifier",
+      "keywords": []
+    },
+    {
+      "name": "database-nut-hex",
+      "style": "regular",
+      "svgName": "database-nut-hex",
+      "componentName": "DatabaseNutHex",
+      "keywords": []
+    },
+    {
+      "name": "database-plus",
+      "style": "regular",
+      "svgName": "database-plus",
+      "componentName": "DatabasePlus",
       "keywords": []
     },
     {
@@ -3877,6 +3926,33 @@
       "keywords": []
     },
     {
+      "name": "hourglass",
+      "style": "regular",
+      "svgName": "hourglass",
+      "componentName": "Hourglass",
+      "keywords": [
+        "time"
+      ]
+    },
+    {
+      "name": "hourglass-end",
+      "style": "regular",
+      "svgName": "hourglass-end",
+      "componentName": "HourglassEnd",
+      "keywords": [
+        "time"
+      ]
+    },
+    {
+      "name": "hourglass-start",
+      "style": "regular",
+      "svgName": "hourglass-start",
+      "componentName": "HourglassStart",
+      "keywords": [
+        "time"
+      ]
+    },
+    {
       "name": "house",
       "style": "regular",
       "svgName": "house",
@@ -4331,6 +4407,20 @@
       "keywords": []
     },
     {
+      "name": "logo-app-store",
+      "style": "regular",
+      "svgName": "logo-app-store",
+      "componentName": "LogoAppStore",
+      "keywords": []
+    },
+    {
+      "name": "logo-apple",
+      "style": "regular",
+      "svgName": "logo-apple",
+      "componentName": "LogoApple",
+      "keywords": []
+    },
+    {
       "name": "logo-debian",
       "style": "regular",
       "svgName": "logo-debian",
@@ -4377,6 +4467,20 @@
       "style": "regular",
       "svgName": "logo-gitlab",
       "componentName": "LogoGitlab",
+      "keywords": []
+    },
+    {
+      "name": "logo-google-play",
+      "style": "regular",
+      "svgName": "logo-google-play",
+      "componentName": "LogoGooglePlay",
+      "keywords": []
+    },
+    {
+      "name": "logo-huawei-appgallery",
+      "style": "regular",
+      "svgName": "logo-huawei-appgallery",
+      "componentName": "LogoHuaweiAppgallery",
       "keywords": []
     },
     {
@@ -4460,6 +4564,13 @@
       "keywords": []
     },
     {
+      "name": "logo-rustore",
+      "style": "regular",
+      "svgName": "logo-rustore",
+      "componentName": "LogoRustore",
+      "keywords": []
+    },
+    {
       "name": "logo-slack",
       "style": "regular",
       "svgName": "logo-slack",
@@ -4485,6 +4596,13 @@
       "style": "regular",
       "svgName": "logo-ubuntu",
       "componentName": "LogoUbuntu",
+      "keywords": []
+    },
+    {
+      "name": "logo-webhook",
+      "style": "regular",
+      "svgName": "logo-webhook",
+      "componentName": "LogoWebhook",
       "keywords": []
     },
     {
@@ -5390,6 +5508,13 @@
       "style": "regular",
       "svgName": "server",
       "componentName": "Server",
+      "keywords": []
+    },
+    {
+      "name": "server-plus",
+      "style": "regular",
+      "svgName": "server-plus",
+      "componentName": "ServerPlus",
       "keywords": []
     },
     {
@@ -6470,6 +6595,20 @@
         "audio",
         "mute"
       ]
+    },
+    {
+      "name": "wallet",
+      "style": "regular",
+      "svgName": "wallet",
+      "componentName": "Wallet",
+      "keywords": []
+    },
+    {
+      "name": "wallet-dot",
+      "style": "regular",
+      "svgName": "wallet-dot",
+      "componentName": "WalletDot",
+      "keywords": []
     },
     {
       "name": "weight-hanging",
