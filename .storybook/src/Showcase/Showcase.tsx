@@ -9,6 +9,10 @@ import metadata from '../../../metadata.json';
 
 import './Showcase.scss';
 
+interface IconModule {
+    default: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
+}
+
 interface IconMeta {
     name: string;
     style: 'regular' | 'fill';
@@ -23,23 +27,20 @@ const iconsMetadataByName = (metadata.icons as IconMeta[]).reduce(
     (acc, icon) => ({...acc, [icon.componentName]: icon}),
     {} as Record<string, IconMeta>,
 );
+const items = libContext.keys().map((path) => {
+    const module = libContext(path) as IconModule;
+    const Icon = module.default;
+    const name = path.match(/(\w+)\.tsx$/)?.[1] ?? '';
+    const meta = iconsMetadataByName[name];
+
+    return {
+        meta,
+        Icon,
+    };
+});
 
 export function Showcase() {
     const [search, setSearch] = React.useState('');
-    const items = libContext.keys().map((path) => {
-        const module = libContext(path) as {
-            default: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
-        };
-        const Icon = module.default || module;
-        const name = path.match(/(\w+)\.tsx$/)?.[1] ?? '';
-        const meta = iconsMetadataByName[name];
-
-        return {
-            meta,
-            Icon,
-        };
-    });
-
     let filteredItems;
 
     if (search.length === 0) {
