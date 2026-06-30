@@ -18,4 +18,4 @@ jobs:
         with:
           github-token: ${{ steps.generate-token.outputs.token }}
           npm-token: ${{ secrets.GRAVITY_UI_BOT_NPM_TOKEN }}
-          node-version: 20
+          node-version: 24
