@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.20.0](https://github.com/gravity-ui/icons/compare/v2.19.0...v2.20.0) (2026-06-30)
+
+
+### Features
+
+* make direct paths also ESM ([#98](https://github.com/gravity-ui/icons/issues/98)) ([0c74bb9](https://github.com/gravity-ui/icons/commit/0c74bb9c285550adef31535750d8c08fce619fac))
+* update deps ([#95](https://github.com/gravity-ui/icons/issues/95)) ([79f8684](https://github.com/gravity-ui/icons/commit/79f86846278c0333a9c3290e3c3b6c7761e23fd4))
+
 ## [2.19.0](https://github.com/gravity-ui/icons/compare/v2.18.0...v2.19.0) (2026-06-26)
 
 
