@@ -55,7 +55,7 @@
     "src:icons": "node scripts/icons.mjs",
     "build:cjs": "tsc --declaration --outDir .",
     "build:esm": "tsc --module esnext --outDir esm",
-    "build:docs": "node -e \"require('@gravity-ui/gulp-utils').buildDocs()\"",
+    "build:docs": "node scripts/build-docs.mjs",
     "build": "run-p build:*",
     "clean": "node scripts/clean.mjs",
     "prepublishOnly": "npm run build"
