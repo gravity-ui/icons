@@ -55,6 +55,7 @@
     "src:icons": "node scripts/icons.mjs",
     "build:cjs": "tsc --declaration --outDir .",
     "build:esm": "tsc --module esnext --outDir esm",
+    "build:docs": "node -e \"require('@gravity-ui/gulp-utils').buildDocs()\"",
     "build": "run-p build:*",
     "clean": "node scripts/clean.mjs",
     "prepublishOnly": "npm run build"
@@ -71,6 +72,7 @@
     "@commitlint/config-conventional": "^21.1.0",
     "@figma-export/core": "^6.4.0",
     "@gravity-ui/eslint-config": "^4.3.1",
+    "@gravity-ui/gulp-utils": "^1.1.0",
     "@gravity-ui/prettier-config": "^1.1.1",
     "@gravity-ui/stylelint-config": "^5.0.0",
     "@gravity-ui/tsconfig": "^1.0.0",
