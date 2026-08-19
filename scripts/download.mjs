@@ -6,7 +6,7 @@ import {components as loadComponents} from '@figma-export/core';
 import {optimize} from 'svgo';
 
 import {aliases} from './aliases.mjs';
-import {ICON_NAME_REGEXP, SVGS_DIR} from './constants.mjs';
+import {ICON_NAME_REGEXP, SVGS_DIR, UNASSIGNED_CATEGORY} from './constants.mjs';
 import {cleanDir, getComponentName} from './utils.mjs';
 
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
@@ -15,7 +15,8 @@ const FIGMA_TOKEN = process.env.FIGMA_TOKEN;
 const FIGMA_FILE = process.env.FIGMA_FILE;
 const FIGMA_PAGE = process.env.FIGMA_PAGE;
 
-const EMPTY_KEYWORDS_STRING = '-';
+// Figma variant properties cannot be empty, so "-" marks an empty value.
+const EMPTY_PROPERTY_VALUE = '-';
 
 function parsePropertiesString(str) {
     return str.split(/\s*,\s*/).reduce((acc, prop) => {
@@ -68,6 +69,7 @@ function createSvgBuilder(metadata) {
                 const name = iconSet.name;
                 let svgName = name;
                 let keywords = [];
+                let categories = [];
 
                 if (!props.style) {
                     throw new Error(`Icon has no style: ${name}`);
@@ -77,8 +79,12 @@ function createSvgBuilder(metadata) {
                     svgName += `-${props.style}`;
                 }
 
-                if (props.keywords && props.keywords !== EMPTY_KEYWORDS_STRING) {
+                if (props.keywords && props.keywords !== EMPTY_PROPERTY_VALUE) {
                     keywords = props.keywords.split(' ');
+                }
+
+                if (props.category && props.category !== EMPTY_PROPERTY_VALUE) {
+                    categories = props.category.split(' ');
                 }
 
                 metadata.icons.push({
@@ -87,6 +93,7 @@ function createSvgBuilder(metadata) {
                     svgName,
                     componentName: getComponentName(svgName),
                     keywords,
+                    categories: categories.length ? categories : [UNASSIGNED_CATEGORY],
                 });
                 await fs.writeFile(path.join(SVGS_DIR, `${svgName}.svg`), svg);
             }
@@ -116,6 +123,21 @@ async function run() {
         path.resolve(__dirname, '..', 'metadata.json'),
         JSON.stringify(metadata, null, 2),
     );
+
+    const unassigned = [
+        ...new Set(
+            metadata.icons
+                .filter((icon) => icon.categories.includes(UNASSIGNED_CATEGORY))
+                .map((icon) => icon.svgName),
+        ),
+    ];
+    if (unassigned.length > 0) {
+        console.warn(
+            `Icons without categories (${unassigned.length}): ${unassigned.join(', ')}\n` +
+                `They were assigned to "${UNASSIGNED_CATEGORY}" in metadata.json. ` +
+                'Set the "category" property for them in the Figma file.',
+        );
+    }
 }
 
 run().catch((error) => {
