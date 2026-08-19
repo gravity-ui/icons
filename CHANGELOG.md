@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.22.0](https://github.com/gravity-ui/icons/compare/v2.21.0...v2.22.0) (2026-08-19)
+
+
+### Features
+
+* add icon categories to metadata.json ([#104](https://github.com/gravity-ui/icons/issues/104)) ([0445c6f](https://github.com/gravity-ui/icons/commit/0445c6f7bd6869187a3fbda4661ae44fa0af79b0))
+
 ## [2.21.0](https://github.com/gravity-ui/icons/compare/v2.20.0...v2.21.0) (2026-07-23)
 
 
