@@ -3577,7 +3577,10 @@
       "style": "regular",
       "svgName": "cubes-3-overlap",
       "componentName": "Cubes3Overlap",
-      "keywords": [],
+      "keywords": [
+        "group",
+        "rectangles"
+      ],
       "categories": [
         "shapes"
       ]
@@ -5487,7 +5490,9 @@
       "svgName": "hourglass",
       "componentName": "Hourglass",
       "keywords": [
-        "time"
+        "time",
+        "clock",
+        "wait"
       ],
       "categories": [
         "time"
@@ -5499,7 +5504,9 @@
       "svgName": "hourglass-end",
       "componentName": "HourglassEnd",
       "keywords": [
-        "time"
+        "time",
+        "clock",
+        "wait"
       ],
       "categories": [
         "time"
@@ -5511,7 +5518,9 @@
       "svgName": "hourglass-start",
       "componentName": "HourglassStart",
       "keywords": [
-        "time"
+        "time",
+        "clock",
+        "wait"
       ],
       "categories": [
         "time"
@@ -7385,7 +7394,10 @@
       "style": "regular",
       "svgName": "pipeline",
       "componentName": "Pipeline",
-      "keywords": [],
+      "keywords": [
+        "tube",
+        "flow"
+      ],
       "categories": [
         "development"
       ]
@@ -7998,7 +8010,9 @@
       "style": "regular",
       "svgName": "sphere",
       "componentName": "Sphere",
-      "keywords": [],
+      "keywords": [
+        "circle"
+      ],
       "categories": [
         "shapes",
         "weather"
@@ -8960,7 +8974,10 @@
       "style": "regular",
       "svgName": "triangle-thunderbolt",
       "componentName": "TriangleThunderbolt",
-      "keywords": [],
+      "keywords": [
+        "warning",
+        "alert"
+      ],
       "categories": [
         "shapes",
         "status"
@@ -9086,7 +9103,11 @@
       "style": "regular",
       "svgName": "vector-square",
       "componentName": "VectorSquare",
-      "keywords": [],
+      "keywords": [
+        "dots",
+        "points",
+        "group"
+      ],
       "categories": [
         "editor",
         "shapes"
