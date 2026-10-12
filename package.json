@@ -17,6 +17,7 @@
     "!*.config.js",
     "metadata.json"
   ],
+  "type": "commonjs",
   "module": "esm/index.js",
   "exports": {
     ".": {
@@ -53,10 +54,8 @@
     "build-storybook": "storybook build -c .storybook -o storybook-static",
     "src:download": "node scripts/download.mjs",
     "src:icons": "node scripts/icons.mjs",
-    "build:cjs": "tsc --declaration --outDir .",
-    "build:esm": "tsc --module esnext --outDir esm",
-    "build": "run-p build:*",
-    "clean": "node scripts/clean.mjs",
+    "build": "gulp",
+    "clean": "gulp clean",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
@@ -71,14 +70,15 @@
     "@commitlint/config-conventional": "^21.1.0",
     "@figma-export/core": "^6.4.0",
     "@gravity-ui/eslint-config": "^4.3.1",
+    "@gravity-ui/gulp-utils": "^1.1.1",
     "@gravity-ui/prettier-config": "^1.1.1",
     "@gravity-ui/stylelint-config": "^5.0.0",
     "@gravity-ui/tsconfig": "^1.0.0",
     "@gravity-ui/uikit": "^7.43.0",
     "@storybook/addon-a11y": "^10.4.6",
     "@storybook/addon-webpack5-compiler-swc": "^4.0.3",
-    "@storybook/react-webpack5": "^10.4.6",
     "@storybook/cli": "^10.4.6",
+    "@storybook/react-webpack5": "^10.4.6",
     "@svgr/core": "^8.1.0",
     "@svgr/plugin-jsx": "^8.1.0",
     "@types/react": "^19.2.17",
@@ -88,6 +88,8 @@
     "eslint-plugin-storybook": "^10.4.6",
     "fast-glob": "^3.3.3",
     "globals": "^16.5.0",
+    "gulp": "^5.0.1",
+    "gulp-cli": "^3.1.0",
     "husky": "^9.1.7",
     "nano-staged": "^1.0.2",
     "npm-run-all": "^4.1.5",
