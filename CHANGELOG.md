@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.22.1](https://github.com/gravity-ui/icons/compare/v2.22.0...v2.22.1) (2026-10-12)
+
+
+### Bug Fixes
+
+* correctly build ESM ([#108](https://github.com/gravity-ui/icons/issues/108)) ([be6c588](https://github.com/gravity-ui/icons/commit/be6c588eaf8b5a388b67036b012523306937dd76))
+
 ## [2.22.0](https://github.com/gravity-ui/icons/compare/v2.21.0...v2.22.0) (2026-08-19)
 
 
