@@ -2671,10 +2671,34 @@
       ]
     },
     {
+      "name": "circle-number-0",
+      "style": "fill",
+      "svgName": "circle-number-0-fill",
+      "componentName": "CircleNumber0Fill",
+      "keywords": [
+        "zero"
+      ],
+      "categories": [
+        "text"
+      ]
+    },
+    {
       "name": "circle-number-1",
       "style": "regular",
       "svgName": "circle-number-1",
       "componentName": "CircleNumber1",
+      "keywords": [
+        "one"
+      ],
+      "categories": [
+        "text"
+      ]
+    },
+    {
+      "name": "circle-number-1",
+      "style": "fill",
+      "svgName": "circle-number-1-fill",
+      "componentName": "CircleNumber1Fill",
       "keywords": [
         "one"
       ],
@@ -2695,10 +2719,34 @@
       ]
     },
     {
+      "name": "circle-number-2",
+      "style": "fill",
+      "svgName": "circle-number-2-fill",
+      "componentName": "CircleNumber2Fill",
+      "keywords": [
+        "two"
+      ],
+      "categories": [
+        "text"
+      ]
+    },
+    {
       "name": "circle-number-3",
       "style": "regular",
       "svgName": "circle-number-3",
       "componentName": "CircleNumber3",
+      "keywords": [
+        "three"
+      ],
+      "categories": [
+        "text"
+      ]
+    },
+    {
+      "name": "circle-number-3",
+      "style": "fill",
+      "svgName": "circle-number-3-fill",
+      "componentName": "CircleNumber3Fill",
       "keywords": [
         "three"
       ],
@@ -2719,10 +2767,34 @@
       ]
     },
     {
+      "name": "circle-number-4",
+      "style": "fill",
+      "svgName": "circle-number-4-fill",
+      "componentName": "CircleNumber4Fill",
+      "keywords": [
+        "four"
+      ],
+      "categories": [
+        "text"
+      ]
+    },
+    {
       "name": "circle-number-5",
       "style": "regular",
       "svgName": "circle-number-5",
       "componentName": "CircleNumber5",
+      "keywords": [
+        "five"
+      ],
+      "categories": [
+        "text"
+      ]
+    },
+    {
+      "name": "circle-number-5",
+      "style": "fill",
+      "svgName": "circle-number-5-fill",
+      "componentName": "CircleNumber5Fill",
       "keywords": [
         "five"
       ],
@@ -2743,10 +2815,34 @@
       ]
     },
     {
+      "name": "circle-number-6",
+      "style": "fill",
+      "svgName": "circle-number-6-fill",
+      "componentName": "CircleNumber6Fill",
+      "keywords": [
+        "six"
+      ],
+      "categories": [
+        "text"
+      ]
+    },
+    {
       "name": "circle-number-7",
       "style": "regular",
       "svgName": "circle-number-7",
       "componentName": "CircleNumber7",
+      "keywords": [
+        "seven"
+      ],
+      "categories": [
+        "text"
+      ]
+    },
+    {
+      "name": "circle-number-7",
+      "style": "fill",
+      "svgName": "circle-number-7-fill",
+      "componentName": "CircleNumber7Fill",
       "keywords": [
         "seven"
       ],
@@ -2767,10 +2863,34 @@
       ]
     },
     {
+      "name": "circle-number-8",
+      "style": "fill",
+      "svgName": "circle-number-8-fill",
+      "componentName": "CircleNumber8Fill",
+      "keywords": [
+        "eight"
+      ],
+      "categories": [
+        "text"
+      ]
+    },
+    {
       "name": "circle-number-9",
       "style": "regular",
       "svgName": "circle-number-9",
       "componentName": "CircleNumber9",
+      "keywords": [
+        "nine"
+      ],
+      "categories": [
+        "text"
+      ]
+    },
+    {
+      "name": "circle-number-9",
+      "style": "fill",
+      "svgName": "circle-number-9-fill",
+      "componentName": "CircleNumber9Fill",
       "keywords": [
         "nine"
       ],
@@ -3577,7 +3697,10 @@
       "style": "regular",
       "svgName": "cubes-3-overlap",
       "componentName": "Cubes3Overlap",
-      "keywords": [],
+      "keywords": [
+        "group",
+        "rectangles"
+      ],
       "categories": [
         "shapes"
       ]
@@ -5487,7 +5610,9 @@
       "svgName": "hourglass",
       "componentName": "Hourglass",
       "keywords": [
-        "time"
+        "time",
+        "clock",
+        "wait"
       ],
       "categories": [
         "time"
@@ -5499,7 +5624,9 @@
       "svgName": "hourglass-end",
       "componentName": "HourglassEnd",
       "keywords": [
-        "time"
+        "time",
+        "clock",
+        "wait"
       ],
       "categories": [
         "time"
@@ -5511,7 +5638,9 @@
       "svgName": "hourglass-start",
       "componentName": "HourglassStart",
       "keywords": [
-        "time"
+        "time",
+        "clock",
+        "wait"
       ],
       "categories": [
         "time"
@@ -7385,7 +7514,10 @@
       "style": "regular",
       "svgName": "pipeline",
       "componentName": "Pipeline",
-      "keywords": [],
+      "keywords": [
+        "tube",
+        "flow"
+      ],
       "categories": [
         "development"
       ]
@@ -7998,7 +8130,9 @@
       "style": "regular",
       "svgName": "sphere",
       "componentName": "Sphere",
-      "keywords": [],
+      "keywords": [
+        "circle"
+      ],
       "categories": [
         "shapes",
         "weather"
@@ -8960,7 +9094,10 @@
       "style": "regular",
       "svgName": "triangle-thunderbolt",
       "componentName": "TriangleThunderbolt",
-      "keywords": [],
+      "keywords": [
+        "warning",
+        "alert"
+      ],
       "categories": [
         "shapes",
         "status"
@@ -9086,7 +9223,11 @@
       "style": "regular",
       "svgName": "vector-square",
       "componentName": "VectorSquare",
-      "keywords": [],
+      "keywords": [
+        "dots",
+        "points",
+        "group"
+      ],
       "categories": [
         "editor",
         "shapes"
