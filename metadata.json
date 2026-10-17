@@ -5284,7 +5284,8 @@
       "svgName": "grip",
       "componentName": "Grip",
       "keywords": [
-        "move"
+        "move",
+        "drag"
       ],
       "categories": [
         "layout"
@@ -5295,7 +5296,9 @@
       "style": "regular",
       "svgName": "grip-horizontal",
       "componentName": "GripHorizontal",
-      "keywords": [],
+      "keywords": [
+        "drag"
+      ],
       "categories": [
         "layout"
       ]
