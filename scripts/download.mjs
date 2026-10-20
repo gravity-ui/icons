@@ -3,11 +3,10 @@ import path from 'path';
 import url from 'url';
 
 import {components as loadComponents} from '@figma-export/core';
-import {optimize} from 'svgo';
 
 import {aliases} from './aliases.mjs';
 import {ICON_NAME_REGEXP, SVGS_DIR, UNASSIGNED_CATEGORY} from './constants.mjs';
-import {cleanDir, getComponentName} from './utils.mjs';
+import {cleanDir, getComponentName, optimizeSvg} from './utils.mjs';
 
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 
@@ -25,23 +24,6 @@ function parsePropertiesString(str) {
         acc[name] = value;
         return acc;
     }, {});
-}
-
-function svgoTransformer(svgString) {
-    return optimize(svgString, {
-        multipass: true,
-        plugins: [
-            {
-                name: 'preset-default',
-                params: {
-                    overrides: {
-                        convertColors: {currentColor: /#(?!f33|ff3333)/i},
-                    },
-                },
-            },
-            'removeTitle',
-        ],
-    }).data;
 }
 
 function createSvgBuilder(metadata) {
@@ -116,7 +98,7 @@ async function run() {
         token: FIGMA_TOKEN,
         fileId: FIGMA_FILE,
         onlyFromPages: [FIGMA_PAGE],
-        transformers: [svgoTransformer],
+        transformers: [optimizeSvg],
         outputters: [createSvgBuilder(metadata)],
     });
     await fs.writeFile(

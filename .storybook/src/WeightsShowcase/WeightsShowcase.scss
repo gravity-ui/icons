@@ -1,0 +1,62 @@
+.weights-showcase {
+    &__controls {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        margin-bottom: 20px;
+    }
+
+    &__search {
+        width: 300px;
+    }
+
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4px;
+
+        &_view_compare {
+            gap: 8px;
+        }
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+        // Three icons with gaps, but wide enough for a readable name.
+        width: max(3 * var(--weights-showcase-icon-size) + 40px, 136px);
+        padding: 10px 8px 6px;
+        border-radius: 8px;
+        background: var(--g-color-base-generic);
+    }
+
+    &__card-icons {
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    &__icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 44px;
+        min-height: 44px;
+    }
+
+    &__card-name {
+        max-width: 100%;
+    }
+
+    &__empty {
+        font-size: var(--g-text-body-3-font-size);
+        line-height: 44px;
+        font-style: italic;
+        font-family: serif;
+        color: var(--g-color-text-hint);
+    }
+}
