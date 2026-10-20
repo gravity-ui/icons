@@ -12,8 +12,14 @@ const Ellipsis = (props: SVGProps<SVGSVGElement>) => (
         <path
             fill="currentColor"
             fillRule="evenodd"
-            d="M3 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M9.5 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m5 0a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"
+            stroke="currentColor"
+            strokeLinejoin="round"
+            strokeWidth={0.5}
+            d="M4.25 8q0-.518-.366-.884A1.2 1.2 0 0 0 3 6.75q-.518 0-.884.366A1.2 1.2 0 0 0 1.75 8q0 .518.366.884T3 9.25t.884-.366T4.25 8ZM8 9.25q.518 0 .884-.366T9.25 8t-.366-.884A1.2 1.2 0 0 0 8 6.75q-.518 0-.884.366A1.2 1.2 0 0 0 6.75 8q0 .518.366.884T8 9.25Zm5 0q.518 0 .884-.366T14.25 8t-.366-.884A1.2 1.2 0 0 0 13 6.75q-.518 0-.884.366A1.2 1.2 0 0 0 11.75 8q0 .518.366.884T13 9.25Z"
             clipRule="evenodd"
+            style={{
+                strokeWidth: 'max(0px,calc((var(--g-icon-stroke-width,1.5) - 1)*1px))',
+            }}
         />
     </svg>
 );

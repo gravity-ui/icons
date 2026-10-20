@@ -12,8 +12,14 @@ const ChevronRight = (props: SVGProps<SVGSVGElement>) => (
         <path
             fill="currentColor"
             fillRule="evenodd"
-            d="M5.47 13.03a.75.75 0 0 1 0-1.06L9.44 8 5.47 4.03a.75.75 0 0 1 1.06-1.06l4.5 4.5a.75.75 0 0 1 0 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0"
+            stroke="currentColor"
+            strokeLinejoin="round"
+            strokeWidth={0.5}
+            d="M5.647 12.147a.48.48 0 0 0-.146.353q0 .207.146.353A.48.48 0 0 0 6 13a.48.48 0 0 0 .353-.146l4.5-4.5A.48.48 0 0 0 11 8a.48.48 0 0 0-.146-.353L6.357 3.15h-.001a.48.48 0 0 0-.346-.131.48.48 0 0 0-.345.146.48.48 0 0 0-.146.345.48.48 0 0 0 .13.346h.001l3.967 3.967q.177.177 0 .354z"
             clipRule="evenodd"
+            style={{
+                strokeWidth: 'max(0px,calc((var(--g-icon-stroke-width,1.5) - 1)*1px))',
+            }}
         />
     </svg>
 );
