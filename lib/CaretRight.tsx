@@ -12,8 +12,14 @@ const CaretRight = (props: SVGProps<SVGSVGElement>) => (
         <path
             fill="currentColor"
             fillRule="evenodd"
-            d="M6.705 11.823a.73.73 0 0 1-1.205-.552V4.729a.73.73 0 0 1 1.205-.552L10.214 7.2a1 1 0 0 1 .347.757v.084a1 1 0 0 1-.347.757z"
+            stroke="currentColor"
+            strokeLinejoin="round"
+            strokeWidth={0.5}
+            d="M6.03 11.705a.45.45 0 0 0 .512-.072l3.509-3.024a.72.72 0 0 0 .26-.568v-.084a.72.72 0 0 0-.26-.568L6.54 4.366a.445.445 0 0 0-.51-.071.45.45 0 0 0-.281.435v6.541q0 .306.28.434Z"
             clipRule="evenodd"
+            style={{
+                strokeWidth: 'max(0px,calc((var(--g-icon-stroke-width,1.5) - 1)*1px))',
+            }}
         />
     </svg>
 );

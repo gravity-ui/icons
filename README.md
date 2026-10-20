@@ -30,6 +30,22 @@ import {Cloud} from '@gravity-ui/icons';
 import cloudIcon from '@gravity-ui/icons/svgs/cloud.svg';
 ```
 
+### Stroke width
+
+Icons are drawn with a 1.5px stroke. React components of regular icons (not `-fill` ones) take the stroke width from the `--g-icon-stroke-width` CSS variable, from `1` up, in pixels of a 16px icon:
+
+```css
+.app {
+  --g-icon-stroke-width: 2;
+}
+```
+
+```jsx
+<Icon data={Cloud} style={{'--g-icon-stroke-width': 1}} />
+```
+
+A few icons lose details when thinner and keep a 1.5px stroke at smaller values. SVG files have a 1.5px stroke only.
+
 ## License
 
 Distributed under the MIT License. See [LICENSE](LICENSE) for details.
@@ -55,3 +71,4 @@ The official SVG icon set for Gravity UI, shipped as both React components and r
 - **Import path matters for tree-shaking.** `import Cloud from '@gravity-ui/icons/Cloud'` pulls a single icon; `import {Cloud} from '@gravity-ui/icons'` works too but relies on the bundler to tree-shake the barrel.
 - **SVG imports need a loader.** `import icon from '@gravity-ui/icons/svgs/cloud.svg'` only works if your bundler is configured to handle `.svg` files.
 - **Size and color come from the renderer.** Set `size` on uikit's `Icon` and control color with `color`/CSS `currentColor`; the SVGs themselves carry no fixed color.
+- **Stroke width comes from CSS.** Set the `--g-icon-stroke-width` variable (`1.5` by default, `1` and up) on an icon or any ancestor; `-fill` icons and `.svg` files ignore it.
