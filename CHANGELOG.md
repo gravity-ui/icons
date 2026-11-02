@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.23.1](https://github.com/gravity-ui/icons/compare/v2.23.0...v2.23.1) (2026-11-02)
+
+
+### Bug Fixes
+
+* keep sideEffects in esm/package.json ([#113](https://github.com/gravity-ui/icons/issues/113)) ([6a79e56](https://github.com/gravity-ui/icons/commit/6a79e5677afe13a3833eaf7a70accd9d6f7dd9f4))
+
 ## [2.23.0](https://github.com/gravity-ui/icons/compare/v2.22.1...v2.23.0) (2026-10-14)
 
 
