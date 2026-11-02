@@ -32,7 +32,11 @@ async function compileTs(esm = false) {
                 esm
                     ? addVirtualFile({
                           fileName: 'package.json',
-                          text: JSON.stringify({version: pkg.version, type: 'module'}),
+                          text: JSON.stringify({
+                              version: pkg.version,
+                              type: 'module',
+                              sideEffects: pkg.sideEffects,
+                          }),
                       })
                     : new PassThrough({objectMode: true}),
             )
