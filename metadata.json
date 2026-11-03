@@ -1018,7 +1018,9 @@
       "style": "regular",
       "svgName": "bars-play",
       "componentName": "BarsPlay",
-      "keywords": [],
+      "keywords": [
+        "list"
+      ],
       "categories": [
         "layout",
         "media"
@@ -1867,6 +1869,16 @@
       ]
     },
     {
+      "name": "chevrons-collapse-vertical-from-lines",
+      "style": "regular",
+      "svgName": "chevrons-collapse-vertical-from-lines",
+      "componentName": "ChevronsCollapseVerticalFromLines",
+      "keywords": [],
+      "categories": [
+        "unassigned"
+      ]
+    },
+    {
       "name": "chevrons-collapse-vertical-to-line",
       "style": "regular",
       "svgName": "chevrons-collapse-vertical-to-line",
@@ -1974,6 +1986,16 @@
       "categories": [
         "arrows",
         "layout"
+      ]
+    },
+    {
+      "name": "chevrons-expand-vertical-to-lines",
+      "style": "regular",
+      "svgName": "chevrons-expand-vertical-to-lines",
+      "componentName": "ChevronsExpandVerticalToLines",
+      "keywords": [],
+      "categories": [
+        "unassigned"
       ]
     },
     {
@@ -3491,6 +3513,16 @@
       "categories": [
         "maps",
         "tools"
+      ]
+    },
+    {
+      "name": "cookie",
+      "style": "regular",
+      "svgName": "cookie",
+      "componentName": "Cookie",
+      "keywords": [],
+      "categories": [
+        "unassigned"
       ]
     },
     {
@@ -5284,7 +5316,8 @@
       "svgName": "grip",
       "componentName": "Grip",
       "keywords": [
-        "move"
+        "move",
+        "drag"
       ],
       "categories": [
         "layout"
@@ -5295,7 +5328,9 @@
       "style": "regular",
       "svgName": "grip-horizontal",
       "componentName": "GripHorizontal",
-      "keywords": [],
+      "keywords": [
+        "drag"
+      ],
       "categories": [
         "layout"
       ]
@@ -5672,6 +5707,18 @@
       "categories": [
         "maps",
         "people"
+      ]
+    },
+    {
+      "name": "incognito",
+      "style": "regular",
+      "svgName": "incognito",
+      "componentName": "Incognito",
+      "keywords": [
+        "anonymous"
+      ],
+      "categories": [
+        "unassigned"
       ]
     },
     {
@@ -6261,6 +6308,16 @@
       ]
     },
     {
+      "name": "logo-ai-studio",
+      "style": "regular",
+      "svgName": "logo-ai-studio",
+      "componentName": "LogoAiStudio",
+      "keywords": [],
+      "categories": [
+        "unassigned"
+      ]
+    },
+    {
       "name": "logo-android",
       "style": "regular",
       "svgName": "logo-android",
@@ -6378,6 +6435,16 @@
       "keywords": [],
       "categories": [
         "brands"
+      ]
+    },
+    {
+      "name": "logo-id",
+      "style": "regular",
+      "svgName": "logo-id",
+      "componentName": "LogoId",
+      "keywords": [],
+      "categories": [
+        "unassigned"
       ]
     },
     {
@@ -6604,6 +6671,19 @@
       ]
     },
     {
+      "name": "lowercase-t-two",
+      "style": "regular",
+      "svgName": "lowercase-t-two",
+      "componentName": "LowercaseTTwo",
+      "keywords": [
+        "text",
+        "font"
+      ],
+      "categories": [
+        "unassigned"
+      ]
+    },
+    {
       "name": "magic-wand",
       "style": "regular",
       "svgName": "magic-wand",
@@ -6745,7 +6825,8 @@
       "svgName": "megaphone",
       "componentName": "Megaphone",
       "keywords": [
-        "ping"
+        "ping",
+        "sound"
       ],
       "categories": [
         "communication"
@@ -8934,6 +9015,16 @@
       ]
     },
     {
+      "name": "tokens",
+      "style": "regular",
+      "svgName": "tokens",
+      "componentName": "Tokens",
+      "keywords": [],
+      "categories": [
+        "unassigned"
+      ]
+    },
+    {
       "name": "traffic-light",
       "style": "regular",
       "svgName": "traffic-light",
@@ -9224,6 +9315,7 @@
       "svgName": "vector-square",
       "componentName": "VectorSquare",
       "keywords": [
+        "4",
         "dots",
         "points",
         "group"
