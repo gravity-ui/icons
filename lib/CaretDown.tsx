@@ -12,8 +12,14 @@ const CaretDown = (props: SVGProps<SVGSVGElement>) => (
         <path
             fill="currentColor"
             fillRule="evenodd"
-            d="M4.177 6.705A.73.73 0 0 1 4.729 5.5h6.542a.73.73 0 0 1 .552 1.205L8.8 10.214a1 1 0 0 1-.757.347h-.084a1 1 0 0 1-.757-.347z"
+            stroke="currentColor"
+            strokeLinejoin="round"
+            strokeWidth={0.5}
+            d="M4.295 6.03a.45.45 0 0 0 .072.512l3.024 3.509q.226.26.568.26h.084a.72.72 0 0 0 .568-.26l3.023-3.51a.445.445 0 0 0 .071-.51.45.45 0 0 0-.435-.281H4.729a.445.445 0 0 0-.434.28Z"
             clipRule="evenodd"
+            style={{
+                strokeWidth: 'max(0px,calc((var(--g-icon-stroke-width,1.5) - 1)*1px))',
+            }}
         />
     </svg>
 );

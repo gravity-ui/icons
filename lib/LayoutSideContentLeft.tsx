@@ -12,8 +12,14 @@ const LayoutSideContentLeft = (props: SVGProps<SVGSVGElement>) => (
         <path
             fill="currentColor"
             fillRule="evenodd"
-            d="M6 3.5h6A1.5 1.5 0 0 1 13.5 5v6a1.5 1.5 0 0 1-1.5 1.5H6zm-1.5 0H4A1.5 1.5 0 0 0 2.5 5v6A1.5 1.5 0 0 0 4 12.5h.5zM1 5a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H4a3 3 0 0 1-3-3z"
+            stroke="currentColor"
+            strokeLinejoin="round"
+            strokeWidth={0.5}
+            d="M4 2.25a2.65 2.65 0 0 0-1.945.805A2.65 2.65 0 0 0 1.25 5v6q0 1.14.805 1.945A2.65 2.65 0 0 0 4 13.75h8a2.65 2.65 0 0 0 1.945-.805A2.65 2.65 0 0 0 14.75 11V5a2.65 2.65 0 0 0-.805-1.945A2.65 2.65 0 0 0 12 2.25zm0 1h.5q.25 0 .25.25v9q0 .25-.25.25H4q-.725 0-1.237-.513A1.7 1.7 0 0 1 2.25 11V5q0-.725.513-1.237A1.7 1.7 0 0 1 4 3.25Zm8 0q.725 0 1.237.513.513.512.513 1.237v6q0 .725-.513 1.237A1.7 1.7 0 0 1 12 12.75H6q-.25 0-.25-.25v-9q0-.25.25-.25z"
             clipRule="evenodd"
+            style={{
+                strokeWidth: 'max(0px,calc((var(--g-icon-stroke-width,1.5) - 1)*1px))',
+            }}
         />
     </svg>
 );
