@@ -1018,7 +1018,9 @@
       "style": "regular",
       "svgName": "bars-play",
       "componentName": "BarsPlay",
-      "keywords": [],
+      "keywords": [
+        "list"
+      ],
       "categories": [
         "layout",
         "media"
@@ -1867,6 +1869,16 @@
       ]
     },
     {
+      "name": "chevrons-collapse-vertical-from-lines",
+      "style": "regular",
+      "svgName": "chevrons-collapse-vertical-from-lines",
+      "componentName": "ChevronsCollapseVerticalFromLines",
+      "keywords": [],
+      "categories": [
+        "unassigned"
+      ]
+    },
+    {
       "name": "chevrons-collapse-vertical-to-line",
       "style": "regular",
       "svgName": "chevrons-collapse-vertical-to-line",
@@ -1974,6 +1986,16 @@
       "categories": [
         "arrows",
         "layout"
+      ]
+    },
+    {
+      "name": "chevrons-expand-vertical-to-lines",
+      "style": "regular",
+      "svgName": "chevrons-expand-vertical-to-lines",
+      "componentName": "ChevronsExpandVerticalToLines",
+      "keywords": [],
+      "categories": [
+        "unassigned"
       ]
     },
     {
@@ -3491,6 +3513,16 @@
       "categories": [
         "maps",
         "tools"
+      ]
+    },
+    {
+      "name": "cookie",
+      "style": "regular",
+      "svgName": "cookie",
+      "componentName": "Cookie",
+      "keywords": [],
+      "categories": [
+        "unassigned"
       ]
     },
     {
@@ -5284,7 +5316,8 @@
       "svgName": "grip",
       "componentName": "Grip",
       "keywords": [
-        "move"
+        "move",
+        "drag"
       ],
       "categories": [
         "layout"
@@ -5295,7 +5328,9 @@
       "style": "regular",
       "svgName": "grip-horizontal",
       "componentName": "GripHorizontal",
-      "keywords": [],
+      "keywords": [
+        "drag"
+      ],
       "categories": [
         "layout"
       ]
@@ -5672,6 +5707,18 @@
       "categories": [
         "maps",
         "people"
+      ]
+    },
+    {
+      "name": "incognito",
+      "style": "regular",
+      "svgName": "incognito",
+      "componentName": "Incognito",
+      "keywords": [
+        "anonymous"
+      ],
+      "categories": [
+        "unassigned"
       ]
     },
     {
@@ -6574,6 +6621,16 @@
       ]
     },
     {
+      "name": "logo-yandex-ai-studio",
+      "style": "regular",
+      "svgName": "logo-yandex-ai-studio",
+      "componentName": "LogoYandexAiStudio",
+      "keywords": [],
+      "categories": [
+        "unassigned"
+      ]
+    },
+    {
       "name": "logo-yandex-cloud",
       "style": "regular",
       "svgName": "logo-yandex-cloud",
@@ -6581,6 +6638,16 @@
       "keywords": [],
       "categories": [
         "brands"
+      ]
+    },
+    {
+      "name": "logo-yandex-id",
+      "style": "regular",
+      "svgName": "logo-yandex-id",
+      "componentName": "LogoYandexId",
+      "keywords": [],
+      "categories": [
+        "unassigned"
       ]
     },
     {
@@ -6745,7 +6812,8 @@
       "svgName": "megaphone",
       "componentName": "Megaphone",
       "keywords": [
-        "ping"
+        "ping",
+        "sound"
       ],
       "categories": [
         "communication"
@@ -8560,6 +8628,19 @@
       ]
     },
     {
+      "name": "subscript",
+      "style": "regular",
+      "svgName": "subscript",
+      "componentName": "Subscript",
+      "keywords": [
+        "text",
+        "font"
+      ],
+      "categories": [
+        "unassigned"
+      ]
+    },
+    {
       "name": "suitcase",
       "style": "regular",
       "svgName": "suitcase",
@@ -9224,6 +9305,7 @@
       "svgName": "vector-square",
       "componentName": "VectorSquare",
       "keywords": [
+        "4",
         "dots",
         "points",
         "group"
